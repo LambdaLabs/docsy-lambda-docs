@@ -43,7 +43,7 @@ pygmentsStyle = "tango"
 
 # Configure how URLs look like per section.
 [permalinks]
-docs = "/:slug"
+#docs = "/:slug"
 
 ## Configuration for BlackFriday markdown parser: https://github.com/russross/blackfriday
 [blackfriday]
@@ -169,7 +169,7 @@ no = 'Sorry to hear that. Please <a href="https://github.com/LambdaLabs/lambda-d
 # If you want this feature, but occasionally need to remove the Reading time from a single page, 
 # add "hide_readingtime: true" to the page's front matter
 [params.ui.readingtime]
-enable = true
+enable = false
 
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
