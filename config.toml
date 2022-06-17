@@ -67,7 +67,7 @@ anchor = "smart"
 
 [languages]
 [languages.en]
-title = "Lambda Docs"
+title = ""
 description = "Lambda Documentation"
 languageName ="English"
 # Weight used for sorting.
