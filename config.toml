@@ -221,6 +221,6 @@ enable = false
     url = "https://support.lambdalabs.com/"
 
 [[menu.main]]
-    name = "Deeptalk"
+    name = "Forum"
     weight = 70
     url = "https://deeptalk.lambdalabs.com/"
