@@ -216,7 +216,7 @@ enable = false
     url = "/"
 
 [[menu.main]]
-    name = "Support"
+    name = "Knowledge Base"
     weight = 60
     url = "https://support.lambdalabs.com/"
 
