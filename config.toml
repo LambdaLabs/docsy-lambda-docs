@@ -212,8 +212,8 @@ enable = false
 
 [[menu.main]]
     name = "Home"
-    weight = 1
-    url = "https://lambdalabs.com/"
+    weight = 10
+    url = "/"
 
 [[menu.main]]
     name = "Support"
