@@ -12,6 +12,12 @@ terminating an instance, make sure to back up all data that you want to keep.
 If you want to save data even after you terminate your instance, create a
 [persistent filesystem](https://lambdalabs.com/blog/persistent-storage-beta/).
 
+{{% alert title="Note" color="info" %}}
+The persistent filesystem must be attached to your instance _before_ you start
+your instance. The persistent filesystem cannot be attached to your instance
+after you start your instance.
+{{% /alert %}}
+
 When you create a persistent filesystem, a directory with the name of your
 persistent filesystem is created in your home directory. For example, if the
 name of your persistent filesystem is **PERSISTENT-FILESYSTEM**, the directory
