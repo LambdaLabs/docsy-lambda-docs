@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://docs.lambdalabs.com/"
 title = "Lambda Docs"
 
 # Language settings
