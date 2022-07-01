@@ -127,13 +127,13 @@ github_repo = "https://github.com/LambdaLabs/lambda-docs"
 #github_branch= "main"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "33094387eddf5f511"
+#gcs_engine_id = "33094387eddf5f511"
 
 # Enable Algolia DocSearch
 algolia_docsearch = false
 
 # Enable Lunr.js offline search
-offlineSearch = false
+offlineSearch = true
 
 # Enable syntax highlighting and copy buttons on code blocks with Prism
 prism_syntax_highlighting = false
