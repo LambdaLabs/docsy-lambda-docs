@@ -17,3 +17,27 @@ including:
 <a href="https://lambdalabs.com/products/blade" target="_blank">{{< imgproc scalar Resize "400x">}}Scalar&nbsp;<i class='fas fa-external-link-alt'></i>{{< /imgproc >}}</a>
 <a href="https://lambdalabs.com/gpu-workstations/vector" target="_blank">{{< imgproc vector Resize "400x">}}Vector&nbsp;<i class='fas fa-external-link-alt'></i>{{< /imgproc >}}</a>
 <a href="https://lambdalabs.com/deep-learning/laptops/tensorbook" target="_blank">{{< imgproc tensorbook Resize "400x">}}Tensorbook&nbsp;<i class='fas fa-external-link-alt'></i>{{< /imgproc >}}</a>
+
+<!-- XXX: We should consider using Docsy's card shortcodes. See:
+          https://www.docsy.dev/docs/adding-content/shortcodes/#card-panes
+
+{{< card header="**GPU Cloud**" >}}
+    Content card 0
+  {{< /card >}}
+  {{< card header="**Echelon**" >}}
+    Content card 1
+  {{< /card >}}
+  {{< card header="**Hyperplane**" >}}
+    Content card 2
+  {{< /card >}}
+  {{< card header="**Scalar**" >}}
+    Content card 3
+  {{< /card >}}
+  {{< card header="**Vector**" >}}
+    Content card 4
+  {{< /card >}}
+  {{< card header="**Tensorbook**" >}}
+    Content card 5
+  {{< /card >}}
+
+-->
