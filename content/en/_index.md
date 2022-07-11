@@ -5,8 +5,6 @@ description: "Guides, FAQs, and other helpful information for Lambda products in
 type: docs
 ---
 
-{{% pageinfo %}}
-Documentation about Lambda
-{{% /pageinfo %}}
+## Welcome to Lambda Docs!
 
 Welcome to the Lambda documentation site.
