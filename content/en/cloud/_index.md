@@ -3,9 +3,6 @@ title: "Lambda Cloud"
 linkTitle: "Cloud"
 type: docs
 weight: 50
-menu:
-  main:
-    weight: 50
 ---
 
 {{% pageinfo %}}
