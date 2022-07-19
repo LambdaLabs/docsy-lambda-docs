@@ -13,10 +13,12 @@ The GPU Cloud dashboard allows you to
 Invoices are usually sent within 10 business days of the end of the month.
 
 {{% alert title="Note" color="info" %}}
-Our billing model for on-demand instances takes into consideration that while
-your instances are running, they are assigned exclusive (unshared) usage of
-GPUs, CPUs, memory, and other hardware resources.
+On-demand instances require us to maintain excess capacity at all times so we
+can meet the changing workloads of our customers. For this reason, on-demand
+instances are priced higher than reserved instances.
 
-[Reserved GPU Cloud instances](https://lambdalabs.com/service/gpu-cloud/reserved)
-can provide significant savings over on-demand instances.
+Conversely, we offer
+[reserved GPU Cloud instances](https://lambdalabs.com/service/gpu-cloud/reserved)
+at a significant savings over on-demand instances, since they allow us to more
+accurately determine our capacity needs ahead of time.
 {{% /alert %}}
