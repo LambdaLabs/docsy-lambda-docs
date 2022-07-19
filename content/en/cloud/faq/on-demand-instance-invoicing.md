@@ -7,6 +7,10 @@ type: docs
 one-minute increments from the moment you spin up (start) the instance up to
 the moment you terminate (stop) the instance.
 
+{{% alert title="Warning" color="warning" %}}
+Be sure to terminate any instances that you're not using!
+{{% /alert %}}
+
 The GPU Cloud dashboard allows you to
 [view your resource usage](https://lambdalabs.com/cloud/usage).
 
