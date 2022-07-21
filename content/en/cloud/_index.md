@@ -1,6 +1,7 @@
 ---
 title: "Lambda GPU Cloud"
 linkTitle: "Cloud"
+description: "Documentation for Lambda GPU Cloud, the #1 cloud provider for high-performance GPUs"
 type: docs
 ---
 
