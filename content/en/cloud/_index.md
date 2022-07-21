@@ -1,8 +1,7 @@
 ---
-title: "Lambda Cloud"
+title: "Lambda GPU Cloud"
 linkTitle: "Cloud"
 type: docs
-weight: 50
 ---
 
 {{% pageinfo %}}
