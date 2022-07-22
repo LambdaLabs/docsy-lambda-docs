@@ -21,7 +21,9 @@ following commands in a terminal:
 
    1. Removes existing `apt` sources that might conflict with the Lambda Stack
       `apt` source.
-   1. Uninstalls packages that might conflict with Lambda Stack packages.
+   1. Uninstalls NVIDIA software and deep learning libraries that might
+      conflict with Lambda Stack packages.
+   1. Reinstalls Lambda Stack.
 
 1. `grep LINUX /etc/default/grub`
 
