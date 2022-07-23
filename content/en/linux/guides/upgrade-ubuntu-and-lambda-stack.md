@@ -21,5 +21,5 @@ the latest versions.
 1. Install the latest Lambda Stack by running:
 
    ```bash
-   sudo apt-get -y update && sudo apt-get -y install lambda-stack-cuda
+   sudo apt -y update && sudo apt -y install lambda-stack-cuda
    ```
