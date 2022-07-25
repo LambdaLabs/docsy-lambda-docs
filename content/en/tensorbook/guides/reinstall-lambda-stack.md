@@ -17,13 +17,13 @@ following commands in a terminal:
    sudo apt-get -y update && sudo apt-get -y install lambda-stack-cuda lambda-tensorbook
    ```
 
-   This command:
+   These commands, together:
 
-   1. Removes existing `apt` sources that might conflict with the Lambda Stack
+   1. Remove existing `apt` sources that might conflict with the Lambda Stack
       `apt` source.
-   1. Uninstalls NVIDIA software and deep learning libraries that might
+   1. Uninstall NVIDIA software and deep learning libraries that might
       conflict with Lambda Stack packages.
-   1. Reinstalls Lambda Stack.
+   1. Reinstall Lambda Stack.
 
 1. `grep LINUX /etc/default/grub`
 
