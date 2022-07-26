@@ -32,7 +32,7 @@ sudo iptables -X                # delete all non-built-in chains
 
 To keep the firewall disabled after rebooting, run:
 ```bash
-sudo iptables-save > /etc/iptables/rules.v4
+sudo iptables-save | sudo tee /etc/iptables/rules.v4 > /dev/null
 ```
 
 {{% alert title="Note" color="info" %}}
