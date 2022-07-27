@@ -3,22 +3,42 @@ title: "Use iptables to disable firewall"
 type: docs
 ---
 
-To allow
+By default,
 [Lambda GPU Cloud reserved instances](https://lambdalabs.com/service/gpu-cloud/reserved)
-to communicate with each other, the firewall on each instance should be
-disabled.
+allow incoming connections only to TCP port 22, which is typically used for
+`ssh` access.
 
-{{% alert title="Tip" color="success" %}}
-Technically, it's not necessary to entirely disable the firewall on each
-instance. But, it's the easiest way to ensure network traffic between
-instances isn't being blocked by a firewall.
+To allow incoming connections to ports other than TCP port 22, the instance's
+default firewall rules need to be modified.
 
-You can learn more advanced usage of `iptables`, including how to fine-tune
-firewall rules, by reading the `iptables`
-[manual page](https://linux.die.net/man/8/iptables).
+`iptables` can be used to modify the firewall rules or disable the firewall
+entirely.
+
+{{% alert title="Warning" color="warning" %}}
+The instructions below **completely disable the firewall on the instance and
+don't follow best security practices**.
+
+For security, firewalls should be configured to allow incoming connections
+only to the ports needed for specific services. For example:
+
+- TCP/80 and TCP/443 for `http` and `https`, respectively
+- TCP/22 for `ssh`
+- TCP/25 for `smtp`
+
+The instructions below provide a quick, simple, but **insecure** way to ensure
+network traffic between instances isn't being blocked by a firewall.
+
+We highly recommend that you:
+
+- Read the `iptables` [manual page](https://linux.die.net/man/8/iptables) to
+  learn more advanced usage of `iptables`, including how to fine-tune firewall
+  rules
+
+- Configure your firewall rules to allow incoming connections only to the
+  ports needed for the services that you're running
 {{% /alert %}}
 
-Run the following commands on each of your instances to disable the firewall:
+To entirely disable the firewall on the instance, run the following commands:
 
 ```bash
 sudo iptables -P INPUT ACCEPT   # accept all incoming traffic by default
