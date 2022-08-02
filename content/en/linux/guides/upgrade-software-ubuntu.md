@@ -3,20 +3,32 @@ title: "Upgrade software in Ubuntu"
 type: docs
 ---
 
-Ubuntu regularly checks for new versions of installed software. If a new
-version of installed software is found, Ubuntu automatically downloads and
-installs it.
+Ubuntu regularly checks for new versions of software installed from an `apt`
+repository, including:
 
-To manually check for and install new versions of software in Ubuntu, run the
-following command in a terminal:
-`sudo apt-get update && sudo apt-get upgrade`.
+- Ubuntu system updates
+- Ubuntu security updates
+- [Lambda Stack](https://lambdalabs.com/lambda-stack-deep-learning-software)
+
+However, only Ubuntu security updates are automatically installed. Other
+updates must be installed manually.
+
+To manually check for and install new versions of software installed from an
+`apt` repository, run the following commands in a terminal:
+
+```bash
+sudo apt-get update && sudo apt-get upgrade
+```
 
 {{% alert title="Note" color="info" %}}
-Software that was installed from outside of Ubuntu will not be upgraded
-automatically or by using the above command. Examples of software installed
-from outside of Ubuntu include:
+Software that was installed from outside of an `apt` repository won't be
+upgraded automatically or by running the above commands. Examples of software
+installed from outside of an `apt` repository include:
 
 - Software downloaded from a Git repository
 - Software installed from a tarball
 - Software built from source code
+- Software installed using `pip`
+- Software installed in Anaconda
+- Software installed using `snap`
 {{% /alert %}}
