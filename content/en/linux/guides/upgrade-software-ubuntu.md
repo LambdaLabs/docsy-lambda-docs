@@ -23,12 +23,13 @@ sudo apt-get update && sudo apt-get upgrade
 {{% alert title="Note" color="info" %}}
 Software that was installed from outside of an `apt` repository won't be
 upgraded automatically or by running the above commands. Examples of software
-installed from outside of an `apt` repository include:
+installed from outside of an `apt` repository include software:
 
-- Software downloaded from a Git repository
-- Software installed from a tarball
-- Software built from source code
-- Software installed using `pip`
-- Software installed in Anaconda
-- Software installed using `snap`
+- Installed using `pip`
+- Installed in Anaconda
+- Installed using `snap`
+- Installed from a `dpkg`
+- Downloaded from a Git repository
+- Installed from a tarball
+- Built from source code
 {{% /alert %}}
