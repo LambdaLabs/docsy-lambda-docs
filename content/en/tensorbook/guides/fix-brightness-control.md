@@ -1,5 +1,5 @@
 ---
-title: "Fix brightness control on Tensorbook"
+title: "Fix resolution and brightness control on Tensorbook"
 type: docs
 ---
 
