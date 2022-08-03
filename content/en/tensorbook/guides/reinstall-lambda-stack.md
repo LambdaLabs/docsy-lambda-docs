@@ -14,7 +14,7 @@ following commands in a terminal:
    dpkg -l | \
    awk '/cuda|lib(accinj64|cu(blas|dart|dnn|fft|inj|pti|rand|solver|sparse)|magma|nccl|npp|nv[^p])|nv(idia|ml)|tensor(flow|board)|torch/ { print $2 }' | \
    sudo xargs -or apt -y remove --purge
-   sudo apt-get -y update && sudo apt-get -y install lambda-stack-cuda lambda-tensorbook
+   sudo apt -y update && sudo apt -y install lambda-stack-cuda lambda-tensorbook
    ```
 
    These commands, together:
