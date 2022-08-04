@@ -20,3 +20,15 @@ To remove and reinstall
    ```bash
    sudo apt -y update && sudo apt -y install lambda-stack-cuda
    ```
+
+{{% alert title="Note" color="info" %}}
+For [Hyperplane](https://lambdalabs.com/deep-learning/servers/hyperplane-a100)
+and [Scalar](https://lambdalabs.com/products/blade), additionally run the
+following commands to install the packages specific to Lambda servers:
+
+```bash
+sudo apt -y install --no-install-recommends lambda-server && \
+sudo apt -y install --no-install-recommends nvidia-headless-470-server && \
+sudo apt -y install --no-install-recommends nvidia-fabricmanager-470
+```
+{{% /alert %}}
