@@ -1,11 +1,10 @@
 ---
-title: "Upgrade Ubuntu and Lambda Stack"
+title: "Remove and reinstall Lambda Stack"
 type: docs
 ---
 
-Follow these instructions to upgrade Ubuntu and
-[Lambda Stack](https://lambdalabs.com/lambda-stack-deep-learning-software) to
-the latest versions.
+To remove and reinstall
+[Lambda Stack](https://lambdalabs.com/lambda-stack-deep-learning-software):
 
 1. Uninstall (purge) the existing Lambda Stack by running:
 
@@ -15,8 +14,6 @@ the latest versions.
    awk '/cuda|lib(accinj64|cu(blas|dart|dnn|fft|inj|pti|rand|solver|sparse)|magma|nccl|npp|nv[^p])|nv(idia|ml)|tensor(flow|board)|torch/ { print $2 }' | \
    sudo xargs -or apt -y remove --purge
    ```
-
-1. Run `sudo do-release-upgrade`.
 
 1. Install the latest Lambda Stack by running:
 
