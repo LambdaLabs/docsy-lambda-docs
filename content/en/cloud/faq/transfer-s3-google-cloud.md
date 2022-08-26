@@ -10,8 +10,7 @@ models and other data between your instances and Amazon S3 or Google Cloud
 Storage.
 
 {{% alert title="Warning" color="warning" %}}
-Be sure to use
-[persistent storage](https://lambdalabs.com/blog/persistent-storage-beta/) to
+Be sure to [use persistent storage]({{< relref "../guides/use-persistent-storage" >}}) to
 save any data that you want to keep. Data not stored in persistent storage is
 deleted once you terminate your instance.
 {{% /alert %}}
