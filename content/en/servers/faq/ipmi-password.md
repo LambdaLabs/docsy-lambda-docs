@@ -36,7 +36,8 @@ You can choose your own IPMI password from within Ubuntu:
 1. Run `sudo apt-get install ipmitool` to install `ipmitool`, which is a
    program for managing IPMI functions.
 
-1. Run `ipmitool user list 1`. Confirm that `ID 2` is `admin` or `ADMIN`.
+1. Run `ipmitool user list 1` to view the user list. Confirm that `ID 2` is
+   `admin` or `ADMIN`.
 
 1. Run `ipmitool user set password 2` to set a new IPMI password.
 {{% /alert %}}
