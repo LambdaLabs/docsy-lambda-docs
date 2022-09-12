@@ -216,3 +216,15 @@ enable = false
     weight = 70
     url = "https://deeptalk.lambdalabs.com/"
     post = "&nbsp;<i class='fas fa-external-link-alt'></i>"
+
+[[menu.main]]
+    name = "Blog"
+    weight = 80
+    url = "https://lambdalabs.com/blog/"
+    post = "&nbsp;<i class='fas fa-external-link-alt'></i>"
+
+[[menu.main]]
+    name = "YouTube"
+    weight = 90
+    url = "https://www.youtube.com/c/LambdaLabs"
+    post = "&nbsp;<i class='fas fa-external-link-alt'></i>"
