@@ -174,20 +174,10 @@ enable = false
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
-  name = "Support"
-  url = "https://support.lambdalabs.com/hc/en-us"
-  icon = "fa fa-comments-question"
-  desc = "Lambda Support"
-[[params.links.user]]
   name ="Twitter"
   url = "https://twitter.com/lambdaapi?lang=en"
   icon = "fab fa-twitter"
   desc = "Follow us on Twitter to get the latest news!"
-[[params.links.user]]
-  name = "Deeptalk"
-  url = "https://deeptalk.lambdalabs.com"
-  icon = "fab fa-comment"
-  desc = "Lambda Forums"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
   name = "GitHub"
