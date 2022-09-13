@@ -9,6 +9,9 @@ the moment you terminate (stop) the instance.
 
 {{% alert title="Warning" color="warning" %}}
 Be sure to terminate any instances that you're not using!
+
+**You will be billed for all minutes that an instance is running, even if the
+instance isn't actively being used.**
 {{% /alert %}}
 
 The GPU Cloud dashboard allows you to
