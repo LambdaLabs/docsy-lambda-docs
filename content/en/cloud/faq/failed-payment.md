@@ -1,6 +1,5 @@
 ---
 title: "What happens to my account if I don't pay an invoice?"
-linkTitle: "What happens to my account if I don't pay an invoice?"
 type: docs
 ---
 
