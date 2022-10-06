@@ -59,6 +59,6 @@ sudo iptables-save | sudo tee /etc/iptables/rules.v4 > /dev/null
 The firewall that restricts traffic from the Internet to your Lambda GPU Cloud
 reserved instances is managed by Lambda.
 
-[Contact the Lambda Support team](mailto:cloud@lambdalabs.com?subject=%5BRESERVED%5D%20Modify%20VCN%20firewall)
+[Contact the Lambda Support team](mailto:reservedcloud@lambdalabs.com?subject=Modify%20firewall)
 if you need this firewall's rules to be modified.
 {{% /alert %}}
