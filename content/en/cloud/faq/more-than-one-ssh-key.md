@@ -21,7 +21,7 @@ echo "$PUBLIC_KEY" >> ~/.ssh/authorized_keys
 Replace `$PUBLIC_KEY` with the public key you want to add to your instance.
 **Make sure to keep the double quotes (`" "`).**
 
-You should now be able to log into your instance using the key you just added.
+You should now be able to log into your instance using the SSH key you just added.
 {{% alert title="Tip" color="success" %}}
 You can make sure the public key has been added by running:
 
