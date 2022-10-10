@@ -21,11 +21,11 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK5HIO+OQSyFjz0clkvg+48YAihYMo5J7AGKiq+9Alg8
 SSH into your instance as you normally do and run:
 
 ```bash
-echo "$PUBLIC_KEY" >> ~/.ssh/authorized_keys
+echo 'PUBLIC-KEY' >> ~/.ssh/authorized_keys
 ```
 
-Replace `$PUBLIC_KEY` with the public key you want to add to your instance.
-**Make sure to keep the double quotes (`" "`).**
+Replace `PUBLIC-KEY` with the public key you want to add to your instance.
+**Make sure to keep the single quotes (`' '`).**
 
 You should now be able to log into your instance using the SSH key you just added.
 {{% alert title="Tip" color="success" %}}
