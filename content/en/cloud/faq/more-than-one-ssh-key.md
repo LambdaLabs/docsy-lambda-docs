@@ -4,7 +4,7 @@ type: docs
 ---
 
 It's possible to allow more than one SSH key to access your instance. To do
-so, you'll need to add a public key to `~/.ssh/authorized_keys`. You can do
+so, you need to add public keys to `~/.ssh/authorized_keys`. You can do
 this with the `echo` command.
 
 {{% alert title="Note" color="info" %}}
