@@ -10,6 +10,12 @@ this with the `echo` command.
 {{% alert title="Note" color="info" %}}
 This FAQ assumes that you've already generated another SSH key pair, that is,
 a private key and a public key.
+
+Public keys look like this:
+
+```
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK5HIO+OQSyFjz0clkvg+48YAihYMo5J7AGKiq+9Alg8 user@hostname
+```
 {{% /alert %}}
 
 SSH into your instance as you normally do and run:
