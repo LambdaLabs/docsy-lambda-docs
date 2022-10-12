@@ -4,7 +4,7 @@ type: docs
 ---
 
 All of our [on-demand instances](https://lambdalabs.com/service/gpu-cloud)
-share a single symmetric 1 Gbps connection to the Internet. We plan on
+share a single symmetric 10 Gbps connection to the Internet. We plan on
 upgrading this connection to 20 Gbps in the coming months.
 
 Internally, many of our servers have a 200 Gbps connection to our data
