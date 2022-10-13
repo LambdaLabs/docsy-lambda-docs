@@ -23,7 +23,7 @@ downloaded using the following link:
 The recovery images contain software distributed under various licenses,
 including the
 [Software License Agreement (SLA) for NVIDIA cuDNN](https://docs.nvidia.com/deeplearning/cudnn/sla/index.html).
-The licenses can be viewed on the recovery images at
+The licenses can be viewed in the recovery images at
 `/usr/share/doc/*/copyright`. By using the software contained in the recovery
 images, you agree to these licenses.
 {{% /alert %}}
