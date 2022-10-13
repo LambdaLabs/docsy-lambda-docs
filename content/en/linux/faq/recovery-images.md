@@ -3,6 +3,8 @@ title: "Where can I download recovery images?"
 type: docs
 ---
 
+## Workstations
+
 Recovery ISO images for
 [Hyperplane](https://lambdalabs.com/deep-learning/servers/hyperplane-a100),
 [Scalar](https://lambdalabs.com/products/blade), and
@@ -12,6 +14,8 @@ using the following links:
 - [Lambda Recovery (Bionic)](https://files.lambdalabs.com/recovery/current/lambda-recovery-bionic.iso) (based on Ubuntu 18.04 LTS _bionic_)
 - [Lambda Recovery (Focal)](https://files.lambdalabs.com/recovery/current/lambda-recovery-focal.iso) (based on Ubuntu 20.04 LTS _focal_)
 - [Lambda Recovery (Jammy)](https://files.lambdalabs.com/recovery/current/lambda-recovery-jammy.iso) (based on Ubuntu 22.04 LTS _jammy_)
+
+## Tensorbook
 
 The recovery ISO image for
 [Tensorbook](https://lambdalabs.com/deep-learning/laptops/tensorbook) can be
