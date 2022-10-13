@@ -6,9 +6,7 @@ type: docs
 ## Workstations
 
 Recovery ISO images for
-[Hyperplane](https://lambdalabs.com/deep-learning/servers/hyperplane-a100),
-[Scalar](https://lambdalabs.com/products/blade), and
-[Vector](https://lambdalabs.com/gpu-workstations/vector), can be downloaded
+[Vector](https://lambdalabs.com/gpu-workstations/vector) can be downloaded
 using the following links:
 
 - [Lambda Recovery (Bionic)](https://files.lambdalabs.com/recovery/current/lambda-recovery-bionic.iso) (based on Ubuntu 18.04 LTS _bionic_)
