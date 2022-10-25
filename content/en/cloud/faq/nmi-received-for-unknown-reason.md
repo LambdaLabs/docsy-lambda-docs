@@ -23,6 +23,6 @@ To learn more about the "NMI received for unknown reason" error message, see:
   [discussion about the bug](https://lkml.kernel.org/lkml/20210317084829.GA474581@gmail.com/).
 
 - The
-  [patch](https://lore.kernel.org/lkml/20210910122917.642099145@linuxfoundation.org/)
-  that suppresses the error message in newer versions of the Linux kernel.
+  [patch that suppresses the error message](https://lore.kernel.org/lkml/20210910122917.642099145@linuxfoundation.org/)
+  in newer versions of the Linux kernel.
 {{% /alert %}}
