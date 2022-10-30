@@ -2,12 +2,12 @@
 # 
 # Publish a docs site[1] article to the Zendesk Help Center[2].
 # 
-# Usage: ./zd_sync [URL] [SECTION]
+# Usage: ./zd_sync URL SECTION
 # 
-# [URL] is the docs site article URL. For example:
+# URL is the docs site article URL. For example:
 #       https://docs.lambdalabs.com/cloud/faq/nmi-received-for-unknown-reason/
 # 
-# [SECTION] is the Help Center section in which to publish the article.
+# SECTION is the Help Center section in which to publish the article.
 #           SECTION must be one of the following:
 #             - cloud
 #             - linux
