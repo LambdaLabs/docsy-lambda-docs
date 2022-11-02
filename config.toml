@@ -199,11 +199,16 @@ enable = false
   [[module.imports]]
     path = "github.com/google/docsy/dependencies"
     disable = false
-
+    
 [[menu.main]]
-    name = "Home"
+    name = "Docs Home"
     weight = 10
     url = "/"
+    
+[[menu.main]]
+    name = "Lambda Home"
+    weight = 11
+    url = "https://lambdalabs.com/"
 
 [[menu.main]]
     name = "Knowledge Base"
