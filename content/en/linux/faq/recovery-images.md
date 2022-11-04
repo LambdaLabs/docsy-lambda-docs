@@ -29,7 +29,7 @@ downloaded using the following link:
 - [Lambda Recovery for Tensorbook (Jammy)](https://files.lambdalabs.com/recovery/current/lambda-recovery-jammy-tensorbook.iso) (based on Ubuntu 22.04 LTS _jammy_)
 -->
 
-- [Lambda Recovery for Tensorbook (Jammy)](https://files.lambdalabs.com/recovery/tensorbook-jammy-20221018.iso) (based on Ubuntu 22.04 LTS _jammy_)
+- [Lambda Recovery for Tensorbook (Jammy)](https://files.lambdalabs.com/recovery/tensorbook-jammy-20221104.iso) (based on Ubuntu 22.04 LTS _jammy_)
 
 {{% alert title="Note" color="info" %}}
 The recovery images contain software distributed under various licenses,
