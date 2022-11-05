@@ -1,6 +1,8 @@
 ---
 title: "Is it possible to open ports other than for SSH?"
 type: docs
+tags:
+- network
 ---
 
 Yes, it's possible to open ports other than for SSH.

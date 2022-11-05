@@ -1,6 +1,8 @@
 ---
 title: "Prevent incorrect clock in Windows after booting Ubuntu"
 type: docs
+tags:
+- troubleshooting
 ---
 
 Ubuntu saves the current time to the machine hardware clock in

@@ -1,6 +1,8 @@
 ---
 title: "What happens to my account if I don't pay an invoice?"
 type: docs
+tags:
+- billing
 ---
 
 {{% alert title="Warning" color="warning" %}}

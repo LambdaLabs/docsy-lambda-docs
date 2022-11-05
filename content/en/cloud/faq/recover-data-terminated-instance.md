@@ -2,6 +2,8 @@
 title: "Can my data be recovered once I've terminated my instance?"
 weight: 20
 type: docs
+tags:
+- storage
 ---
 
 {{% alert title="Warning" color="warning" %}}

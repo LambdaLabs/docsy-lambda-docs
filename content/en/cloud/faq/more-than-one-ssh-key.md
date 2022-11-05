@@ -1,6 +1,8 @@
 ---
 title: "Is it possible to use more than one SSH key?"
 type: docs
+tags:
+- SSH
 ---
 
 It's possible to allow more than one SSH key to access your instance. To do

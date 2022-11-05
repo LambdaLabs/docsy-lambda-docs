@@ -1,6 +1,9 @@
 ---
 title: "Upgrade Ubuntu and Lambda Stack"
 type: docs
+tags:
+- Ubuntu
+- Lambda Stack
 ---
 
 Follow these instructions to upgrade Ubuntu and

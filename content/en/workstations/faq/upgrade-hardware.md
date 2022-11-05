@@ -1,6 +1,9 @@
 ---
 title: "How do I upgrade my system's GPUs, storage, or other hardware?"
 type: docs
+tags:
+- hardware
+- upgrade
 ---
 
 [Contact the Lambda Support team](mailto:support@lambdalabs.com?subject=Hardware%20upgrade)

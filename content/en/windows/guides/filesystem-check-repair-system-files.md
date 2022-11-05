@@ -1,6 +1,8 @@
 ---
 title: "Run a filesystem check on Windows and repair system files"
 type: docs
+tags:
+- troubleshooting
 ---
 
 If Windows is freezing or behaving erratically, there might be a problem with

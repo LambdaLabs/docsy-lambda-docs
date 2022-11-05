@@ -1,6 +1,8 @@
 ---
 title: "Upgrade software in Ubuntu"
 type: docs
+tags:
+- Ubuntu
 ---
 
 Ubuntu regularly checks for new versions of software installed from an `apt`
