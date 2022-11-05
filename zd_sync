@@ -2,6 +2,9 @@
 # 
 # Publish a docs site[1] article to the Zendesk Help Center[2].
 # 
+# **Warning** This script doesn't have much error handling and hasn't been
+# tested much. Use at your own risk.
+# 
 # Usage: ./zd_sync URL SECTION
 # 
 # URL is the docs site article URL. For example:
