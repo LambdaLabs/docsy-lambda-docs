@@ -1,6 +1,12 @@
 ---
 title: "Why can't my program find the NVIDIA cuDNN library?"
 type: docs
+tags:
+- NVIDIA
+- cuDNN
+- PyTorch
+- TensorFlow
+- Lambda Stack
 ---
 
 Unfortunately, the

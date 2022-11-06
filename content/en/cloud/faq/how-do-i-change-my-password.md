@@ -1,6 +1,5 @@
 ---
 title: "How do I change my password?"
-linkTitle: "How do I change my password?"
 type: docs
 ---
 

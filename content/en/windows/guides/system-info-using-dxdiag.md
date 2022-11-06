@@ -1,6 +1,8 @@
 ---
 title: "Gather system information in Windows using DxDiag"
 type: docs
+tags:
+- troubleshooting
 ---
 
 You can use the

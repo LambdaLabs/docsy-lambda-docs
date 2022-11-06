@@ -1,6 +1,8 @@
 ---
 title: "Why is my credit or debit card being declined?"
 type: docs
+tags:
+- billing
 ---
 
 Common reasons why credit and debit card transactions are declined include:

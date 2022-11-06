@@ -1,6 +1,8 @@
 ---
 title: "Can I pause my instance instead of terminating it?"
 type: docs
+tags:
+- storage
 ---
 
 It currently isn't possible to pause (suspend) your instance rather than

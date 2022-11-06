@@ -1,6 +1,8 @@
 ---
 title: "Gather system information in Windows using MSINFO32"
 type: docs
+tags:
+- troubleshooting
 ---
 
 You can use

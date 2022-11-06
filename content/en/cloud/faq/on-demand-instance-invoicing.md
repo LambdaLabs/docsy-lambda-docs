@@ -1,6 +1,8 @@
 ---
 title: "How are on-demand instances invoiced?"
 type: docs
+tags:
+- billing
 ---
 
 [On-demand instances](https://lambdalabs.com/service/gpu-cloud) are billed in

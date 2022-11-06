@@ -1,6 +1,9 @@
 ---
 title: "Reinstall Lambda Stack in Ubuntu on a Tensorbook"
 type: docs
+tags:
+- Lambda Stack
+- Ubuntu
 ---
 
 To reinstall

@@ -1,6 +1,8 @@
 ---
 title: "Fix resolution and brightness control on Tensorbook"
 type: docs
+tags:
+- troubleshooting
 ---
 
 1. In a terminal, run the command `sudo prime-select on-demand`. Then, reboot

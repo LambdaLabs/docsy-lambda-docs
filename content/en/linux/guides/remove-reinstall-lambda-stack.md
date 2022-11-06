@@ -1,6 +1,8 @@
 ---
 title: "Remove and reinstall Lambda Stack"
 type: docs
+tags:
+- Lambda Stack
 ---
 
 To remove and reinstall
