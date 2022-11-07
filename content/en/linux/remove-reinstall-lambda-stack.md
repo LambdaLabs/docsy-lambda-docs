@@ -3,6 +3,8 @@ title: "Remove and reinstall Lambda Stack"
 type: docs
 tags:
 - Lambda Stack
+aliases:
+- guides/remove-reinstall-lambda-stack
 ---
 
 To remove and reinstall

@@ -3,6 +3,8 @@ title: "What network bandwidth does Lambda GPU Cloud provide?"
 type: docs
 tags:
 - network
+aliases:
+- faq/network-bandwidth
 ---
 
 All of our [on-demand instances](https://lambdalabs.com/service/gpu-cloud)

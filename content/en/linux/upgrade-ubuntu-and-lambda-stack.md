@@ -4,6 +4,8 @@ type: docs
 tags:
 - Ubuntu
 - Lambda Stack
+aliases:
+- guides/upgrade-ubuntu-and-lambda-stack
 ---
 
 Follow these instructions to upgrade Ubuntu and

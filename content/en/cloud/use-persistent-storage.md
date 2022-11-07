@@ -1,6 +1,8 @@
 ---
 title: "Use persistent storage to save datasets and system state"
 type: docs
+aliases:
+- guides/use-persistent-storage
 ---
 
 You can use the

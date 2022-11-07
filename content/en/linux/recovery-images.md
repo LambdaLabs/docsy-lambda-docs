@@ -1,6 +1,8 @@
 ---
 title: "Where can I download recovery images?"
 type: docs
+aliases:
+- faq/recovery-images
 ---
 
 ## Workstations
