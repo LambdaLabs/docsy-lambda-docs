@@ -1,5 +1,5 @@
 ---
-title: "Use iptables to disable firewall"
+title: "How do I use iptables to disable my instance's firewall?"
 type: docs
 ---
 

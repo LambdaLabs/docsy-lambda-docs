@@ -1,5 +1,5 @@
 ---
-title: "Upgrade Ubuntu and Lambda Stack"
+title: "How do I upgrade Ubuntu and Lambda Stack?"
 type: docs
 tags:
 - Ubuntu

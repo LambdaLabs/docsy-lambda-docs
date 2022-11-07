@@ -1,5 +1,5 @@
 ---
-title: "Run a filesystem check on Windows and repair system files"
+title: "How do I run a filesystem check on Windows and repair system files?"
 type: docs
 tags:
 - troubleshooting
