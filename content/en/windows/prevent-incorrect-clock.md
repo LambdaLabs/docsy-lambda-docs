@@ -1,5 +1,5 @@
 ---
-title: "Prevent incorrect clock in Windows after booting Ubuntu"
+title: "How do I prevent an incorrect clock in Windows after booting Ubuntu?"
 type: docs
 tags:
 - troubleshooting

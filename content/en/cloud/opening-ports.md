@@ -27,6 +27,6 @@ messages used by diagnostic tools such as `ping` and `traceroute`.
 
 {{% alert title="Note" color="info" %}}
 If you're on a reserved instance, you'll have to
-[modify your instance's firewall rules]({{< relref "../guides/iptables-flush-rules" >}})
+[modify your instance's firewall rules]({{< relref "iptables-flush-rules" >}})
 in addition to contacting the Lambda Support team.
 {{% /alert %}}

@@ -1,5 +1,5 @@
 ---
-title: "Fix resolution and brightness control on Tensorbook"
+title: "How do I fix resolution and brightness control on my Tensorbook?"
 type: docs
 tags:
 - troubleshooting

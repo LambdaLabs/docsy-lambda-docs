@@ -1,5 +1,5 @@
 ---
-title: "Gather system information in Windows using DxDiag"
+title: "How do I gather system information in Windows using DxDiag?"
 type: docs
 tags:
 - troubleshooting

@@ -1,5 +1,5 @@
 ---
-title: "Gather system information in Windows using MSINFO32"
+title: "How do I gather system information in Windows using MSINFO32?"
 type: docs
 tags:
 - troubleshooting

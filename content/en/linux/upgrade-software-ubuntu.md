@@ -1,5 +1,5 @@
 ---
-title: "Upgrade software in Ubuntu"
+title: "How do I upgrade software in Ubuntu?"
 type: docs
 tags:
 - Ubuntu
