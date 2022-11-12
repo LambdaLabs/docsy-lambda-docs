@@ -17,20 +17,20 @@ type: docs
 
 ### GPU Cloud
 
-- [Why is my credit or debit card being declined?]({{< relref "cloud/faq/problem-processing-payment-method" >}})
-- [What happens to my account if I don't pay an invoice?]({{< relref "cloud/faq/failed-payment" >}})
-- [Can I pause my instance instead of terminating it?]({{< relref "cloud/faq/pause-instance" >}})
+- [Why is my credit or debit card being declined?]({{< relref "cloud/problem-processing-payment-method" >}})
+- [What happens to my account if I don't pay an invoice?]({{< relref "cloud/failed-payment" >}})
+- [Can I pause my instance instead of terminating it?]({{< relref "cloud/pause-instance" >}})
 
 ### Servers
 
-- [Where can I find my server's IPMI (BMC) password?]({{< relref "servers/faq/ipmi-password" >}})
-- [What regions do you do business in?]({{< relref "servers/faq/business-regions" >}})
+- [Where can I find my server's IPMI (BMC) password?]({{< relref "servers/ipmi-password" >}})
+- [What regions do you do business in?]({{< relref "servers/business-regions" >}})
 
 ### Workstations
 
-- [How do I upgrade my system's GPUs, storage, or other hardware?]({{< relref "workstations/faq/upgrade-hardware" >}})
+- [How do I upgrade my system's GPUs, storage, or other hardware?]({{< relref "workstations/upgrade-hardware" >}})
 
 ### Tensorbook
 
-- [Reinstall Lambda Stack in Ubuntu on a Tensorbook]({{< relref "tensorbook/guides/reinstall-lambda-stack" >}})
-- [Fix resolution and brightness control on Tensorbook]({{< relref "tensorbook/guides/fix-brightness-control" >}})
+- [Reinstall Lambda Stack in Ubuntu on a Tensorbook]({{< relref "tensorbook/reinstall-lambda-stack" >}})
+- [Fix resolution and brightness control on Tensorbook]({{< relref "tensorbook/fix-brightness-control" >}})
