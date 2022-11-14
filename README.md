@@ -8,8 +8,12 @@ If you would like to contribute to this repository, please create a [Pull Reques
 
 ## Building
 
-This repository is based on Hugo and Docsy. In order to set up a local environment to test your changes, please perform the following
+The Lambda docs site is built using the [Hugo](https://gohugo.io/) static site
+generator and the [Docsy](https://github.com/google/docsy) Hugo theme. The
+docs site is deployed using [Cloudflare Pages](https://pages.cloudflare.com/).
 
+If you're making changes to the docs site and plan on creating a pull request,
+you should first preview your changes by following the instructions, below.
 ### First-time setup
 
 ```bash
