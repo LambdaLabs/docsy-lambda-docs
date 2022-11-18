@@ -39,10 +39,9 @@ following commands in a terminal:
    #GRUB_DISABLE_LINUX_UUID=true
    ```
 
-   {{% alert title="Note" color="info" %}}
-   `GRUB_CMDLINE_LINUX=` might contain custom kernel boot options in addition
-   to `button.lid_init_state=open` and `i915.enable_fbc=0`.
-   {{% /alert %}}
+   > **Note** </br>
+   > `GRUB_CMDLINE_LINUX=` might contain custom kernel boot options in addition
+   > to `button.lid_init_state=open` and `i915.enable_fbc=0`.
 
    If the kernel boot options are not already set correctly, run the following command:
 
@@ -54,9 +53,8 @@ following commands in a terminal:
 
    This command adds kernel boot options needed for Ubuntu to run properly on the Tensorbook.
 
-   {{% alert title="Note" color="info" %}}
-   Be sure to note any custom kernel boot options before running this command.
-   **Running this command will remove all custom kernel boot options.**
-   {{% /alert %}}
+   > **Note** </br>
+   > Be sure to note any custom kernel boot options before running this command.<br />
+   > Running this command will remove all custom kernel boot options.
 
 Lambda Stack is now reinstalled in Ubuntu.
