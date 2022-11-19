@@ -33,7 +33,6 @@ It will start a server on http://localhost:1313/ where you can check that everyt
 
 ## Submitting your changes
 
-When you create a pull request, it will automatically trigger a "preview build" of the changes for us to review and ensure everything looks good. Upon pull request creation, you should see a link pop up in the PR so you can see the changes live.
 
 # As always, thank you!
 
