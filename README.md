@@ -23,13 +23,17 @@ cd lambda-docs
 
 ### Previewing your changes
 
-After you have made changes to the source, you can view the changes by simply running this command:
+The recommended way to preview your changes is to use
+[Docker Compose](https://docs.docker.com/compose/).
+
+While in the directory for your clone of the docs site repository, run:
 
 ```bash
-hugo server
+docker-compose up --build
 ```
 
-It will start a server on http://localhost:1313/ where you can check that everything built correctly.
+Then, in your browser, navigate to http://localhost:1313. You should see a
+local build of the docs site with your changes.
 
 ## Submitting your changes
 
