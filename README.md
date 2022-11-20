@@ -38,6 +38,8 @@ local build of the docs site with your changes.
 
 ## Submitting your changes
 
+[Create a pull request](https://github.com/LambdaLabs/lambda-docs/pulls) to
+submit your changes for consideration.
 
 # As always, thank you!
 
