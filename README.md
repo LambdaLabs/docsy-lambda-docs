@@ -2,10 +2,6 @@
 
 Welcome to Lambda's documentation repository!
 
-# Contributing
-
-If you would like to contribute to this repository, please create a [Pull Request](https://github.com/LambdaLabs/lambda-docs/pulls), with commits making your desired changes. It will then be reviewed by a Lambda engineer to be accepted if it meets our criteria, or we'll let you know if anything needs to be changed!
-
 ## Building
 
 The Lambda docs site is built using the [Hugo](https://gohugo.io/) static site
@@ -40,11 +36,3 @@ local build of the docs site with your changes.
 
 [Create a pull request](https://github.com/LambdaLabs/lambda-docs/pulls) to
 submit your changes for consideration.
-
-# As always, thank you!
-
-Thank you for being part of what makes Lambda amazing - our customers!
-
-## P.S. We're Hiring
-
-Like what we do? [Join us](https://lambdalabs.com/careers)!
