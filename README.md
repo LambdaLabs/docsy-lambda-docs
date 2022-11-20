@@ -16,6 +16,13 @@ If you're making changes to the docs site and plan on creating a pull request,
 you should first preview your changes by following the instructions, below.
 ### First-time setup
 
+Begin hacking on the Lambda docs site by first
+[forking the docs site repo](https://github.com/LambdaLabs/lambda-docs/fork).
+Then,
+[clone your forked repo](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories)
+to your computer.
+
+
 ```bash
 git clone git@github.com:LambdaLabs/lambda-docs.git
 cd lambda-docs
