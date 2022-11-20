@@ -22,12 +22,6 @@ Then,
 [clone your forked repo](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories)
 to your computer.
 
-
-```bash
-git clone git@github.com:LambdaLabs/lambda-docs.git
-cd lambda-docs
-```
-
 ### Previewing your changes
 
 The recommended way to preview your changes is to use
