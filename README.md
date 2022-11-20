@@ -1,4 +1,4 @@
-# Lambda Documentation
+# Lambda docs
 
 Welcome to Lambda's documentation repository!
 
