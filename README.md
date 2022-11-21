@@ -1,6 +1,9 @@
 # Lambda docs
 
-Welcome to Lambda's documentation repository!
+Welcome to the
+[Lambda docs GitHub repository](https://github.com/LambdaLabs/lambda-docs),
+the repository from which the [Lambda docs site](https://docs.lambdalabs.com/)
+is built.
 
 ## Building
 
