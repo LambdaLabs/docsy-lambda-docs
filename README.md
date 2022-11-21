@@ -59,4 +59,4 @@ rebuild each time changes are made.
 ## Creating a pull request
 
 [Create a pull request](https://github.com/LambdaLabs/lambda-docs/pulls) to
-submit your changes for consideration.
+submit your changes for review.
