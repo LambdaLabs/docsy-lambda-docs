@@ -53,7 +53,8 @@ docker-compose up --build
 ```
 
 Then, in your browser, navigate to http://localhost:1313. You should see a
-local build of the docs site with your changes.
+local build of the docs site with your changes. The site will automatically
+rebuild each time changes are made.
 
 ## Submitting your changes
 
