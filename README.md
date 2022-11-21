@@ -40,7 +40,7 @@ to your computer.
 
 Start making your changes!
 
-### Previewing your changes
+## Previewing your changes locally
 
 You should preview your changes locally to make sure they're building as
 expected. The recommended way to preview your changes is to use
