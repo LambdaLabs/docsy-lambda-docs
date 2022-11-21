@@ -40,9 +40,6 @@ to your computer.
 
 Start making your changes!
 
-If you're making changes to the docs site and plan on creating a pull request,
-you should first preview your changes by following the instructions, below.
-
 ### Previewing your changes
 
 The recommended way to preview your changes is to use
