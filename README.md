@@ -5,6 +5,10 @@ Welcome to the
 the repository from which the [Lambda docs site](https://docs.lambdalabs.com/)
 is built.
 
+The Lambda docs site is built using the [Hugo](https://gohugo.io/) static site
+generator and the [Docsy](https://github.com/google/docsy) Hugo theme. The
+docs site is deployed using [Cloudflare Pages](https://pages.cloudflare.com/).
+
 ## Contributing
 
 All contributions to the docs are appreciated, no matter how small!
@@ -35,12 +39,6 @@ Then,
 to your computer.
 
 Start making your changes!
-
-## Building
-
-The Lambda docs site is built using the [Hugo](https://gohugo.io/) static site
-generator and the [Docsy](https://github.com/google/docsy) Hugo theme. The
-docs site is deployed using [Cloudflare Pages](https://pages.cloudflare.com/).
 
 If you're making changes to the docs site and plan on creating a pull request,
 you should first preview your changes by following the instructions, below.
