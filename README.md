@@ -42,7 +42,8 @@ Start making your changes!
 
 ### Previewing your changes
 
-The recommended way to preview your changes is to use
+You should preview your changes locally to make sure they're building as
+expected. The recommended way to preview your changes is to use
 [Docker Compose](https://docs.docker.com/compose/).
 
 While in the directory for your clone of the docs site repository, run:
