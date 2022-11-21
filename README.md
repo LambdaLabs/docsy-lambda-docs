@@ -5,6 +5,27 @@ Welcome to the
 the repository from which the [Lambda docs site](https://docs.lambdalabs.com/)
 is built.
 
+## Contributing
+
+All contributions to the docs are appreciated, no matter how small!
+
+If you encounter a buggy or unclear instruction, but don't know how or don't
+have the time to fix it, you can create a ticket by clicking **Create a
+documentation issue** at the right-hand side of the page.
+
+You can make a quick fix to a page by clicking **Edit this page** at the
+right-hand side of the page.
+
+You can create a new, simple page by clicking **Create child page** at the
+right-hand side of the page that you want to create a new page under.
+
+For complex fixes and complex new pages, you'll want to follow the
+instructions, below, to:
+
+1. Clone the repository and make your changes.
+2. Preview your changes locally.
+3. Create a pull request for review.
+
 ## Building
 
 The Lambda docs site is built using the [Hugo](https://gohugo.io/) static site
