@@ -26,6 +26,16 @@ instructions, below, to:
 2. Preview your changes locally.
 3. Create a pull request for review.
 
+## Cloning the repository and making changes
+
+Begin hacking on the Lambda docs site by first
+[forking the docs site repo](https://github.com/LambdaLabs/lambda-docs/fork).
+Then,
+[clone your forked repo](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories)
+to your computer.
+
+Start making your changes!
+
 ## Building
 
 The Lambda docs site is built using the [Hugo](https://gohugo.io/) static site
@@ -34,13 +44,6 @@ docs site is deployed using [Cloudflare Pages](https://pages.cloudflare.com/).
 
 If you're making changes to the docs site and plan on creating a pull request,
 you should first preview your changes by following the instructions, below.
-### First-time setup
-
-Begin hacking on the Lambda docs site by first
-[forking the docs site repo](https://github.com/LambdaLabs/lambda-docs/fork).
-Then,
-[clone your forked repo](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories)
-to your computer.
 
 ### Previewing your changes
 
