@@ -17,7 +17,7 @@ In order to estimate how much your job will cost or how long it'll take to
 complete, we suggest you create an instance and benchmark your program.
 
 {{% alert title="Tip" color="success" %}}
-Check out [our GPU benchmarks](https://lambdalabs.com/gpu-benchmarks) to form
+[Check out our GPU benchmarks](https://lambdalabs.com/gpu-benchmarks) to form
 a general idea of the performance provided by our instances. Keep in mind that
 real-world performance doesn't always match the performance provided by
 benchmarks.
