@@ -39,8 +39,9 @@ To launch an instance:
 
    {{< imgproc select-region Resize "400x" >}}{{< /imgproc >}}
 
-1. Click the persistent storage file system that you want to attach to your
-   instance.
+1. Click the
+   [persistent storage file system]({{< relref "#create-and-manage-persistent-storage-file-systems" >}})
+   that you want to attach to your instance.
 
    If you don't want to or can't attach a persistent storage file system to
    your instance, click **Don't attach a filesystem**.
