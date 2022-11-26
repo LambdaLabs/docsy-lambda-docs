@@ -12,7 +12,7 @@ started using Lambda GPU Cloud.
 From the dashboard, you can:
 
 - [Create and manage instances]({{< relref "#create-and-manage-instances" >}})
-- [Create and manage persistent storage file systems](#)
+- [Create and manage persistent storage file systems]({{< relref "#create-and-manage-persistent-storage-file-systems" >}})
 - [Create and manage SSH keys](#)
 - [View your resource usage](#)
 - [Change your account settings](#)
@@ -68,3 +68,27 @@ has finished booting, you'll be provided with the details needed to begin
 using your instance.
 
 {{< imgproc instance-details Resize "800x" >}}{{< /imgproc >}}
+
+## Create and manage persistent storage file systems
+
+### Create a persistent storage file system
+
+To create a persistent storage file system:
+
+1. Click **Storage** in the left sidebar of the dashboard.
+
+   {{< imgproc dashboard-sidebar Resize "200x" >}}{{< /imgproc >}}
+
+   Then, click **Create filesystem** at the top-right of the dashboard.
+
+   {{< imgproc create-filesystem-button Resize "200x" >}}{{< /imgproc >}}
+
+1. Enter a name and select a region for your file system. Then click **Create
+   filesystem**.
+
+   {{< imgproc create-filesystem.png Resize "400x" >}}{{< /imgproc >}}
+
+You should now see your persistent storage file system listed in the
+dashboard.
+
+   {{< imgproc persistent-storage-details Resize "800x" >}}{{< /imgproc >}}
