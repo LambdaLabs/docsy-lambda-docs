@@ -93,3 +93,28 @@ You should now see your persistent storage file system listed in the
 dashboard.
 
    {{< imgproc persistent-storage-details Resize "800x" >}}{{< /imgproc >}}
+
+## Add, generate, and manage SSH keys
+
+### Add or generate an SSH key
+
+To add an SSH key that you already have:
+
+1. Click **SSH keys** in the left sidebar of the dashboard.
+
+   {{< imgproc dashboard-sidebar Resize "200x" >}}{{< /imgproc >}}
+
+   Then, click **Add SSH key** at the top-right of the dashboard.
+
+1. In the text input box, paste your public SSH key. Enter a name for your
+   key, then click **Add SSH key**.
+
+To generate a new SSH key:
+
+1. Instead of pasting your public SSH key as instructed, above, click
+   **Generate a new SSH key**. Type in a name for your key, then click
+   **Create**.
+
+   {{< imgproc generate-new-ssh-key Resize "400x" >}}{{< /imgproc >}}
+
+   The private key for your new SSH key will automatically download.
