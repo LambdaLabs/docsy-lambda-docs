@@ -1,40 +1,62 @@
-# Lambda Documentation
+# Lambda docs
 
-Welcome to Lambda's documentation repository!
+Welcome to the
+[Lambda docs GitHub repository](https://github.com/LambdaLabs/lambda-docs),
+the repository from which the [Lambda docs site](https://docs.lambdalabs.com/)
+is built.
 
-# Contributing
+The Lambda docs site is built using the [Hugo](https://gohugo.io/) static site
+generator and the [Docsy](https://github.com/google/docsy) Hugo theme. The
+docs site is deployed using [Cloudflare Pages](https://pages.cloudflare.com/).
 
-If you would like to contribute to this repository, please create a [Pull Request](https://github.com/LambdaLabs/lambda-docs/pulls), with commits making your desired changes. It will then be reviewed by a Lambda engineer to be accepted if it meets our criteria, or we'll let you know if anything needs to be changed!
+## Contributing
 
-## Building
+All contributions to the docs are appreciated, no matter how small!
 
-This repository is based on Hugo and Docsy. In order to set up a local environment to test your changes, please perform the following
+If you encounter a buggy or unclear instruction, but don't know how or don't
+have the time to fix it, you can create a ticket by clicking **Create a
+documentation issue** at the right-hand side of the page.
 
-### First-time setup
+You can make a quick fix to a page by clicking **Edit this page** at the
+right-hand side of the page.
+
+You can create a new, simple page by clicking **Create child page** at the
+right-hand side of the page that you want to create a new page under.
+
+For complex fixes and complex new pages, you'll want to follow the
+instructions, below, to:
+
+1. Clone the repository and make your changes.
+2. Preview your changes locally.
+3. Create a pull request for review.
+
+## Cloning the repository and making changes
+
+Begin hacking on the Lambda docs site by first
+[forking the docs site repo](https://github.com/LambdaLabs/lambda-docs/fork).
+Then,
+[clone your forked repo](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories)
+to your computer.
+
+Start making your changes!
+
+## Previewing your changes locally
+
+You should preview your changes locally to make sure they're building as
+expected. The recommended way to preview your changes is to use
+[Docker Compose](https://docs.docker.com/compose/).
+
+While in the directory for your clone of the docs site repository, run:
 
 ```bash
-git clone git@github.com:LambdaLabs/lambda-docs.git
-cd lambda-docs
+docker-compose up --build
 ```
 
-### Previewing your changes
+Then, in your browser, navigate to http://localhost:1313. You should see a
+local build of the docs site with your changes. The site will automatically
+rebuild each time changes are made.
 
-After you have made changes to the source, you can view the changes by simply running this command:
+## Creating a pull request
 
-```bash
-hugo server
-```
-
-It will start a server on http://localhost:1313/ where you can check that everything built correctly.
-
-## Submitting your changes
-
-When you create a pull request, it will automatically trigger a "preview build" of the changes for us to review and ensure everything looks good. Upon pull request creation, you should see a link pop up in the PR so you can see the changes live.
-
-# As always, thank you!
-
-Thank you for being part of what makes Lambda amazing - our customers!
-
-## P.S. We're Hiring
-
-Like what we do? [Join us](https://lambdalabs.com/careers)!
+[Create a pull request](https://github.com/LambdaLabs/lambda-docs/pulls) to
+submit your changes for review.
