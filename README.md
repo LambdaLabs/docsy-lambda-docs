@@ -46,10 +46,20 @@ You should preview your changes locally to make sure they're building as
 expected. The recommended way to preview your changes is to use
 [Docker Compose](https://docs.docker.com/compose/).
 
-While in the directory for your clone of the docs site repository, run:
+Depending on how you installed docker compose, there are two ways to run it.
+If you installed it. If you installed it [manually](https://docs.docker.com/compose/install/linux/#install-the-plugin-manually),
+then run the following while in the directory for your clone of the docs site
+repository:
 
 ```bash
 docker-compose up --build
+```
+
+If you installed docker compose [using docker's repository](https://docs.docker.com/compose/install/linux/#install-using-the-repository), then run the following
+while in the directory for your clone of the docs site repository:
+
+```bash
+docker compose up --build
 ```
 
 Then, in your browser, navigate to http://localhost:1313. You should see a
