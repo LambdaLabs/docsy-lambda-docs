@@ -34,6 +34,11 @@ downloaded using the following link:
 - [Lambda Recovery for Tensorbook (Jammy)](https://files.lambdalabs.com/recovery/tensorbook-jammy-20221105.iso) (based on Ubuntu 22.04 LTS _jammy_)
 
 {{% alert title="Note" color="info" %}}
+This recovery image is for the _Razer x Lambda Tensorbook_ only and won't work
+on older Tensorbook models.
+{{% /alert %}}
+
+{{% alert title="Note" color="info" %}}
 The recovery images contain software distributed under various licenses,
 including the
 [Software License Agreement (SLA) for NVIDIA cuDNN](https://docs.nvidia.com/deeplearning/cudnn/sla/index.html).
