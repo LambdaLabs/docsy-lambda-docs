@@ -23,7 +23,7 @@ tags:
    that an _Admin_ can:
 
    - Invite others to the team.
-   - Delete team accounts.
+   - Remove others from the team.
    - Modify payment information.
    - Change the team name.
 
