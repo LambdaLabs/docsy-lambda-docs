@@ -26,9 +26,9 @@ right-hand side of the page that you want to create a new page under.
 For complex fixes and complex new pages, you'll want to follow the
 instructions, below, to:
 
-1. Clone the repository and make your changes.
-2. Preview your changes locally.
-3. Create a pull request for review.
+1. [Clone the repository and make your changes.](#cloning-the-repository-and-making-changes)
+2. [Preview your changes locally.](#previewing-your-changes-locally)
+3. [Create a pull request for review.](#creating-a-pull-request)
 
 ## Cloning the repository and making changes
 
