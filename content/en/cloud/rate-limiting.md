@@ -19,3 +19,7 @@ in response to your API request.
 You'll also receive an
 [HTTP 429 response status code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429).
 {{% /alert %}}
+
+{{% alert title="Note" color="info" %}}
+The request rate limits may change at any time.
+{{% /alert %}}
