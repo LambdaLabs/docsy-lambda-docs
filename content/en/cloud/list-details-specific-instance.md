@@ -1,6 +1,8 @@
 ---
 title: "How do I retrieve the details of an instance from a command line?"
 type: docs
+tags:
+- API
 ---
 
 You can retrieve the details of an instance from a command line using the
