@@ -34,7 +34,7 @@ You can terminate an instance from the command line using the
 3. Run the following command:
 
    ```bash
-   curl -u API-KEY: https://cloud.lambdalabs.com/api/v1/instance-operations/terminate -d @INSTANCE-IDS -H "Content-Type: application/json"
+   curl -u API-KEY: https://cloud.lambdalabs.com/api/v1/instance-operations/terminate -d @INSTANCE-IDS -H "Content-Type: application/json" | jq .
    ```
 
    Replace **API-KEY** with your actual API key. **Don't remove the trailing
