@@ -1,6 +1,8 @@
 ---
 title: "Can I launch an instance from the command line?"
 type: docs
+tags:
+- API
 ---
 
 You can launch an instance from the command line using the
