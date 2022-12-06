@@ -1,6 +1,8 @@
 ---
 title: "Can I list my running instances from a command line?"
 type: docs
+tags:
+- API
 ---
 
 You can list your running instances from a command line using the

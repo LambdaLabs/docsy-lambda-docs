@@ -1,6 +1,8 @@
 ---
 title: "Can I list the offered instance types from a command line?"
 type: docs
+tags:
+- API
 ---
 
 You can list the instances types offered by Lambda GPU Cloud by first
