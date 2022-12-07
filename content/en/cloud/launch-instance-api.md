@@ -34,6 +34,3 @@ You can launch an instance from the command line using the
 
 Replace **API-KEY** with your actual API key. **Don't remove the trailing
 colon (:).**
-
-Replace **INSTANCE-DETAILS** with the name of the payload file you created in
-the previous step.
