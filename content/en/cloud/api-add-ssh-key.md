@@ -64,5 +64,5 @@ To generate a new SSH key pair:
 3. The private key for your SSH key pair will be saved as
    `my-generated-private-key.pem`.
 
-   Run `chmod 600 my-generated-private-key.pem` to set the correct file
+   Run `chmod 400 my-generated-private-key.pem` to set the correct file
    permissions for your private key.
