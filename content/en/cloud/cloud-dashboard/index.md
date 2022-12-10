@@ -70,6 +70,11 @@ using your instance.
 
 {{< imgproc instance-details Resize "800x" >}}{{< /imgproc >}}
 
+{{% alert title="Tip" color="success" %}}
+You can also
+[launch instances using the Cloud API]({{< relref "../launch-instance-api" >}}).
+{{% /alert %}}
+
 ## Create and manage persistent storage file systems
 
 ### Create a persistent storage file system
@@ -118,3 +123,8 @@ To generate a new SSH key:
    {{< imgproc generate-new-ssh-key Resize "400x" >}}{{< /imgproc >}}
 
    The private key for your new SSH key will automatically download.
+
+{{% alert title="Tip" color="success" %}}
+You can also
+[use the Cloud API to add and generate SSH keys]({{< relref "../api-add-ssh-key" >}}).
+{{% /alert %}}
