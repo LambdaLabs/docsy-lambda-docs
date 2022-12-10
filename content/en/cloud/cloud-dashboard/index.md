@@ -11,13 +11,13 @@ started using Lambda GPU Cloud.
 
 From the dashboard, you can:
 
-- [Create and manage instances]({{< relref "#create-and-manage-instances" >}})
+- [Launch and manage instances]({{< relref "#create-and-manage-instances" >}})
 - [Create and manage persistent storage file systems]({{< relref "#create-and-manage-persistent-storage-file-systems" >}})
 - [Add, generate, and manage SSH keys]({{< relref "#add-generate-and-manage-ssh-keys" >}})
 - [View your resource usage](#)
 - [Change your account settings](#)
 
-## Create and manage instances
+## Launch and manage instances
 
 ### Launch instances
 
