@@ -16,6 +16,7 @@ From the dashboard, you can:
 - [Add, generate, and delete SSH keys]({{< relref "#add-generate-and-delete-ssh-keys" >}})
 - [Generate and delete API keys]({{< relref "#generate-and-delete-api-keys" >}})
 - [View usage]({{< relref "#view-usage" >}})
+- [Manage a Team]({{< relref "#manage-a-team" >}})
 - [Change your account settings](#)
 
 ## Launch, restart, and terminate instances
@@ -178,3 +179,8 @@ View usage information by clicking **Usage** in the left sidebar of the
 dashboard.
 
 {{< imgproc dashboard-sidebar Resize "200x" >}}{{< /imgproc >}}
+
+## Manage a Team
+
+Learn how to manage a Team by reading our FAQ on
+[getting started with the Team feature]({{< relref "../get-started-teams" >}}).
