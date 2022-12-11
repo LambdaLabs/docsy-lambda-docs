@@ -68,7 +68,7 @@ In the dashboard, you should now see your instance listed. Once your instance
 has finished booting, you'll be provided with the details needed to begin
 using your instance.
 
-{{< imgproc instance-details Resize "800x" >}}{{< /imgproc >}}
+{{< imgproc instance-details Resize "1000x" >}}{{< /imgproc >}}
 
 {{% alert title="Tip" color="success" %}}
 You can also
