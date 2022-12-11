@@ -75,6 +75,21 @@ You can also
 [launch instances using the Cloud API]({{< relref "../launch-instance-api" >}}).
 {{% /alert %}}
 
+### Manage instances
+
+Restart instances by clicking the checkboxes next to the instances you want to
+restart. Then, click **Restart** at the top-right of the dashboard.
+
+Terminate instances by clicking the checkboxes next to the instances you want
+to terminate. Then, click **Terminate** at the top-right of the dashboard.
+
+{{< imgproc restart-terminate Resize "200x" >}}{{< /imgproc >}}
+
+{{% alert title="Tip" color="success" %}}
+You can also
+[terminate instances using the Cloud API]({{< relref "../terminate-instance-api" >}}).
+{{% /alert %}}
+
 ## Create and manage persistent storage file systems
 
 ### Create a persistent storage file system
