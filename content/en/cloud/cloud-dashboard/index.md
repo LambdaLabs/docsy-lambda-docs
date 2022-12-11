@@ -190,5 +190,10 @@ dashboard.
 
 ## Manage a Team
 
+Click [**Team**](https://cloud.lambdalabs.com/team) at the bottom of the left
+sidebar to access the Team feature.
+
+{{< imgproc sidebar-team-settings Resize "100x" >}}{{< /imgproc >}}
+
 Learn how to manage a Team by reading our FAQ on
 [getting started with the Team feature]({{< relref "../get-started-teams" >}}).
