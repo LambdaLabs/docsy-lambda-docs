@@ -51,8 +51,8 @@ To launch an instance:
 
    {{< imgproc select-filesystem Resize "400x" >}}{{< /imgproc >}}
 
-1. Select the SSH key that you want to use for your instance. Then, click
-   **Launch instance**.
+1. Select the [SSH key]({{< relref "#add-generate-and-delete-ssh-keys" >}})
+   that you want to use for your instance. Then, click **Launch instance**.
 
    {{< imgproc select-ssh-key Resize "400x" >}}{{< /imgproc >}}
 
