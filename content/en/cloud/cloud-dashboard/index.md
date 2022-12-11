@@ -21,7 +21,7 @@ From the dashboard, you can:
 - [Generate and delete API keys]({{< relref "#generate-and-delete-api-keys" >}})
 - [View usage]({{< relref "#view-usage" >}})
 - [Manage a Team]({{< relref "#manage-a-team" >}})
-- [Change your account settings](#)
+- [Modify account settings]({{< relref "#modify-account-settings" >}})
 
 ## Launch, restart, and terminate instances
 
@@ -201,3 +201,11 @@ sidebar to access the Team feature.
 
 Learn how to manage a Team by reading our FAQ on
 [getting started with the Team feature]({{< relref "../get-started-teams" >}}).
+
+## Modify account settings
+
+Click [**Settings**](https://cloud.lambdalabs.com/settings) at the bottom of
+the left sidebar to modify your account settings, including your password and
+payment method.
+
+{{< imgproc sidebar-team-settings Resize "100x" >}}{{< /imgproc >}}
