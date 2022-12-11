@@ -4,6 +4,10 @@ type: docs
 tags:
 - storage
 - billing
+- SSH
+- API
+- storage
+- team
 ---
 
 The [dashboard](https://cloud.lambdalabs.com/instances) makes it easy to get
