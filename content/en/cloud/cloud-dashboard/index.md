@@ -11,14 +11,14 @@ started using Lambda GPU Cloud.
 
 From the dashboard, you can:
 
-- [Launch and manage instances]({{< relref "#create-and-manage-instances" >}})
+- [Launch, restart, and terminate instances]({{< relref "#launch-restart-and-terminate-instances" >}})
 - [Create and manage persistent storage file systems]({{< relref "#create-and-manage-persistent-storage-file-systems" >}})
 - [Add, generate, and delete SSH keys]({{< relref "#add-generate-and-delete-ssh-keys" >}})
 - [Generate and delete API keys]({{< relref "#generate-and-delete-api-keys" >}})
 - [View your resource usage](#)
 - [Change your account settings](#)
 
-## Launch and manage instances
+## Launch, restart, and terminate instances
 
 ### Launch instances
 
@@ -76,10 +76,14 @@ You can also
 [launch instances using the Cloud API]({{< relref "../launch-instance-api" >}}).
 {{% /alert %}}
 
-### Manage instances
+### Restart instances
 
 Restart instances by clicking the checkboxes next to the instances you want to
 restart. Then, click **Restart** at the top-right of the dashboard.
+
+{{< imgproc restart-terminate Resize "200x" >}}{{< /imgproc >}}
+
+### Terminate instances
 
 Terminate instances by clicking the checkboxes next to the instances you want
 to terminate. Then, click **Terminate** at the top-right of the dashboard.
