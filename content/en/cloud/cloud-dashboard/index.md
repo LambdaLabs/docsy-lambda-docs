@@ -14,6 +14,7 @@ From the dashboard, you can:
 - [Launch and manage instances]({{< relref "#create-and-manage-instances" >}})
 - [Create and manage persistent storage file systems]({{< relref "#create-and-manage-persistent-storage-file-systems" >}})
 - [Add, generate, and delete SSH keys]({{< relref "#add-generate-and-delete-ssh-keys" >}})
+- [Generate and delete API keys]({{< relref "#generate-and-delete-api-keys" >}})
 - [View your resource usage](#)
 - [Change your account settings](#)
 
@@ -147,4 +148,22 @@ You can also
 ### Delete SSH keys
 
 Delete SSH keys by clicking **Delete** at the far-right of the SSH key you
+want to delete.
+
+## Generate and delete API keys
+
+### Generate API keys
+
+Generate API keys by clicking **API keys** in the left sidebar of the
+dashboard.
+
+{{< imgproc dashboard-sidebar Resize "200x" >}}{{< /imgproc >}}
+
+Then, click **Generate API Key** at the top-right of the dashboard.
+
+{{< imgproc generate-api-key-button Resize "200x" >}}{{< /imgproc >}}
+
+### Delete API keys
+
+Delete API keys by clicking **Delete** at the far-right of the API key you
 want to delete.
