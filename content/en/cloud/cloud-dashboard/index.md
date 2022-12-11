@@ -13,7 +13,7 @@ From the dashboard, you can:
 
 - [Launch and manage instances]({{< relref "#create-and-manage-instances" >}})
 - [Create and manage persistent storage file systems]({{< relref "#create-and-manage-persistent-storage-file-systems" >}})
-- [Add, generate, and manage SSH keys]({{< relref "#add-generate-and-manage-ssh-keys" >}})
+- [Add, generate, and delete SSH keys]({{< relref "#add-generate-and-delete-ssh-keys" >}})
 - [View your resource usage](#)
 - [Change your account settings](#)
 
@@ -114,7 +114,7 @@ dashboard.
 
    {{< imgproc persistent-storage-details Resize "800x" >}}{{< /imgproc >}}
 
-## Add, generate, and manage SSH keys
+## Add, generate, and delete SSH keys
 
 ### Add or generate an SSH key
 
@@ -143,3 +143,5 @@ To generate a new SSH key:
 You can also
 [use the Cloud API to add and generate SSH keys]({{< relref "../api-add-ssh-key" >}}).
 {{% /alert %}}
+
+### Delete SSH keys
