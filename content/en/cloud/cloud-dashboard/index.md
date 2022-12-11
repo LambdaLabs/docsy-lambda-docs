@@ -145,3 +145,6 @@ You can also
 {{% /alert %}}
 
 ### Delete SSH keys
+
+Delete SSH keys by clicking **Delete** at the far-right of the SSH key you
+want to delete.
