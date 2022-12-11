@@ -25,7 +25,8 @@ From the dashboard, you can:
 
 To launch an instance:
 
-1. Click **Instances** in the left sidebar of the dashboard.
+1. Click [**Instances**](https://cloud.lambdalabs.com/instances) in the left
+   sidebar of the dashboard.
 
    {{< imgproc dashboard-sidebar Resize "200x" >}}{{< /imgproc >}}
 
@@ -102,7 +103,8 @@ You can also
 
 To create a persistent storage file system:
 
-1. Click **Storage** in the left sidebar of the dashboard.
+1. Click [**Storage**](https://cloud.lambdalabs.com/file-systems) in the left
+   sidebar of the dashboard.
 
    {{< imgproc dashboard-sidebar Resize "200x" >}}{{< /imgproc >}}
 
@@ -126,7 +128,8 @@ dashboard.
 
 To add an SSH key that you already have:
 
-1. Click **SSH keys** in the left sidebar of the dashboard.
+1. Click [**SSH keys**](https://cloud.lambdalabs.com/ssh-keys) in the left
+   sidebar of the dashboard.
 
    {{< imgproc dashboard-sidebar Resize "200x" >}}{{< /imgproc >}}
 
@@ -159,8 +162,9 @@ want to delete.
 
 ### Generate API keys
 
-Generate API keys by clicking **API keys** in the left sidebar of the
-dashboard.
+Generate API keys by clicking
+[**API keys**](https://cloud.lambdalabs.com/api-keys) in the left sidebar of
+the dashboard.
 
 {{< imgproc dashboard-sidebar Resize "200x" >}}{{< /imgproc >}}
 
@@ -175,7 +179,8 @@ want to delete.
 
 ## View usage
 
-View usage information by clicking **Usage** in the left sidebar of the
+View usage information by clicking
+[**Usage**](https://cloud.lambdalabs.com/usage) in the left sidebar of the
 dashboard.
 
 {{< imgproc dashboard-sidebar Resize "200x" >}}{{< /imgproc >}}
