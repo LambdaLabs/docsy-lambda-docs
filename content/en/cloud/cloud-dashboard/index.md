@@ -76,6 +76,9 @@ using your instance.
 {{% alert title="Tip" color="success" %}}
 You can also
 [launch instances using the Cloud API]({{< relref "../launch-instance-api" >}}).
+
+You can also use the Cloud API to
+[get details of a running instance]({{< relref "../list-details-specific-instance" >}}).
 {{% /alert %}}
 
 ### Restart instances
