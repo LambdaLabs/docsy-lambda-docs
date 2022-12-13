@@ -17,8 +17,11 @@ type: docs
 
 ### GPU Cloud
 
+- [Can I launch an instance from the command line?]({{< relref "cloud/launch-instance-api" >}})
 - [Why is my credit or debit card being declined?]({{< relref "cloud/problem-processing-payment-method" >}})
-- [What happens to my account if I don't pay an invoice?]({{< relref "cloud/failed-payment" >}})
+- [How do I get started using the Team feature?]({{< relref "cloud/get-started-teams" >}})
+- [How do I terminate an instance using the Cloud API?]({{< relref "cloud/terminate-instance-api" >}})
+- [How do I use persistent storage to save datasets and system state?]({{< relref "cloud/use-persistent-storage" >}})
 - [Can I pause my instance instead of terminating it?]({{< relref "cloud/pause-instance" >}})
 
 ### Servers
@@ -28,9 +31,14 @@ type: docs
 
 ### Workstations
 
+- [Where can I download recovery images for my workstation?]({{< relref "workstations/workstation-recovery-images" >}})
+- [How do I upgrade Ubuntu and Lambda Stack?]({{< relref "linux/upgrade-ubuntu-and-lambda-stack" >}})
+- [How do I remove and reinstall Lambda Stack?]({{< relref "linux/remove-reinstall-lambda-stack" >}})
 - [How do I upgrade my system's GPUs, storage, or other hardware?]({{< relref "workstations/upgrade-hardware" >}})
+- [How do I upgrade software in Ubuntu?]({{< relref "linux/upgrade-software-ubuntu" >}})
 
 ### Tensorbook
 
-- [Reinstall Lambda Stack in Ubuntu on a Tensorbook]({{< relref "tensorbook/reinstall-lambda-stack" >}})
-- [Fix resolution and brightness control on Tensorbook]({{< relref "tensorbook/fix-brightness-control" >}})
+- [Where can I download recovery images for my Tensorbook?]({{< relref "tensorbook/tensorbook-recovery-images" >}})
+- [How do I reinstall Lambda Stack in Ubuntu on my Tensorbook?]({{< relref "tensorbook/reinstall-lambda-stack" >}})
+- [How do I fix resolution and brightness control on my Tensorbook?]({{< relref "tensorbook/fix-brightness-control" >}})
