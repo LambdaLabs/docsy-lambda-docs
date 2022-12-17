@@ -5,7 +5,6 @@ description: "Documentation for Lambda GPU Cloud, the #1 cloud provider for high
 type: docs
 ---
 
-
 {{< imgproc cloud Resize "400x">}}{{< /imgproc >}}
 
 <a href="https://lambdalabs.com/service/gpu-cloud" target="_blank">Lambda GPU Cloud&nbsp;<i class='fas fa-external-link-alt'></i></a>
