@@ -11,6 +11,13 @@ type: docs
 provides instant access to high-performance cloud GPUs at the best prices on
 the market.
 
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Looking to use our new API?</h1>
+    <a class="btn btn-primary btn-lg" href="https://cloud.lambdalabs.com/api/v1/docs" role="button">Read our documentation</a>
+  </div>
+</div>
+
 With Lambda GPU Cloud, you have:
 
 - [TensorFlow](https://www.tensorflow.org/),
