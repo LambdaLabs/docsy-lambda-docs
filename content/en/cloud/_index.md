@@ -13,7 +13,7 @@ the market.
 
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-4">Looking to use our new API?</h1>
+    <h2 class="display-4">Looking to use our new API?</h2>
     <a class="btn btn-primary btn-lg" href="https://cloud.lambdalabs.com/api/v1/docs" role="button">Read our documentation</a>
   </div>
 </div>
