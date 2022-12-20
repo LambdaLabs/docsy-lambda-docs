@@ -18,7 +18,7 @@ User guides for Lambda server chassis can be found below.
 | SuperServer 4029GP-TRT2 | [Download](https://www.supermicro.com/manuals/superserver/4U/MNL-2107.pdf) |
 | SuperWorkstation 740GP-TNRT | [Download](https://www.supermicro.com/manuals/superserver/4U/MNL-2292.pdf) |
 | AS -2124US-TNRP | [Download](https://www.supermicro.com/manuals/superserver/2U/MNL-2288.pdf) |
-| SuperServer | [Download](https://www.supermicro.com/manuals/superserver/4U/MNL-2350.pdf) |
+| SuperServer 420GP-TNAR | [Download](https://www.supermicro.com/manuals/superserver/4U/MNL-2350.pdf) |
 
 ## GIGABYTE
 
