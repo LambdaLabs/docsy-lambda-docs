@@ -3,7 +3,7 @@ title: "Where can I download the user manual for my server chassis?"
 type: docs
 ---
 
-User manuals for Lambda server chassis can be found below.
+User manuals for Lambda server chassis can be downloaded below.
 
 {{% alert title="Tip" color="success" %}}
 You can run `sudo dmidecode -t 1` to know your server chassis. The command
