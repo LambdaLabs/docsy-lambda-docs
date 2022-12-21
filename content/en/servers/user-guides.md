@@ -1,5 +1,5 @@
 ---
-title: "Where can I find the user manual for my server chassis?"
+title: "Where can I download the user manual for my server chassis?"
 type: docs
 ---
 
