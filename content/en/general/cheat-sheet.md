@@ -1,10 +1,7 @@
 ---
-title: "Cheat sheet for using Ubuntu and Lambda Stack"
-linkTitle: "Cheat sheet for using Ubuntu and Lambda Stack"
+title: "What are some useful commands to know for using Ubuntu?"
 type: docs
 ---
-
-Here are some useful commands to know for using Ubuntu and Lambda Stack:
 
 ## System monitoring
 
