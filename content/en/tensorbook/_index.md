@@ -1,5 +1,5 @@
 ---
-title: "Razer x Lambda Tensorbook"
+title: "Tensorbook"
 type: docs
 ---
 
