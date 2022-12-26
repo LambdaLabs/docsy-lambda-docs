@@ -9,7 +9,7 @@ aliases:
 
 ## Texas, USA region (us-south-1)
 
-All of the [on-demand instances](https://lambdalabs.com/service/gpu-cloud) in
+All of the instances in
 our Texas, USA region (us-south-1) share two symmetric 10 Gbps connections to
 the Internet, providing both redundancy and throughput of up to 20 Gbps.
 
