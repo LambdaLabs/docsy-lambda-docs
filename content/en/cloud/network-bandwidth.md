@@ -7,9 +7,11 @@ aliases:
 - faq/network-bandwidth
 ---
 
-All of our [on-demand instances](https://lambdalabs.com/service/gpu-cloud)
-share a single symmetric 10 Gbps connection to the Internet. We plan on
-upgrading this connection to 20 Gbps in the coming months.
+## Texas, USA region (us-south-1)
+
+All of the [on-demand instances](https://lambdalabs.com/service/gpu-cloud) in
+our Texas, USA region (us-south-1) share two symmetric 10 Gbps connections to
+the Internet, providing both redundancy and throughput of up to 20 Gbps.
 
 Internally, many of our servers have a 200 Gbps connection to our data
 center's network. Some of our servers have a 20 Gbps connection, shared by up
