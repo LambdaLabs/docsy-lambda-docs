@@ -17,7 +17,7 @@ We do business in:
 - South Africa
 - Israel
 - Taiwan
-- Korea
+- South Korea
 - Japan
 - Singapore
 - Australia
