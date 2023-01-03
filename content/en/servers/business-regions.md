@@ -3,7 +3,7 @@ title: "What regions do you do business in?"
 type: docs
 ---
 
-We do business in:
+We do business directly in:
 
 - United States of America
 - Canada
@@ -25,4 +25,9 @@ We do business in:
 
 {{% alert title="Note" color="info" %}}
 We comply with all United States sanctions and export restrictions.
+{{% /alert %}}
+
+{{% alert title="Note" color="info" %}}
+We're working on building our global reseller network. This page will be
+updated as we expand into new regions.
 {{% /alert %}}
