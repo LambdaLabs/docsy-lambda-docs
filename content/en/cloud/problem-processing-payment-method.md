@@ -24,7 +24,7 @@ We currently only support customers in the following regions:
 - South Africa
 - Israel
 - Taiwan
-- Republic of Korea
+- South Korea
 - Japan
 - Singapore
 - Australia
