@@ -12,7 +12,7 @@ First, [generate an API key](https://cloud.lambdalabs.com/api-keys). Then, run
 the following command:
 
 ```bash
-curl -u $CLOUD_API_KEY: https://cloud.lambdalabs.com/api/v1/instances/INSTANCE-ID | jq .
+curl -u API-KEY: https://cloud.lambdalabs.com/api/v1/instances/INSTANCE-ID | jq .
 ```
 
 Replace **API-KEY** with your actual API key. **Don't remove the trailing
