@@ -41,3 +41,42 @@ The above command will output, for example:
 10.19.60.24
 ```
 {{% /alert %}}
+
+## Learn what ports are publicly accessible
+
+You can use `nmap` to learn what ports on your instance are publicly
+accessible, that is, reachable over the Internet.
+
+First, SSH into your instance. Then, install `nmap` by running:
+
+```bash
+sudo apt install -y nmap
+```
+
+Next, run:
+
+```bash
+nmap "$(curl -s https://ipinfo.io/ip)"
+```
+
+The command will output, for example:
+
+```
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-05 16:07 UTC
+Nmap scan report for 129.159.46.35
+Host is up (0.00011s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+
+Nmap done: 1 IP address (1 host up) scanned in 0.33 seconds
+```
+
+In the above example, the instance's IP address is **129.159.46.35**, and TCP
+ports 22 and 111 are publicly accessible.
+
+{{% alert title="Note" color="info" %}}
+`nmap "$(curl -s https://ipinfo.io/ip)"` only scans the 1,000 most common TCP
+ports.
+{{% /alert %}}
