@@ -27,7 +27,7 @@ Bandwidth to the Internet can be up to 10 Gbps.
 ## Virginia, USA region (us-east-1)
 
 The bandwidth between instances in our Virginia, USA region (us-east-1) can be
-up to 3.7 Gbps when using the instances' _private IP addresses_.
+up to 7.2 Gbps when using the instances' _private IP addresses_.
 
 Bandwidth to the Internet can be up to 10 Gbps.
 
