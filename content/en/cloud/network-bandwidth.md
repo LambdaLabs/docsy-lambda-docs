@@ -37,11 +37,11 @@ The bandwidth between instances in our Arizona, USA (us-west-2) and Virginia,
 USA (us-east-1) regions can be up to 100 Mbps.
 
 {{% alert title="Note" color="info" %}}
-The bandwidth approximations for connections between instances were obtained
-using [iPerf3](https://iperf.fr/).
+The bandwidth tests for connections between instances were performed using
+[iPerf3](https://iperf.fr/).
 
-The bandwidth approximations for connections to the Internet were obtained
-using [Speedtest CLI](https://www.speedtest.net/apps/cli).
+The bandwidth tests for connections to the Internet were performed using
+[Speedtest CLI](https://www.speedtest.net/apps/cli).
 {{% /alert %}}
 
 {{% alert title="Note" color="info" %}}
