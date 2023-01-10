@@ -16,7 +16,7 @@ You can learn your instance's private IP address with the `ip` command.
 To learn your instance's private IP address, SSH into your instance and run:
 
 ```bash
-ip -4 -br addr show |grep '10.'
+ip -4 -br addr show | grep '10.'
 ```
 
 The above command will output, for example:
@@ -32,7 +32,7 @@ If you want your instance's private IP address and that address only, you can
 run the following command instead:
 
 ```bash
-ip -4 -br addr show |grep -Eo '10\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)'
+ip -4 -br addr show | grep -Eo '10\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)'
 ```
 
 The above command will output, for example:
