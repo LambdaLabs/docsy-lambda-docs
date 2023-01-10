@@ -28,7 +28,7 @@ enp5s0           UP             10.19.60.24/20
 In the above example, the instance's private IP address is **10.19.60.24**.
 
 {{% alert title="Tip" color="success" %}}
-If you want your instance's private IP address and that address only, you can
+If you want your instance's private IP address and only that address, you can
 run the following command instead:
 
 ```bash
