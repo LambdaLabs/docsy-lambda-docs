@@ -9,13 +9,10 @@ aliases:
 
 ## Texas, USA region (us-south-1)
 
-All of the instances in
-our Texas, USA region (us-south-1) share two symmetric 10 Gbps connections to
-the Internet, providing both redundancy and throughput of up to 20 Gbps.
-
-Internally, many of our servers have a 200 Gbps connection to our data
-center's network. Some of our servers have a 20 Gbps connection, shared by up
-to 8 instances.
+The bandwidth between instances in our Texas, USA region (us-south-1) is          
+approximately 200 Gbps.                                                       
+                                                                              
+Bandwidth to the Internet is approximately 20 Gbps.
 
 ## Arizona, USA region (us-west-2)
 
