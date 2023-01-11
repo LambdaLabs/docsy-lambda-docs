@@ -42,7 +42,7 @@ The above command will output, for example:
 ```
 {{% /alert %}}
 
-## Learn what ports are publicly accessible
+## Learn what ports on your instance are publicly accessible
 
 You can use `nmap` to learn what ports on your instance are publicly
 accessible, that is, reachable over the Internet.
