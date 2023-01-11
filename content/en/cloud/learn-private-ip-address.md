@@ -47,7 +47,11 @@ The above command will output, for example:
 You can use `nmap` to learn what ports on your instance are publicly
 accessible, that is, reachable over the Internet.
 
-First, SSH into your instance. Then, install `nmap` by running:
+{{% alert title="Note" color="info" %}}
+The instructions, below, assume you're running Ubuntu on your computer.
+{{% /alert %}}
+
+First, install `nmap` by running:
 
 ```bash
 sudo apt install -y nmap
@@ -56,8 +60,11 @@ sudo apt install -y nmap
 Next, run:
 
 ```bash
-nmap "$(curl -s https://ipinfo.io/ip)"
+nmap INSTANCE-IP-ADDRESS
 ```
+
+Replace **INSTANCE-IP-ADDRESS** with your instance's IP address, which you can
+get from the [Cloud dashboard](https://cloud.lambdalabs.com/instances).
 
 The command will output, for example:
 
