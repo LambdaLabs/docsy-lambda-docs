@@ -60,7 +60,7 @@ sudo apt install -y nmap
 Next, run:
 
 ```bash
-nmap INSTANCE-IP-ADDRESS
+nmap -Pn INSTANCE-IP-ADDRESS
 ```
 
 Replace **INSTANCE-IP-ADDRESS** with your instance's IP address, which you can
