@@ -84,6 +84,5 @@ In the above example, the instance's IP address is **129.159.46.35**, and TCP
 ports 22 and 111 are publicly accessible.
 
 {{% alert title="Note" color="info" %}}
-`nmap "$(curl -s https://ipinfo.io/ip)"` only scans the 1,000 most common TCP
-ports.
+`nmap -Pn INSTANCE-IP-ADDRESS` only scans the 1,000 most common TCP ports.
 {{% /alert %}}
