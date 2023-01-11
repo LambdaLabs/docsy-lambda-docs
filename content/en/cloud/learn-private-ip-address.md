@@ -69,19 +69,17 @@ get from the [Cloud dashboard](https://cloud.lambdalabs.com/instances).
 The command will output, for example:
 
 ```
-Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-05 16:07 UTC
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-11 13:22 PST
 Nmap scan report for 129.159.46.35
-Host is up (0.00011s latency).
-Not shown: 998 closed ports
-PORT    STATE SERVICE
-22/tcp  open  ssh
-111/tcp open  rpcbind
+Host is up (0.041s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
 
-Nmap done: 1 IP address (1 host up) scanned in 0.33 seconds
+Nmap done: 1 IP address (1 host up) scanned in 6.42 seconds
 ```
 
-In the above example, the instance's IP address is **129.159.46.35**, and TCP
-ports 22 and 111 are publicly accessible.
+In the above example, TCP port 22 (SSH) is publicly accessible.
 
 {{% alert title="Note" color="info" %}}
 `nmap -Pn INSTANCE-IP-ADDRESS` only scans the 1,000 most common TCP ports.
