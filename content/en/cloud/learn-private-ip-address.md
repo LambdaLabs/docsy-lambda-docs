@@ -88,5 +88,15 @@ Nmap done: 1 IP address (1 host up) scanned in 6.42 seconds
 In the above example, TCP port 22 (SSH) is publicly accessible.
 
 {{% alert title="Note" color="info" %}}
+If `nmap` doesn't show TCP/22 (SSH) or any other ports open, your:
+
+- Instance might be terminated. Check the
+  [GPU Instances dashboard](https://cloud.lambdalabs.com/instances) to find
+  out.
+- Firewall rules might be blocking incoming connections to your instance.
+  <!-- TODO: Link _Firewall rules_ to Firewall feature FAQ. -->
+{{% /alert %}}
+
+{{% alert title="Note" color="info" %}}
 `nmap -Pn INSTANCE-IP-ADDRESS` only scans the 1,000 most common TCP ports.
 {{% /alert %}}
