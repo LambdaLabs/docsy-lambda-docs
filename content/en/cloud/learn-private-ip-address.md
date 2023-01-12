@@ -57,7 +57,7 @@ accessible, that is, reachable over the Internet.
 The instructions, below, assume you're running Ubuntu on your computer.
 {{% /alert %}}
 
-First, install Nmap by running:
+First, install Nmap on your computer (not on your instance) by running:
 
 ```bash
 sudo apt install -y nmap
