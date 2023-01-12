@@ -5,7 +5,13 @@ tags:
 - network
 ---
 
-You can learn your instance's private IP address with the `ip` command.
+You can
+[learn your instance's private IP address]({{< relref "#learn-your-instances-private-ip-address" >}})
+with the `ip` command.
+
+You can
+[learn what ports are open on your instance]({{< relref "#learn-what-ports-on-your-instance-are-publicly-accessible" >}})
+with the `nmap` command.
 
 ## Learn your instance's private IP address
 
