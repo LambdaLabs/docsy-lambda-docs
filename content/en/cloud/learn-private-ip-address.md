@@ -50,14 +50,14 @@ The above command will output, for example:
 
 ## Learn what ports on your instance are publicly accessible
 
-You can use `nmap` to learn what ports on your instance are publicly
+You can use Nmap to learn what ports on your instance are publicly
 accessible, that is, reachable over the Internet.
 
 {{% alert title="Note" color="info" %}}
 The instructions, below, assume you're running Ubuntu on your computer.
 {{% /alert %}}
 
-First, install `nmap` by running:
+First, install Nmap by running:
 
 ```bash
 sudo apt install -y nmap
