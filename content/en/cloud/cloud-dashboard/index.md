@@ -7,7 +7,7 @@ tags:
 - SSH
 - API
 - storage
-- team
+- Team
 ---
 
 The [dashboard](https://cloud.lambdalabs.com/instances) makes it easy to get

@@ -2,7 +2,7 @@
 title: "How do I get started using the Team feature?"
 type: docs
 tags:
-- team
+- Team
 - billing
 - SSH
 ---
