@@ -7,6 +7,7 @@ type: docs
 <table>
   <tr>
     <td><a href="{{< relref "cloud" >}}">{{< imgproc cloud Resize "200x">}}GPU Cloud{{< /imgproc >}}</a></td>
+    <td><a href="{{< relref "echelon" >}}">{{< imgproc echelon Resize "200x">}}Echelon{{< /imgproc >}}</a></td>
     <td><a href="{{< relref "servers" >}}">{{< imgproc hyperplane Resize "200x">}}Servers{{< /imgproc >}}</a></td>
     <td><a href="{{< relref "workstations" >}}">{{< imgproc vector Resize "200x">}}Workstations{{< /imgproc >}}</a></td>
     <td><a href="{{< relref "tensorbook" >}}">{{< imgproc tensorbook Resize "200x">}}Tensorbook{{< /imgproc >}}</a></td>
