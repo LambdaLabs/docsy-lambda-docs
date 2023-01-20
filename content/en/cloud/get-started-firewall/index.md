@@ -61,5 +61,7 @@ To use the Firewall feature:
 
 1. Click **Add rule** to add additional rules, if you have any to add.
 
+   Click the red **x** next to any rule you want to delete.
+
 1. Once you're finished adding and modifying rules, click **Update** to apply
    your changes.
