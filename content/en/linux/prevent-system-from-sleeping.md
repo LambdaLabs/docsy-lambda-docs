@@ -8,6 +8,6 @@ tags:
 To prevent your system from going to sleep or suspending, run:
 
 ```bash
-sudo systemctl mask hybernate.target hybrid-sleep.target \
-  suspend-then-hybernate.target sleep.target suspend.target
+sudo systemctl mask hibernate.target hybrid-sleep.target \
+  suspend-then-hibernate.target sleep.target suspend.target
 ```
