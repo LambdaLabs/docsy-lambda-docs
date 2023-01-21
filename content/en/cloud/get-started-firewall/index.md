@@ -66,6 +66,23 @@ To use the Firewall feature:
    To allow incoming traffic from any source, set **Source** to `0.0.0.0/0`.
    {{% /alert %}}
 
+   {{% alert title="Tip" color="success" %}}
+   To allow incoming traffic only from your computer:
+
+   1. Learn your public IP address by visiting
+      [What Is My IP Address](https://ifconfig.me/).
+
+      **Note:** On most home networks, all computers and devices share the
+      same public IP address, even though they all have a unique private IP
+      address.
+
+      Also, most home networks have a dynamically assigned public IP address,
+      meaning the IP address can change. If your public IP address changes,
+      you'll need to update your firewall rule.
+
+   1. Set **Source** to your public IP address.
+   {{% /alert %}}
+
 1. Click **Add rule** to add additional rules, if you have any to add.
 
    Click the <span style="color:red;font-weight:bold">x</span> next to any rule you want to delete.
