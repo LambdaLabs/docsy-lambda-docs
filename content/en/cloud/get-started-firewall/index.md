@@ -59,8 +59,8 @@ To use the Firewall feature:
 
    - **Source** can be:
 
-     - A single IP address, for example, `192.0.2.1`.
-     - A range of IP addresses in CIDR notation, for example, `192.0.2.0/24`.
+     - A single IP address, for example, `203.0.113.1`.
+     - A range of IP addresses in CIDR notation, for example, `203.0.113.0/24`.
 
    {{% alert title="Tip" color="success" %}}
    To allow incoming traffic from any source, set **Source** to `0.0.0.0/0`.
