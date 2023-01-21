@@ -38,12 +38,19 @@ To use the Firewall feature:
    to add or modify. Use the **Description** field to specify the purpose of
    the rule.
 
-   **Protocol** can be **All** (both TCP and UDP), **TCP**, or **UDP**.
+   - **Protocol** can be **All** (both TCP and UDP), **TCP**, or **UDP**.
 
-   **Port range** can be:
+     - Most services, such as web servers and mail servers, use TCP.
+     - Some services, such as OpenVPN (by default), use UDP.
 
-   - A single port, for example, `8080`.
-   - A range of ports, for example, `8080-8081`.
+   {{% alert title="Tip" color="success" %}}
+   In most cases, it's safe to set **Protocol** to **All**.
+   {{% /alert %}}
+
+   - **Port range** can be:
+
+     - A single port, for example, `8080`.
+     - A range of ports, for example, `8080-8081`.
 
    {{% alert title="Warning" color="warning" %}}
    If you don't have a rule to allow incoming traffic to port TCP/22, **you won't
