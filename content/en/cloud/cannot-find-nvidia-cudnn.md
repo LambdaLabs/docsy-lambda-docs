@@ -13,7 +13,7 @@ Unfortunately, the
 [NVIDIA cuDNN license](https://docs.nvidia.com/deeplearning/cudnn/sla/index.html)
 limits how cuDNN can be used on our instances.
 
-On our instances, cuDNN can only be used by the PyTorch framework and
+On our instances, cuDNN can only be used by the PyTorch® framework and
 TensorFlow library installed as part of
 [Lambda Stack](https://lambdalabs.com/lambda-stack-deep-learning-software).
 
