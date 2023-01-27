@@ -21,7 +21,7 @@ the market.
 With Lambda GPU Cloud, you have:
 
 - [TensorFlow](https://www.tensorflow.org/),
-  [JupyterLab](https://jupyter.org/), [PyTorch](https://pytorch.org/), and
+  [JupyterLab](https://jupyter.org/), [PyTorch®](https://pytorch.org/), and
   other popular ML software pre-installed
 - [persistent storage]({{< relref "use-persistent-storage" >}}) to save your datasets and other files
 - root access to your instances via SSH
