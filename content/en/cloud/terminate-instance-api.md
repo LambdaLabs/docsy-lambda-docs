@@ -24,11 +24,7 @@ You can terminate an instance from the command line using the
    ```
 
    {{% alert title="Note" color="info" %}}
-   You can obtain the IDs of your instances from the
-   [Usage Dashboard](https://cloud.lambdalabs.com/usage).
-   
-   You can also
-   [use the API to obtain the IDs of your instances]({{< relref "list-running-instances" >}}).
+   [Use the API to obtain the IDs of your instances]({{< relref "list-running-instances" >}}).
    {{% /alert %}}
 
 3. Run the following command:
