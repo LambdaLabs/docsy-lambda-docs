@@ -318,7 +318,10 @@ A100 (40 GB SXM4)** instance.
 
 To begin generating images from example prompts:
 
-1. Click **Control Panel**.
+1. In the top navigation bar, click **Control Panel**.
+
+   {{< imgproc df-navbar Resize "300x" >}}{{< /imgproc >}}
+
 1. Under **Prompt File**, in the **Choose a prompt file** drop-down menu,
    choose either **example-random** or **example-standard**.
 
