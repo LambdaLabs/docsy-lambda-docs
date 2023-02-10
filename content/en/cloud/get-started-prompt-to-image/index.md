@@ -325,8 +325,8 @@ To begin generating images from example prompts:
 1. Under **Prompt File**, in the **Choose a prompt file** drop-down menu,
    choose either **example-random** or **example-standard**.
 
-Dream Factory will begin continuously generating images, which you can view by
-clicking **Gallery** in the top navigation bar.
+Dream Factory will begin continuously generating images. You can view these
+images by clicking **Gallery** in the top navigation bar.
 
 To learn how to create your own prompt files,
 [read Dream Factory's usage documentation](https://github.com/rbbrdckybk/dream-factory#usage).
