@@ -11,9 +11,9 @@ With [Lambda GPU Cloud](https://lambdalabs.com/service/gpu-cloud), you can
 begin generating images from prompts without having to buy expensive GPUs and
 other computer hardware.
 
-{{< imgproc elon-musk-sd Resize "256x" >}}{{< /imgproc >}}
-{{< imgproc mahatma-gandhi-sd Resize "256x" >}}{{< /imgproc >}}
-{{< imgproc woman-sd Resize "256x" >}}{{< /imgproc >}}
+{{< imgproc cat-in-shirt Resize "256x" >}}{{< /imgproc >}}
+{{< imgproc robot-lady Resize "256x" >}}{{< /imgproc >}}
+{{< imgproc square-robot Resize "256x" >}}{{< /imgproc >}}
 
 In this tutorial, you'll learn how to set up
 [AUTOMATIC1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
