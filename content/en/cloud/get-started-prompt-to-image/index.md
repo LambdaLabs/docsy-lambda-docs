@@ -89,10 +89,8 @@ bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusio
 
 Then, press **Enter** to run the command.
 
-This command will download and install
-[AUTOMATIC1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
-directly to your instance. The download and install will take a few minutes to
-complete.
+This command will download and install AUTOMATIC1111 directly to your
+instance. The download and install will take a few minutes to complete.
 
 When the installation completes, you'll see the following message:
 
