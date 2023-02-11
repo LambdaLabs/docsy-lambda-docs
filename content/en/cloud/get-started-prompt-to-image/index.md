@@ -264,7 +264,7 @@ that you'll use to run
    SD_LOCATION = /home/ubuntu/stable-diffusion-webui
    ```
 
-   This change tells Dream Factory where to find the stable-diffusion-webui
+   This change tells Dream Factory where to find AUTOMATIC1111 that
    you installed at the beginning of this tutorial.
 
    Change line 46 so it reads:
