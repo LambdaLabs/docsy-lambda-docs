@@ -1,0 +1,48 @@
+# *****************************************************************************************************
+# Dream Factory standard prompt file
+# created 2023-02-11 at 16:52:09 via the integrated prompt editor
+# *****************************************************************************************************
+# these are the default configuration parameters set in your config.txt file
+# you may override anything in this section if you wish, otherwise skip down to the [prompts] section(s) below
+[config]
+
+!MODE = standard                       # standard mode; queue all possible combinations of [prompts] below
+!DELIM = " "							# delimiter to use between prompt sections, default is space
+!REPEAT = yes							# repeat when all work finished (yes/no)?
+
+# in standard mode, you may put also embed any of the following config directives into 
+# the [prompt] sections below; they'll affect all prompts that follow the directive
+
+!WIDTH = 512							# output image width
+!HEIGHT = 512							# output image height
+!HIGHRES_FIX = no				        # fix for images significantly larger than 512x512, if enabled uses !STRENGTH setting
+!STEPS = 20							# number of steps, more may improve image but increase generation time
+!SAMPLER = Euler a             # sampler to use; press ctrl+h for reference
+!SAMPLES = 1					      	# number of images to generate per prompt
+!SCALE = 7.5							# guidance scale, increase for stricter prompt adherence
+!INPUT_IMAGE = 						# specify an input image to use as a generation starting point
+!STRENGTH = 5						# strength of input image influence (0-1, with 1 corresponding to least influence)
+!CKPT_FILE =                           # model to load, press ctrl+h for reference
+
+# optional integrated upscaling
+
+!USE_UPSCALE = no						# upscale output images?
+!UPSCALE_AMOUNT = 2.0					# upscaling factor
+!UPSCALE_CODEFORMER_AMOUNT = 0.0		# how visible codeformer enhancement is, 0-1
+!UPSCALE_GFPGAN_AMOUNT = 0.0			# how visible gfpgan enhancement is, 0-1
+!UPSCALE_KEEP_ORG = no				# keep the original non-upscaled image (yes/no)?
+
+# optional negative prompt
+
+!NEG_PROMPT = text, writing, watermark, caption, artist name, signature
+
+# *****************************************************************************************************
+# prompt section
+# *****************************************************************************************************
+[prompts]
+
+RAW photo, a cute puppy made out of metal, cyborg, cyberpunk style, ((intricate details)), hdr, ((intricate details, hyperdetailed)), cinematic shot, vignette, (high detailed skin:1.2), 8k uhd, dslr, high quality, film grain, Fujifilm XT3
+
+# put your prompts here; one per line
+# you may also add additional [prompt] sections below, see 'example-standard.prompts' for details
+
