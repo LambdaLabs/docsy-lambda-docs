@@ -331,6 +331,21 @@ images by clicking **Gallery** in the top navigation bar.
 To learn how to create your own prompt files,
 [read Dream Factory's usage documentation](https://github.com/rbbrdckybk/dream-factory#usage).
 
+{{% alert title="Tip" color="success" %}}
+<a href="robot-puppy.prompts" download>Here's the prompt file</a> used to generate the cute puppy image, below.
+
+{{< imgproc robot-puppy.jpg Resize "300x" >}}{{< /imgproc >}}
+
+To use the prompt file:
+
+In Jupyter Notebook, navigate to the
+**<svg xmlns="http://www.w3.org/2000/svg" width="16" viewBox="0 0 24 24" data-icon="ui-components:folder" data-icon-id="9b405ec1-c8d5-4b21-9756-55ad627d9ab4"><path class="jp-icon3 jp-icon-selectable" fill="#616161" d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"></path></svg> / dream-factory / prompts /** folder.
+
+Then, click
+<svg xmlns="http://www.w3.org/2000/svg" width="16" viewBox="0 0 24 24" data-icon="ui-components:file-upload"><g xmlns="http://www.w3.org/2000/svg" class="jp-icon3" fill="#616161"><path d="M9 16h6v-6h4l-7-7-7 7h4zm-4 2h14v2H5z"></path></g></svg>
+to upload the prompt file.
+{{% /alert %}}
+
 If you have questions about this tutorial, post them in the
 [Lambda community forum](https://deeptalk.lambdalabs.com/).
 
