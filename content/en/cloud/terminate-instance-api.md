@@ -5,7 +5,7 @@ tags:
 - API
 ---
 
-You can terminate an instance from the command line using the
+You can terminate instances from the command line using the
 [Cloud API](https://cloud.lambdalabs.com/api/v1/docs):
 
 1. [Generate an API key](https://cloud.lambdalabs.com/api-keys) if you haven't
