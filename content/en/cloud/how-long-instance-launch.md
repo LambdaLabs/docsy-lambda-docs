@@ -5,7 +5,7 @@ tags:
 - billing
 ---
 
-Single-GPU instance types usually take 3-5 minutes to launch.
+Single-GPU instances usually take 3-5 minutes to launch.
 
 Multi-GPU instances usually take 10-15 minutes to launch.
 
