@@ -1,18 +1,18 @@
 ---
-title: "How do I terminate an instance using the Cloud API?"
+title: "How do I restart an instance using the Cloud API?"
 type: docs
 tags:
 - API
 ---
 
-You can terminate instances from the command line using the
+You can restart instances from the command line using the
 [Cloud API](https://cloud.lambdalabs.com/api/v1/docs):
 
 1. [Generate an API key](https://cloud.lambdalabs.com/api-keys) if you haven't
    already generated one.
 
 2. Create a file that contains the
-   [necessary payload](https://cloud.lambdalabs.com/api/v1/docs#operation/terminateInstance).
+   [necessary payload](https://cloud.lambdalabs.com/api/v1/docs#operation/restartInstance).
    For example:
 
    ```json
@@ -30,7 +30,7 @@ You can terminate instances from the command line using the
 3. Run the following command:
 
    ```bash
-   curl -u API-KEY: https://cloud.lambdalabs.com/api/v1/instance-operations/terminate -d @INSTANCE-IDS -H "Content-Type: application/json" | jq .
+   curl -u API-KEY: https://cloud.lambdalabs.com/api/v1/instance-operations/restart -d @INSTANCE-IDS -H "Content-Type: application/json" | jq .
    ```
 
    Replace **API-KEY** with your actual API key. **Don't remove the trailing
