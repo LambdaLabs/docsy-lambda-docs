@@ -66,3 +66,35 @@ To generate a new SSH key pair:
 
    Run `chmod 400 my-generated-private-key.pem` to set the correct file
    permissions for your private key.
+
+# List the SSH keys saved in your account
+
+To list the SSH keys saved in your account,
+[generate an API key](https://cloud.lambdalabs.com/api-keys) if you don't
+already have one. Then, run the following command:
+
+```bash
+curl -u API-KEY: https://cloud.lambdalabs.com/api/v1/ssh-keys | jq .
+```
+
+Replace **API-KEY** with your actual API key. **Don't remove the trailing
+colon (:).**
+
+# Delete an SSH key from your account
+
+To delete an SSH key from your account,
+[generate an API key](https://cloud.lambdalabs.com/api-keys) if you don't
+already have one. Then, run the following command:
+
+```bash
+curl -u API-KEY: https://cloud.lambdalabs.com/api/v1/ssh-keys/SSH-KEY-ID | jq .
+```
+
+Replace **API-KEY** with your actual API key. **Don't remove the trailing
+colon (:).**
+
+Replace **SSH-KEY-ID** with the ID of the instance you want details about.
+
+{{% alert title="Note" color="info" %}}
+[Use the API to obtain the IDs of the SSH keys saved in your account]({{< relref "#list-the-ssh-keys-saved-in-your-account" >}}).
+{{% /alert %}}
