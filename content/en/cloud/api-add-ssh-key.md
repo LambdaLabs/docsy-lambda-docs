@@ -95,7 +95,7 @@ curl -u API-KEY: -X DELETE https://cloud.lambdalabs.com/api/v1/ssh-keys/SSH-KEY-
 Replace **API-KEY** with your actual API key. **Don't remove the trailing
 colon (:).**
 
-Replace **SSH-KEY-ID** with the ID of the instance you want details about.
+Replace **SSH-KEY-ID** with the ID of the SSH key you want to delete.
 
 {{% alert title="Note" color="info" %}}
 [Use the API to obtain the IDs of the SSH keys saved in your account]({{< relref "#list-the-ssh-keys-saved-in-your-account" >}}).
