@@ -89,7 +89,7 @@ To delete an SSH key from your account,
 already have one. Then, run the following command:
 
 ```bash
-curl -u API-KEY: https://cloud.lambdalabs.com/api/v1/ssh-keys/SSH-KEY-ID | jq .
+curl -u API-KEY: -X DELETE https://cloud.lambdalabs.com/api/v1/ssh-keys/SSH-KEY-ID
 ```
 
 Replace **API-KEY** with your actual API key. **Don't remove the trailing
