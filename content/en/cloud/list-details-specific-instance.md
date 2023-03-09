@@ -19,5 +19,7 @@ Replace **API-KEY** with your actual API key. **Don't remove the trailing
 colon (:).**
 
 Replace **INSTANCE-ID** with the ID of the instance you want details about.
-You can obtain the ID from the
-[Usage Dashboard](https://cloud.lambdalabs.com/usage).
+
+{{% alert title="Note" color="info" %}}
+[Use the API to obtain the IDs of your instances]({{< relref "list-running-instances" >}}).
+{{% /alert %}}
