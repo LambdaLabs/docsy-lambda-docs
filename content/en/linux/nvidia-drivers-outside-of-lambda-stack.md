@@ -16,3 +16,17 @@ sudo dpkg -i cuda-keyring_1.0-1_all.deb && \
 sudo apt update && \
 sudo apt -y install nvidia-headless-525 nvidia-utils-525 nvidia-fabricmanager-525
 ```
+
+{{% alert title="Note" color="info" %}}
+The above commands won't install CUDA.
+
+If you want to install NVIDIA drivers _and_ CUDA outside of Lambda Stack,
+instead run the following commands:
+
+```bash
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-keyring_1.0-1_all.deb && \
+sudo dpkg -i cuda-keyring_1.0-1_all.deb && \
+sudo apt update && \
+sudo apt -y install cuda-drivers
+```
+{{% /alert %}}
