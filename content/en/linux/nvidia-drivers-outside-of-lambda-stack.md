@@ -17,6 +17,12 @@ There are pros & cons to each option for installing NVIDIA drivers.
 
 ## Install NVIDIA drivers as part of Lambda Stack
 
+To install Lambda Stack, which contains NVIDIA drivers, run:
+
+```bash
+wget -nv -O- https://lambdalabs.com/install-lambda-stack.sh | I_AGREE_TO_THE_CUDNN_LICENSE=1 sh -
+```
+
 ### Pros
 
 - Entirely non-interactive, for easy deployment.
