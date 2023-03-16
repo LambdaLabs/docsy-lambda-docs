@@ -7,21 +7,19 @@ tags:
 - Lambda Stack
 ---
 
-You can install NVIDIA drivers outside of Lambda Stack by running the
-following commands:
+You can install NVIDIA drivers:
 
-```bash
-wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-keyring_1.0-1_all.deb && \
-sudo dpkg -i cuda-keyring_1.0-1_all.deb && \
-sudo apt update && \
-sudo apt -y install nvidia-headless-525 nvidia-utils-525 nvidia-fabricmanager-525
-```
+- [As part of Lambda Stack]({{< relref "#install-nvidia-drivers-as-part-of-lambda-stack" >}}).
+- [Outside of Lambda Stack, with CUDA]({{< relref "#install-nvidia-drivers-outside-of-lambda-stack-with-cuda" >}}).
+- [Outside of Lambda Stack, without CUDA]({{< relref "#install-nvidia-drivers-outside-of-lambda-stack-without-cuda" >}}).
 
-{{% alert title="Note" color="info" %}}
-The above commands won't install CUDA.
+There are pros & cons to each option for installing NVIDIA drivers.
 
-If you want to install NVIDIA drivers _and_ CUDA outside of Lambda Stack,
-instead run the following commands:
+## Install NVIDIA drivers as part of Lambda Stack
+
+## Install NVIDIA drivers outside of Lambda Stack, with CUDA
+
+To install NVIDIA drivers outside of Lambda Stack, _with_ CUDA, run:
 
 ```bash
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-keyring_1.0-1_all.deb && \
@@ -29,4 +27,14 @@ sudo dpkg -i cuda-keyring_1.0-1_all.deb && \
 sudo apt update && \
 sudo apt -y install cuda-drivers
 ```
-{{% /alert %}}
+
+## Install NVIDIA drivers outside of Lambda Stack, without CUDA
+
+To install NVIDIA drivers outside of Lambda Stack, _without_ CUDA, run:
+
+```bash
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-keyring_1.0-1_all.deb && \
+sudo dpkg -i cuda-keyring_1.0-1_all.deb && \
+sudo apt update && \
+sudo apt -y install nvidia-headless-525 nvidia-utils-525 nvidia-fabricmanager-525
+```
