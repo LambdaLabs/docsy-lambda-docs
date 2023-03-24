@@ -90,14 +90,14 @@ You can also use the Cloud API to
 Restart instances by clicking the checkboxes next to the instances you want to
 restart. Then, click **Restart** at the top-right of the dashboard.
 
-{{< imgproc restart-terminate Resize "200x" >}}{{< /imgproc >}}
+{{< imgproc restart-terminate Resize "300x" >}}{{< /imgproc >}}
 
 ### Terminate instances
 
 Terminate instances by clicking the checkboxes next to the instances you want
 to terminate. Then, click **Terminate** at the top-right of the dashboard.
 
-{{< imgproc restart-terminate Resize "200x" >}}{{< /imgproc >}}
+{{< imgproc restart-terminate Resize "300x" >}}{{< /imgproc >}}
 
 {{% alert title="Tip" color="success" %}}
 You can also
