@@ -36,6 +36,8 @@ As with other Lambda GPU Cloud on-demand instances,
 
    The **Add a demo** dialog will appear.
 
+   {{< imgproc add-a-demo Resize "400x" >}}{{< /imgproc >}}
+
 1. Under **Demo Source URL**, enter the URL of the Git repository containing
    your demo's source code.
 
