@@ -115,3 +115,10 @@ As with other Lambda GPU Cloud on-demand instances,
 1. Once your instance is launched and your demo is accessible, a link with
    your demo's name will appear under the **Demo** column. Click the link to
    access your demo.
+
+   {{% alert title="Tip" color="success" %}}
+   To see a gallery of all of your demos, at the top-right of the Demos
+   dashboard, click the **See your demos** button.
+
+   {{< imgproc see-your-demos Resize "300x" >}}{{< /imgproc >}}
+   {{% /alert %}}
