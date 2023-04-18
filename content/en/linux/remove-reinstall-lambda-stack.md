@@ -36,7 +36,7 @@ To remove and reinstall
      ```bash
      sudo apt -y update && \
      sudo apt -y install --no-install-recommends lambda-server && \
-     sudo apt -y install --no-install-recommends nvidia-headless-470-server && \
-     sudo apt -y install --no-install-recommends nvidia-fabricmanager-470 && \
+     sudo apt -y install --no-install-recommends nvidia-headless-525-server && \
+     sudo apt -y install --no-install-recommends nvidia-fabricmanager-525 && \
      sudo apt -y install lambda-stack-cuda
      ```
