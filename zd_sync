@@ -25,6 +25,16 @@
 
 set -e
 
+# Tip: If you use 1Password to store your API credentials, you can install the
+#      1Password CLI[3] and set the below API variables to, for example:
+# 
+#          $(op read 'op://Private/Lambda Zendesk API key/username')
+# 
+#      This is safer than setting the variables in plain text.
+# 
+# [3] https://1password.com/downloads/command-line/
+# 
+
 readonly API_EMAIL=""
 readonly API_TOKEN=""
 readonly API_URL=""
