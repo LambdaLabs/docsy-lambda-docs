@@ -111,7 +111,7 @@ curl "${API_URL}/sections/${SECTION}/articles.json" \
      --silent \
      --data @"${ARTICLE_JSON_FILE}" \
      --header "Content-Type: application/json" \
-     --user "${API_EMAIL}/${API_TOKEN}" > "${PUBL_ARTICLE_JSON_FILE}"
+     --user "${API_EMAIL}/token:${API_TOKEN}" > "${PUBL_ARTICLE_JSON_FILE}"
 
 echo -e "Article published successfully.\n"
 jq . < "${PUBL_ARTICLE_JSON_FILE}"
