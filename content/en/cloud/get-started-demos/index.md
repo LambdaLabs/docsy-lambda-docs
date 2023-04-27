@@ -112,6 +112,15 @@ As with other Lambda GPU Cloud on-demand instances,
    [Your new instance will take several minutes to launch]({{< relref "how-long-instance-launch" >}})
    and for your demo to become accessible.
 
+   {{% alert title="Note" color="info" %}}
+   The link to your demo might temporarily appear in the Instances dashboard,
+   then disappear. This is expected behavior and doesn't mean your instance or
+   demo is broken.
+
+   The models used by demos are often several gigabytes in size, and can take 5
+   to 15 minutes to download and load.
+   {{% /alert %}}
+
    <!-- TODO: Update how-long-instance-launch to mention Demos. -->
 
 1. Once your instance is launched and your demo is accessible, a link with
