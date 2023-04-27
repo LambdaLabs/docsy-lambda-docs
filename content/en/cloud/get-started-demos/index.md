@@ -52,15 +52,19 @@ As with other Lambda GPU Cloud on-demand instances,
    following:
 
    ```yaml
+   ---
    sdk: gradio
    sdk_version: GRADIO-VERSION
    app_file: PATH-TO-APP-FILE
+   ---
    ```
 
    Replace **GRADIO-VERSION** with the version of Gradio your demo is built
    with, for example, `3.24.1`.
 
-   Replace **PATH-TO-APP-FILE** with the path to your Gradio application file,
+   Replace **PATH-TO-APP-FILE** with the path to your Gradio application file
+   (the file containing the Gradio
+   [interface code](https://gradio.app/docs/#interface)),
    relative to the root of your Git repository. For example, if your Gradio
    application file is named `app.py` and is located in the root directory of
    your Git repository, replace **PATH-TO-APP-FILE** with `app.py`.
