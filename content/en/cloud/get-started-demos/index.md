@@ -69,12 +69,6 @@ As with other Lambda GPU Cloud on-demand instances,
    the Demos feature.
    {{% /alert %}}
 
-   <!-- TODO: Add info WRT:
-                1. Repo validation
-                2. AUTOMATIC1111
-                3. GitHub/GitLab/HF
-   -->
-
    {{% alert title="Tip" color="success" %}}
    If you don't yet have your own demo, you can try the Demos feature using
    the
