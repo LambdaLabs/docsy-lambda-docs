@@ -99,6 +99,11 @@ As with other Lambda GPU Cloud on-demand instances,
 
    <!-- TODO: Add what the description is used for. -->
 
+   {{% alert title="Note" color="info" %}}
+   You can't change the name or description of your demo once you add it.
+   However, you can delete your demo then add it again.
+   {{% /alert %}}
+
 1. Click **Add demo** to save your demo to your Lambda GPU Cloud account.
 
 ## Host your demo on a new instance
