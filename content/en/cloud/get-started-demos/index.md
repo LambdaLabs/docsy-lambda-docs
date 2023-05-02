@@ -136,3 +136,20 @@ As with other Lambda GPU Cloud on-demand instances,
 
    {{< imgproc see-your-demos Resize "300x" >}}{{< /imgproc >}}
    {{% /alert %}}
+
+## Troubleshooting demos
+
+If you experience trouble accessing your demo, the log files can be helpful
+for troubleshooting.
+
+To view the log files, SSH into your instance or open a terminal in
+[Jupyter Notebook]({{< relref "open-jupyter-notebook" >}}), then run:
+
+```bash
+sudo bash -c 'for f in /root/virt-sysprep-firstboot.log ~demo/bootstrap.log; do printf "### BEGIN $f\n\n"; cat $f; printf "\n### END $f\n\n"; done > demos_debug_logs.txt; printf "### BEGIN journalctl -u lambda-demos.service\n\n$(journalctl -u lambda-demos.service)\n\n### END journalctl -u lambda-demos.service" >> demos_debug_logs.txt'
+```
+
+This command will produce a file named `demos_debug_logs.txt` containing the
+logs for the Demos feature. You can review the logs from within your instance
+by running `less demos_debug_logs.txt`. Alternatively, you can download the
+file locally to review or share.
