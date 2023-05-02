@@ -142,6 +142,31 @@ As with other Lambda GPU Cloud on-demand instances,
 If you experience trouble accessing your demo, the Demos logs can be helpful
 for troubleshooting.
 
+For example, this log shows that the demo's `README.md` file doesn't have the
+required `sdk`, `sdk_version`, and `app_file` properties:
+
+```
+### BEGIN /home/demo/bootstrap.log
+
+Cloning into '/home/demo/source'...
+Traceback (most recent call last):
+  File "<stdin>", line 17, in <module>
+  File "<stdin>", line 15, in load
+  File "pydantic/main.py", line 526, in pydantic.main.BaseModel.parse_obj
+  File "pydantic/main.py", line 341, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 3 validation errors for Metadata
+sdk
+  field required (type=value_error.missing)
+sdk_version
+  field required (type=value_error.missing)
+app_file
+  field required (type=value_error.missing)
+Created symlink /etc/systemd/system/multi-user.target.wants/lambda-demos-error-server.service → /etc/systemd/system/lambda-demos-error-server.service.
+Bootstrap failed: misconfigured
+
+### END /home/demo/bootstrap.log
+```
+
 To view the Demos log files, SSH into your instance or open a terminal in
 [Jupyter Notebook]({{< relref "open-jupyter-notebook" >}}), then run:
 
