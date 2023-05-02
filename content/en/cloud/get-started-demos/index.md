@@ -25,7 +25,7 @@ on-demand instance. For example, you can SSH into the instance and
 instance.
 
 As with other Lambda GPU Cloud on-demand instances,
-[you're billed for all of the time the instance hosting your demo is running]({{< relref "on-demand-instance-invoicing" >}}).
+[you're billed for all of the time the instance for your demo is running]({{< relref "on-demand-instance-invoicing" >}}).
 {{% /alert %}}
 
 ## Add a demo to your Lambda GPU Cloud account
