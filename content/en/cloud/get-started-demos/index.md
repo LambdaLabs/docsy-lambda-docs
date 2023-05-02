@@ -139,10 +139,10 @@ As with other Lambda GPU Cloud on-demand instances,
 
 ## Troubleshooting demos
 
-If you experience trouble accessing your demo, the log files can be helpful
-for troubleshooting.
+If you experience trouble accessing your demo, the Demos log files can be
+helpful for troubleshooting.
 
-To view the log files, SSH into your instance or open a terminal in
+To view the Demos log files, SSH into your instance or open a terminal in
 [Jupyter Notebook]({{< relref "open-jupyter-notebook" >}}), then run:
 
 ```bash
