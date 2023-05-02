@@ -124,8 +124,6 @@ As with other Lambda GPU Cloud on-demand instances,
    to 15 minutes to download and load.
    {{% /alert %}}
 
-   <!-- TODO: Update how-long-instance-launch to mention Demos. -->
-
 1. Once your instance is launched and your demo is accessible, a link with
    your demo's name will appear under the **Demo** column. Click the link to
    access your demo.
