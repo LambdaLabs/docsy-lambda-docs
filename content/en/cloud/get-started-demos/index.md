@@ -97,7 +97,9 @@ As with other Lambda GPU Cloud on-demand instances,
 
 1. (Optional) Under **Description**, enter a description for your demo.
 
-   <!-- TODO: Add what the description is used for. -->
+   The description shows under the name of your demo in your library of demos.
+   If your demo is public, the description also shows under the name of your
+   demo in the Lambda library of public models.
 
    {{% alert title="Note" color="info" %}}
    You can't change the name or description of your demo once you add it.
