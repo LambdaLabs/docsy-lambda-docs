@@ -172,6 +172,28 @@ Bootstrap failed: misconfigured
 ### END /home/demo/bootstrap.log
 ```
 
+This log shows that the demo isn't a Gradio app:
+
+```
+### BEGIN /home/demo/bootstrap.log
+
+Cloning into '/home/demo/source'...
+Traceback (most recent call last):
+  File "<stdin>", line 17, in <module>
+  File "<stdin>", line 15, in load
+  File "pydantic/main.py", line 526, in pydantic.main.BaseModel.parse_obj
+  File "pydantic/main.py", line 341, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 2 validation errors for Metadata
+sdk
+  unexpected value; permitted: 'gradio' (type=value_error.const; given=docker; permitted=('gradio',))
+sdk_version
+  field required (type=value_error.missing)
+Created symlink /etc/systemd/system/multi-user.target.wants/lambda-demos-error-server.service → /etc/systemd/system/lambda-demos-error-server.service.
+Bootstrap failed: misconfigured
+
+### END /home/demo/bootstrap.log
+```
+
 To view the Demos log files, SSH into your instance or open a terminal in
 [Jupyter Notebook]({{< relref "open-jupyter-notebook" >}}), then run:
 
