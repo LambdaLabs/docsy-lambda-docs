@@ -147,7 +147,30 @@ uses only one of the GPUs.
 If you experience trouble accessing your demo, the Demos logs can be helpful
 for troubleshooting.
 
-Here are some examples of problems and how they show in logs:
+To view the Demos log files, SSH into your instance or open a terminal in
+[Jupyter Notebook]({{< relref "open-jupyter-notebook" >}}), then run:
+
+```bash
+sudo bash -c 'for f in /root/virt-sysprep-firstboot.log ~demo/bootstrap.log; do printf "### BEGIN $f\n\n"; cat $f; printf "\n### END $f\n\n"; done > demos_debug_logs.txt; printf "### BEGIN journalctl -u lambda-demos.service\n\n$(journalctl -u lambda-demos.service)\n\n### END journalctl -u lambda-demos.service" >> demos_debug_logs.txt'
+```
+
+This command will produce a file named `demos_debug_logs.txt` containing the
+logs for the Demos feature. You can review the logs from within your instance
+by running `less demos_debug_logs.txt`. Alternatively, you can download the
+file locally to review or share.
+
+{{% alert title="Note" color="info" %}}
+The [Lambda Support](https://lambdalabs.com/support) team provides only basic
+support for the Demos feature. However, assistance might be available in the
+[community forum](https://deeptalk.lambdalabs.com/).
+
+If you're experiencing problems using the Demos feature, running the above
+command and
+[providing the `demos_debug_logs.txt` file to the Support team](https://support.lambdalabs.com/hc/en-us/requests/new)
+can help with future improvements to the Demos feature.
+{{% /alert %}}
+
+Here are some examples of how problems present in logs:
 
 ### Misconfigured README.md file
 
@@ -194,26 +217,3 @@ Bootstrap failed: misconfigured
 
 ### END /home/demo/bootstrap.log
 ```
-
-To view the Demos log files, SSH into your instance or open a terminal in
-[Jupyter Notebook]({{< relref "open-jupyter-notebook" >}}), then run:
-
-```bash
-sudo bash -c 'for f in /root/virt-sysprep-firstboot.log ~demo/bootstrap.log; do printf "### BEGIN $f\n\n"; cat $f; printf "\n### END $f\n\n"; done > demos_debug_logs.txt; printf "### BEGIN journalctl -u lambda-demos.service\n\n$(journalctl -u lambda-demos.service)\n\n### END journalctl -u lambda-demos.service" >> demos_debug_logs.txt'
-```
-
-This command will produce a file named `demos_debug_logs.txt` containing the
-logs for the Demos feature. You can review the logs from within your instance
-by running `less demos_debug_logs.txt`. Alternatively, you can download the
-file locally to review or share.
-
-{{% alert title="Note" color="info" %}}
-The [Lambda Support](https://lambdalabs.com/support) team provides only basic
-support for the Demos feature. However, assistance might be available in the
-[community forum](https://deeptalk.lambdalabs.com/).
-
-If you're experiencing problems using the Demos feature, running the above
-command and
-[providing the `demos_debug_logs.txt` file to the Support team](https://support.lambdalabs.com/hc/en-us/requests/new)
-can help with future improvements to the Demos feature.
-{{% /alert %}}
