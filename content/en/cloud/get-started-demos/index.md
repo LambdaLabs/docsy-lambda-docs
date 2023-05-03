@@ -28,6 +28,11 @@ As with other Lambda GPU Cloud on-demand instances,
 [you're billed for all of the time the instance for your demo is running]({{< relref "on-demand-instance-invoicing" >}}).
 {{% /alert %}}
 
+{{% alert title="Note" color="info" %}}
+The Demos feature can be hosted on multi-GPU instance types. However, Demos
+uses only one of the GPUs.
+{{% /alert %}}
+
 ## Add a demo to your Lambda GPU Cloud account
 
 1. In the left sidebar of the
