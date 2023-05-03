@@ -205,3 +205,14 @@ This command will produce a file named `demos_debug_logs.txt` containing the
 logs for the Demos feature. You can review the logs from within your instance
 by running `less demos_debug_logs.txt`. Alternatively, you can download the
 file locally to review or share.
+
+{{% alert title="Note" color="info" %}}
+The [Lambda Support](https://lambdalabs.com/support) team provides only basic
+support for the Demos feature. However, assistance might be available in the
+[community forum](https://deeptalk.lambdalabs.com/).
+
+If you're experiencing problems using the Demos feature, running the above
+command and
+[providing the `demos_debug_logs.txt` file to the Support team](https://support.lambdalabs.com/hc/en-us/requests/new)
+can help with future improvements to the Demos feature.
+{{% /alert %}}
