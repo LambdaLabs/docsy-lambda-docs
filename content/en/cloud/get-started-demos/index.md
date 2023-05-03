@@ -147,8 +147,9 @@ uses only one of the GPUs.
 If you experience trouble accessing your demo, the Demos logs can be helpful
 for troubleshooting.
 
-For example, this log shows that the demo's `README.md` file doesn't have the
-required `sdk`, `sdk_version`, and `app_file` properties:
+Here are some examples of problems and how they show in logs:
+
+### Misconfigured README.md file
 
 ```
 ### BEGIN /home/demo/bootstrap.log
@@ -172,7 +173,7 @@ Bootstrap failed: misconfigured
 ### END /home/demo/bootstrap.log
 ```
 
-This log shows that the demo isn't a Gradio app:
+### Not a Gradio app
 
 ```
 ### BEGIN /home/demo/bootstrap.log
