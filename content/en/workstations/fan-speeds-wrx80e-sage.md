@@ -15,8 +15,8 @@ These instructions are only for workstations using an
 [ASUS Pro WS WRX80E-SAGE SE WIFI](https://www.asus.com/motherboards-components/motherboards/workstation/pro-ws-wrx80e-sage-se-wifi/)
 motherboard.
 
-Before proceeding with these instructions, run `dmidecode XXX` to confirm your
-workstation uses the above motherboard. You should see: `XXX`.
+Before proceeding with these instructions, run `sudo dmidecode -t 2 | grep Name` to confirm your
+workstation uses the above motherboard. You should see: `Product Name: Pro WS WRX80E-SAGE SE`.
 {{% /alert %}}
 
 First, install `ipmitool` by running:
