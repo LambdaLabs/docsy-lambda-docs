@@ -10,7 +10,7 @@ You can set baseline fan speeds for your workstation using `ipmitool`. Once
 baseline fan speeds are set, you can fine-tune the fan speeds in the web-based
 IPMI interface.
 
-{{% alert title="Warning" color="warning" %}}
+{{% alert title="Note" color="info" %}}
 These instructions are only for workstations using an
 [ASUS Pro WS WRX80E-SAGE SE WIFI](https://www.asus.com/motherboards-components/motherboards/workstation/pro-ws-wrx80e-sage-se-wifi/)
 motherboard.
