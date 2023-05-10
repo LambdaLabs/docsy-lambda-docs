@@ -7,6 +7,13 @@ aliases:
 - faq/network-bandwidth
 ---
 
+## Utah, USA region (us-west-3)
+
+The bandwidth between instances in our Utah, USA region (us-west-3) can be up
+to 200 Gbps.
+
+Bandwidth to the Internet can be up to 20 Gbps.
+
 ## Texas, USA region (us-south-1)
 
 The bandwidth between instances in our Texas, USA region (us-south-1) can be
