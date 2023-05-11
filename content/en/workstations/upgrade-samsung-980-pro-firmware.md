@@ -41,7 +41,7 @@ cd root/fumagician && ./fumagician
 The above command mounts the firmware upgrade ISO, extracts the firmware
 upgrade, and launches the upgrade.
 
-After the firmware upgrade completes, restart your computer. 
+After the firmware upgrade completes, restart your computer.
 
 Run `sudo smartctl -a /dev/nvme0` to confirm your SSD is using the new
 firmware.
