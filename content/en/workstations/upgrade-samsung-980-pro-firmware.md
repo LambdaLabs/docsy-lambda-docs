@@ -20,7 +20,7 @@ If your SSD is using the 3B2QGXA7 firmware, it's recommended that you upgrade
 the firmware as soon as possible.
 {{% /alert %}}
 
-First, download the latest firmware version ISO from Samsung's website by
+First, download the latest firmware ISO from Samsung's website by
 running:
 
 ```bash
