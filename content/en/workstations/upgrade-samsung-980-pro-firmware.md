@@ -1,5 +1,5 @@
 ---
-title: "How do I upgrade my Samsung 980 PRO SSD's firmware?"
+title: "How do I upgrade my Samsung 980 PRO NVMe SSD's firmware?"
 type: docs
 tags:
 - hardware
