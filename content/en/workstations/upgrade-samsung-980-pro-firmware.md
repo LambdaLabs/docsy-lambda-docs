@@ -13,8 +13,9 @@ Follow these instructions to upgrade your Samsung 980 PRO NVMe SSD's firmware.
 {{% alert title="Warning" color="warning" %}}
 [Samsung 980 PRO NVMe SSDs with the older 3B2QGXA7 firmware are known to fail](https://www.pugetsystems.com/support/guides/critical-samsung-ssd-firmware-update/).
 
-To know if your SSD is using the 3B2QGXA7 firmware, run `sudo smartctl -a
-/dev/nvme0`.
+To know if your SSD is using the 3B2QGXA7 firmware, install the
+`smartmontools` package by running `sudo apt -y install smartmontools`. Then,
+run `sudo smartctl -a /dev/nvme0`.
 
 If your SSD is using the 3B2QGXA7 firmware, it's recommended that you upgrade
 the firmware as soon as possible.
