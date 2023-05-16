@@ -31,6 +31,9 @@ As with other Lambda GPU Cloud on-demand instances,
 {{% alert title="Note" color="info" %}}
 The Demos feature can be hosted on multi-GPU instance types. However, Demos
 uses only one of the GPUs.
+
+<!-- TODO: Remove the below sentence when it's no longer true. -->
+Also, demos currently can't be hosted on H100 instances.
 {{% /alert %}}
 
 ## Add a demo to your Lambda GPU Cloud account
