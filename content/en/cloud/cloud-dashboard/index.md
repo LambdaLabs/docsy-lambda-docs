@@ -19,6 +19,7 @@ From the dashboard, you can:
 - [Create and manage persistent storage file systems]({{< relref "#create-and-manage-persistent-storage-file-systems" >}})
 - [Add, generate, and delete SSH keys]({{< relref "#add-generate-and-delete-ssh-keys" >}})
 - [Generate and delete API keys]({{< relref "#generate-and-delete-api-keys" >}})
+- [Use the Demos feature]({{< relref "#use-the-demos-feature" >}})
 - [View usage]({{< relref "#view-usage" >}})
 - [Manage a Team]({{< relref "#manage-a-team" >}})
 - [Modify account settings]({{< relref "#modify-account-settings" >}})
@@ -186,6 +187,14 @@ Then, click **Generate API Key** at the top-right of the dashboard.
 
 Delete API keys by clicking **Delete** at the far-right of the API key you
 want to delete.
+
+## Use the Demos feature
+
+Use the Demos feature by clicking
+[**Demos**](https://cloud.lambdalabs.com/edit-demos) in the left sidebar of
+the dashboard.
+
+{{< imgproc dashboard-sidebar Resize "200x" >}}{{< /imgproc >}}
 
 ## View usage
 
