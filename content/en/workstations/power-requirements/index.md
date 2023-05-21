@@ -22,15 +22,19 @@ the PSU.
 ## Power connector inlets and outlets
 
 This is what a **C14 inlet** looks like:
+
 {{< imgproc c14-inlet Resize "200x" >}}{{< /imgproc >}}
 
 This is what a **C13 outlet** looks like:
+
 {{< imgproc c13-outlet Resize "200x" >}}{{< /imgproc >}}
 
 This is what a **C20 inlet** looks like:
+
 {{< imgproc c20-inlet Resize "200x" >}}{{< /imgproc >}}
 
 This is what a **C19 outlet** looks like:
+
 {{< imgproc c19-outlet Resize "200x" >}}{{< /imgproc >}}
 
 ## Power cord plugs and receptacles
