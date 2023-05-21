@@ -19,7 +19,8 @@ the PSU.
 | Super Flower | SF-1600F14HT      | 1600    | 115-240      | 17-10       | 60/50          | C20/C19      |
 | Super Flower | SF-2000F14HP      | 2000    | 200-240      | 15          | 50             | C20/C19      |
 
-{{% alert title="Tip" color="success" %}}
+## Power connector inlets and outlets
+
 This is what a **C14 inlet** looks like:
 {{< imgproc c14-inlet Resize "200x" >}}{{< /imgproc >}}
 
