@@ -78,10 +78,10 @@ in the picture, below.
 On request, a C19-C20 power cord can be substituted for use with power
 distribution units (PDUs) commonly found in data centers.
 
-## Uninterruptible Power Supplies (UPS)
+## Uninterruptible Power Supplies (UPSs)
 
 {{% alert title="Warning" color="warning" %}}
 Lambda workstations are high-performance systems and use a large amount of
 power. For this reason, **Lambda workstations can't be used with
-Uninterruptible Power Supplies (UPS, or battery backups)**.
+Uninterruptible Power Supplies (UPSs, or battery backups)**.
 {{% /alert %}}
