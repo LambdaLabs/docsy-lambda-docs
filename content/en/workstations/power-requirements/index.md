@@ -53,6 +53,9 @@ which look like this:
 
 {{< imgproc 20A-15A-outlets Resize "400x" >}}{{< /imgproc >}}
 
+On request, a C13-C14 power cord can be substituted for use with power
+distribution units (PDUs) commonly found in data centers.
+
 ### SF-1600F14HT 1600W PSU
 
 For customers in North America, the SF-1600F14HT 1600W PSU power cord uses a
@@ -61,6 +64,9 @@ the receptacle on the right in the picture, below.
 
 {{< imgproc 20A-15A-outlets Resize "400x" >}}{{< /imgproc >}}
 
+On request, a C19-C20 power cord can be substituted for use with power
+distribution units (PDUs) commonly found in data centers.
+
 ### SF-2000F14HP 2000W PSU
 
 For customers in North America, the SF-2000F14HP 2000W PSU power cord uses
@@ -68,3 +74,6 @@ NEMA 6-20 or NEMA 6-15 connectors, which look like the ones in the third row
 in the picture, below.
 
 {{< imgproc NEMA-connectors Resize "400x" >}}{{< /imgproc >}}
+
+On request, a C19-C20 power cord can be substituted for use with power
+distribution units (PDUs) commonly found in data centers.
