@@ -14,7 +14,7 @@ workstation's motherboard.
 There's a known issue where Gen 4 M.2 NVMe drives experience slow performance
 and errors when installed into the **M.2_1** slot in ASUS Pro WS WRX80E-SAGE
 SE WIFI motherboards, which are used in Lambda workstations. The manufacturer
-of the motherboard, ASUS, has been notified of the issue.
+of the motherboard, ASUS, is aware of the issue.
 
 Until ASUS releases a BIOS update that fixes the issue, you can work around
 the issue:
