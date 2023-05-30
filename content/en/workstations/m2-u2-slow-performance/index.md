@@ -17,7 +17,7 @@ SE WIFI motherboards, which are used in Lambda workstations. The manufacturer
 of the motherboard, ASUS, is aware of the issue.
 
 Until ASUS releases a BIOS update that fixes the issue, you can work around
-the issue:
+the issue, depending on your workstation's drive configuration:
 
 - If you have only 1x M.2 NVMe drive in your workstation, move the drive from
   slot **M.2_1** to slot **M.2_2**.
