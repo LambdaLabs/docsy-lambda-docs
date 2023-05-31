@@ -211,12 +211,6 @@ enable = false
     url = "https://lambdalabs.com/"
 
 [[menu.main]]
-    name = "Knowledge Base"
-    weight = 60
-    url = "https://support.lambdalabs.com/"
-    post = "&nbsp;<i class='fas fa-external-link-alt'></i>"
-
-[[menu.main]]
     name = "Forum"
     weight = 70
     url = "https://deeptalk.lambdalabs.com/"
