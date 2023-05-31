@@ -7,7 +7,7 @@ tags:
 ---
 
 The [Firewall feature](https://cloud.lambdalabs.com/firewall) allows you to
-configure firewall rules to restrict incoming connections to your instances.
+configure firewall rules to restrict incoming traffic to your instances.
 
 {{% alert title="Note" color="info" %}}
 Firewall rules configured using the Firewall feature apply to all of your
