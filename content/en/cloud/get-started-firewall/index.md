@@ -32,60 +32,43 @@ To use the Firewall feature:
 1. Next to **Inbound Rules**, click **Edit** to configure incoming TCP and UDP
    traffic rules.
 
-   {{< imgproc inbound-rules Resize "400x" >}}{{< /imgproc >}}
+   {{< imgproc inbound-rules Resize "800x" >}}{{< /imgproc >}}
 
-   Set the **Protocol**, **Port range**, and **Source** for the rule you want
-   to add or modify. Use the **Description** field to specify the purpose of
-   the rule.
+   In the drop-down menu under **Type**, select:
 
-   - **Protocol** can be **All** (both TCP and UDP), **TCP**, or **UDP**.
-
-     - Most services, such as web servers and mail servers, use TCP.
-     - Some services, such as OpenVPN (by default), use UDP.
-
-   {{% alert title="Tip" color="success" %}}
-   In most cases, it's safe to set **Protocol** to **All**.
-   {{% /alert %}}
-
-   - **Port range** can be:
-
-     - A single port, for example, `8080`.
-     - A range of ports, for example, `8080-8081`.
+   - **Custom TCP** to manually configure a rule to allow incoming TCP traffic.
+   - **Custom UDP** to manually configure a rule to allow incoming UDP traffic.
+   - **HTTPS** to automatically configure a rule to allow incoming HTTPS traffic.
+   - **SSH** to automatically configure a rule to allow incoming SSH traffic.
+   - **All TCP** to automatically configure a rule to allow all incoming TCP traffic.
+   - **All UDP** to automatically configure a rule to allow all incoming UDP traffic.
 
    {{% alert title="Warning" color="warning" %}}
-   If you don't have a rule to allow incoming traffic to port TCP/22, **you won't
-   be able to access your instances using SSH**.
+   If you don't have a rule to allow incoming traffic to port TCP/22, **you
+   won't be able to access your instances using SSH**.
    {{% /alert %}}
 
-   - **Source** can be:
+   In the **Source** field, either:
 
-     - A single IP address, for example, `203.0.113.1`.
-     - A range of IP addresses in CIDR notation, for example, `203.0.113.0/24`.
+   - Click the 🔎 to automatically enter your current IP address.
+   - Enter a single IP address, for example, `203.0.113.1`.
+   - Enter an IP address range in CIDR notation, for example,
+     `203.0.113.0/24`.
 
-   {{% alert title="Tip" color="success" %}}
-   To allow incoming traffic from any source, set **Source** to `0.0.0.0/0`.
-   {{% /alert %}}
+   To allow incoming traffic from any source, enter `0.0.0.0/0`.
 
-   {{% alert title="Tip" color="success" %}}
-   To allow incoming traffic only from your computer:
+   If you choose **Custom TCP** or **Custom UDP**, enter a **Port range**.
 
-   1. Learn your public IP address by visiting
-      [What Is My IP Address](https://ifconfig.me/).
+   **Port range** can be:
 
-      **Note:** On most home networks, all computers and devices share the
-      same public IP address, even though they all have a unique private IP
-      address.
+   - A single port, for example, `8080`.
+   - A range of ports, for example, `8080-8081`.
 
-      Also, most home networks have a dynamically assigned public IP address,
-      meaning the IP address can change. If your public IP address changes,
-      you'll need to update your firewall rule.
+1. (Optional) Enter a **Description** for the rule.
 
-   1. Set **Source** to your public IP address.
-   {{% /alert %}}
+1. (Optional) Click **Add rule** to add additional rules.
 
-1. Click **Add rule** to add additional rules, if you have any to add.
+1. (Optional) Click the <span style="color:red;font-weight:bold">x</span> next
+   to any rule you want to delete.
 
-   Click the <span style="color:red;font-weight:bold">x</span> next to any rule you want to delete.
-
-1. Once you're finished adding and modifying rules, click **Update** to apply
-   your changes.
+1. Click **Update** to apply your changes.
