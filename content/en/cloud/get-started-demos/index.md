@@ -114,13 +114,14 @@ Also, demos currently can't be hosted on H100 instances.
    However, you can delete your demo then add it again.
    {{% /alert %}}
 
-1. Click **Add demo** to save your demo to your Lambda GPU Cloud account.
+1. Click **Add demo**, then follow the prompts to launch a new instance to
+   host your demo.
 
-## Host your demo on a new instance
-
-1. In the [Demos dashboard](https://cloud.lambdalabs.com/edit-demos), find the
-   row containing the demo you want to host, then click **Host**. Follow the
-   prompts to launch a new instance.
+   {{% alert title="Tip" color="success" %}}
+   To host a demo that's already added to your account, in the
+   [Demos dashboard](https://cloud.lambdalabs.com/edit-demos), find the row
+   containing the demo you want to host, then click **Host**.
+   {{% /alert %}}
 
    [Your new instance will take several minutes to launch]({{< relref "how-long-instance-launch" >}})
    and for your demo to become accessible.
