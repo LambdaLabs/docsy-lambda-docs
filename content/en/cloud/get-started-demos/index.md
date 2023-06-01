@@ -117,6 +117,8 @@ Also, demos currently can't be hosted on H100 instances.
 1. Click **Add demo**, then follow the prompts to launch a new instance to
    host your demo.
 
+   {{< imgproc instance-host-demo Resize "500x" >}}{{< /imgproc >}}
+
    {{% alert title="Tip" color="success" %}}
    To host a demo that's already added to your account, in the
    [Demos dashboard](https://cloud.lambdalabs.com/edit-demos), find the row
