@@ -12,8 +12,6 @@ dependencies.
 
 ## Conda virtual environments
 
-To create a conda virtual environment using Miniconda3:
-
 ### Download and install Miniconda3
 
 1. Download the latest version of Miniconda3 by running:
