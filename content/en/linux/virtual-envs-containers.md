@@ -71,7 +71,7 @@ dependencies.
    ```bash
    conda create -c pytorch -c nvidia -n pytorch+cuda_11-8 pytorch torchvision torchaudio pytorch-cuda=11.8
    ```
-2. Activate the conda virtual environment by running:
+1. Activate the conda virtual environment by running:
 
    ```bash
    conda activate NAME
