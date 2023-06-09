@@ -2,6 +2,9 @@
 title: "How do I use virtual environments and containers?"
 type: docs
 tags:
+- NVIDIA
+- PyTorch
+- TensorFlow
 - Ubuntu
 ---
 
