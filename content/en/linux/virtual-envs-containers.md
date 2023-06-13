@@ -94,6 +94,33 @@ using Docker.
 
 ### Create and activate a Python virtual environment
 
+{{% alert title="Note" color="info" %}}
+Locally installed packages can conflict with packages installed in virtual
+environments. For this reason, it's recommend to either move or uninstall
+locally installed packages.
+
+To move locally installed packages, run:
+
+```bash
+mv ~/.local ~/.local.bak && sudo mv /usr/local /usr/local.bak
+```
+
+To uninstall locally installed packages, first list the packages you need to
+uninstall by running:
+
+```bash
+pip -v list | grep "/usr/local"
+```
+
+Then, to uninstall the packages, run:
+
+```bash
+sudo pip uninstall PACKAGE1 PACKAGE2 …
+```
+
+Replace **PACKAGE1**, **PACKAGE2**, and so on, with the packages to uninstall.
+{{% /alert %}}
+
 1. Create a Python virtual environment using the `venv` module by running:
 
    ```bash
