@@ -246,4 +246,3 @@ to learn more about Python virtual environments.
 [See the Conda documentation](https://docs.conda.io/projects/conda/en/stable/commands.html)
 to learn more about how to manage conda virtual environments.
 {{% /alert %}}
-
