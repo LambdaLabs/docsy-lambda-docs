@@ -15,6 +15,8 @@ dependencies.
 
 ## Docker containers
 
+### Create and run a Docker container
+
 To create and run a Docker container:
 
 1. Add your user to the `docker` group by running:
