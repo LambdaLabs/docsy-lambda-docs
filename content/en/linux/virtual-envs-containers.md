@@ -90,6 +90,37 @@ See the [Docker documentation](https://docs.docker.com/) to learn more about
 using Docker.
 {{% /alert %}}
 
+## Python virtual environments
+
+### Create and activate a Python virtual environment
+
+1. Create a Python virtual environment using the `venv` module by running:
+
+   ```bash
+   python -m venv --system-site-packages NAME
+   ```
+
+   Replace **NAME** with the name you want to give to your virtual
+   environment.
+
+1. Activate the virtual environment by running:
+
+   ```bash
+   ./NAME/bin/activate
+   ```
+
+   Replace **NAME** with the name you gave your virtual environment in the
+   previous step.
+
+   Python packages you install in your virtual environment are isolated from
+   the base environment and other virtual environments.
+
+{{% alert title="Tip" color="success" %}}
+See the
+[Python venv module documentation](https://docs.python.org/3/library/venv.html)
+to learn more about Python virtual environments.
+{{% /alert %}}
+
 ## Conda virtual environments
 
 ### Download and install Miniconda3
