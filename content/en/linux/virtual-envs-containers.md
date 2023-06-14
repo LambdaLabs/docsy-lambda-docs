@@ -19,6 +19,16 @@ dependencies.
 
 To create and run a Docker container:
 
+1. Install Docker and
+   [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/overview.html)
+   by running:
+
+   ```bash
+   sudo apt -y update && sudo apt -y install docker.io nvidia-container-toolkit && \
+   sudo systemctl daemon-reload && \
+   sudo systemctl restart docker
+   ```
+
 1. Add your user to the `docker` group by running:
 
    ```bash
