@@ -121,6 +121,14 @@ sudo pip uninstall -y $(pip -v list | grep /usr/local | awk '{printf "%s ", $1}'
    Replace **NAME** with the name you want to give to your virtual
    environment.
 
+   {{% alert title="Note" color="info" %}}
+   The command, above, creates a virtual environment that has access to Lambda
+   Stack packages and packages installed from Ubuntu repositories.
+
+   To create a virtual environment that _doesn't_ have access to Lambda Stack
+   and Ubuntu packages, omit the `--system-site-packages` option.
+   {{% /alert %}}
+
 1. Activate the virtual environment by running:
 
    ```bash
