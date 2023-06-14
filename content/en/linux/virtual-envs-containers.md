@@ -96,29 +96,20 @@ using Docker.
 
 {{% alert title="Note" color="info" %}}
 Locally installed packages can conflict with packages installed in virtual
-environments. For this reason, it's recommend to either move or uninstall
-locally installed packages.
+environments. For this reason, it's recommended to uninstall locally installed
+packages by running:
 
-To move locally installed packages, run:
-
-```bash
-mv ~/.local ~/.local.bak && sudo mv /usr/local /usr/local.bak
-```
-
-To uninstall locally installed packages, first list the packages you need to
-uninstall by running:
+To uninstall packages installed locally for your user only, run:
 
 ```bash
-pip -v list | grep "/usr/local"
+pip uninstall -y $(pip -v list | grep ${HOME}/.local | awk '{printf "%s ", $1}')
 ```
 
-Then, to uninstall the packages, run:
+To uninstall packages installed locally, system-wide (for all users), run:
 
 ```bash
-sudo pip uninstall PACKAGE1 PACKAGE2 …
+sudo pip uninstall -y $(pip -v list | grep /usr/local | awk '{printf "%s ", $1}')
 ```
-
-Replace **PACKAGE1**, **PACKAGE2**, and so on, with the packages to uninstall.
 {{% /alert %}}
 
 1. Create a Python virtual environment using the `venv` module by running:
