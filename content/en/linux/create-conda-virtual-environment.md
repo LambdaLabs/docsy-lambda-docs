@@ -34,8 +34,8 @@ To create a conda virtual environment:
 
    {{% alert title="Tip" color="success" %}}
    For compatibility with the
-   [Python venv module](https://docs.python.org/3/library/venv.html), it's
-   recommended that you disable automatic activation of the conda base
+   [Python venv module]({{< relref "create-python-virtual-environment" >}}),
+   it's recommended that you disable automatic activation of the conda base
    environment by running:
 
    ```bash
