@@ -1,21 +1,12 @@
 ---
-title: "How do I use virtual environments and containers?"
+title: "How do I create a conda virtual environment?"
 type: docs
 tags:
-- NVIDIA
+- CUDA
 - PyTorch
-- TensorFlow
-- Ubuntu
 ---
 
-You can use [Miniconda3](https://docs.conda.io/en/latest/miniconda.html) to
-create conda virtual environments, and Docker to create containers, to install
-and maintain different versions of software packages and their respective
-dependencies.
-
-## Conda virtual environments
-
-### Download and install Miniconda3
+To create a conda virtual environment:
 
 1. Download the latest version of Miniconda3 by running:
 
