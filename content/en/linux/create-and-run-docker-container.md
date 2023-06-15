@@ -88,4 +88,7 @@ To create and run a Docker container:
 {{% alert title="Tip" color="success" %}}
 See the [Docker documentation](https://docs.docker.com/) to learn more about
 using Docker.
+
+You can also check out the Lambda blog post:
+[NVIDIA NGC Tutorial: Run A PyTorch Docker Container Using Nvidia-Container-Toolkit On Ubuntu](https://lambdalabs.com/blog/nvidia-ngc-tutorial-run-pytorch-docker-container-using-nvidia-container-toolkit-on-ubuntu).
 {{% /alert %}}
