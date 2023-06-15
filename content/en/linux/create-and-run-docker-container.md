@@ -36,7 +36,7 @@ To create and run a Docker container:
    container, by running:
 
    ```bash
-   docker run --gpus all -it --rm IMAGE COMMAND
+   docker run --gpus all -it IMAGE COMMAND
    ```
 
    Replace **IMAGE** with the URL to the image for the container you want to
@@ -49,7 +49,7 @@ To create and run a Docker container:
    and run a command to get the container's TensorFlow build information, run:
 
    ```bash
-   docker run --gpus all -it --rm nvcr.io/nvidia/tensorflow:23.05-tf2-py3 python -c "import tensorflow as tf ; sys_details = tf.sysconfig.get_build_info() ; print(sys_details)"
+   docker run --gpus all -it nvcr.io/nvidia/tensorflow:23.05-tf2-py3 python -c "import tensorflow as tf ; sys_details = tf.sysconfig.get_build_info() ; print(sys_details)"
    ```
 
    You should see output similar to the following:
