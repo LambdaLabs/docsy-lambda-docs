@@ -43,8 +43,6 @@ To create a conda virtual environment:
    ```
    {{% /alert %}}
 
-### Create and activate a conda virtual environment
-
 1. Create a conda virtual environment using Miniconda3 by running:
 
    ```bash
