@@ -3,24 +3,6 @@ title: "How do I create a Python virtual environment?"
 type: docs
 ---
 
-{{% alert title="Note" color="info" %}}
-Locally installed packages can conflict with packages installed in virtual
-environments. For this reason, it's recommended to uninstall locally installed
-packages by running:
-
-To uninstall packages installed locally for your user only, run:
-
-```bash
-pip uninstall -y $(pip -v list | grep ${HOME}/.local | awk '{printf "%s ", $1}')
-```
-
-To uninstall packages installed locally, system-wide (for all users), run:
-
-```bash
-sudo pip uninstall -y $(pip -v list | grep /usr/local | awk '{printf "%s ", $1}')
-```
-{{% /alert %}}
-
 1. Create a Python virtual environment using the `venv` module by running:
 
    ```bash
@@ -49,6 +31,24 @@ sudo pip uninstall -y $(pip -v list | grep /usr/local | awk '{printf "%s ", $1}'
 
    Python packages you install in your virtual environment are isolated from
    the base environment and other virtual environments.
+
+{{% alert title="Note" color="info" %}}
+Locally installed packages can conflict with packages installed in virtual
+environments. For this reason, it's recommended to uninstall locally installed
+packages by running:
+
+To uninstall packages installed locally for your user only, run:
+
+```bash
+pip uninstall -y $(pip -v list | grep ${HOME}/.local | awk '{printf "%s ", $1}')
+```
+
+To uninstall packages installed locally, system-wide (for all users), run:
+
+```bash
+sudo pip uninstall -y $(pip -v list | grep /usr/local | awk '{printf "%s ", $1}')
+```
+{{% /alert %}}
 
 {{% alert title="Tip" color="success" %}}
 See the
