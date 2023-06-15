@@ -8,7 +8,8 @@ tags:
 
 To create a conda virtual environment:
 
-1. Download the latest version of Miniconda3 by running:
+1. Download the latest version of
+   [Miniconda3](https://docs.conda.io/en/latest/miniconda.html) by running:
 
    ```bash
    curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
