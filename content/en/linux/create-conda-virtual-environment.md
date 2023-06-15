@@ -55,8 +55,8 @@ To create a conda virtual environment:
    virtual environment.
 
    (Optional) Replace **OPTIONS** with options for the `conda create` command.
-   [See the `conda create` documentation to learn more](https://docs.conda.io/projects/conda/en/latest/commands/create.html)
-   about available options.
+   [See the `conda create` documentation](https://docs.conda.io/projects/conda/en/latest/commands/create.html)
+   to learn more about available options.
 
    For example, to create a conda virtual environment for PyTorch® with CUDA
    11.8, run the below command and follow the prompts:
