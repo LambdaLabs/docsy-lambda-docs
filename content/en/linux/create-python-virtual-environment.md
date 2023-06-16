@@ -50,6 +50,14 @@ sudo pip uninstall -y $(pip -v list | grep /usr/local | awk '{printf "%s ", $1}'
 ```
 {{% /alert %}}
 
+{{% alert title="Warning" color="warning" %}}
+**Don't run the above uninstall commands on Lambda GPU Cloud on-demand
+instances!**
+
+The above uninstall commands remove all locally installed packages and, on
+on-demand instances, break programs including pip and JupyterLab.
+{{% /alert %}}
+
 {{% alert title="Tip" color="success" %}}
 See the
 [Python venv module documentation](https://docs.python.org/3/library/venv.html)
