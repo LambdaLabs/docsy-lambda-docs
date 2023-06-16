@@ -1,5 +1,5 @@
 ---
-title: "How do I create and run a Docker container?"
+title: "How do I install Docker and run a container?"
 type: docs
 tags:
 - Docker
