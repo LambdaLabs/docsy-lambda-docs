@@ -5,6 +5,8 @@ tags:
 - Docker
 - NVIDIA
 - TensorFlow
+aliases:
+- create-and-run-docker-container
 ---
 
 To create and run a Docker container:
