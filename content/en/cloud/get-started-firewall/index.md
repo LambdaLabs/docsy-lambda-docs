@@ -72,3 +72,7 @@ To use the Firewall feature:
    to any rule you want to delete.
 
 1. Click **Update** to apply your changes.
+
+{{% alert title="Note" color="info" %}}
+The maximum number of firewall rules you can have is 20.
+{{% /alert %}}
