@@ -75,4 +75,8 @@ To use the Firewall feature:
 
 {{% alert title="Note" color="info" %}}
 The maximum number of firewall rules you can have is 20.
+
+If you have more than 20 rules, new instances you create might not launch.
+Also, it's possible that not all of your rules will be active, which might
+leave your instances unsecure.
 {{% /alert %}}
