@@ -32,10 +32,10 @@ panel in **GNOME Settings** to connect to your Wi-Fi network.
 To open the **Wi-Fi** panel in **GNOME Settings**:
 
 <!-- TODO: Replace svg element, below, with something less ugly. -->
-1. Press
+1. Press the
    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-windows" viewBox="0 0 16 16">
      <path d="M6.555 1.375 0 2.237v5.45h6.555V1.375zM0 13.795l6.555.933V8.313H0v5.482zm7.278-5.4.026 6.378L16 16V8.395H7.278zM16 0 7.33 1.244v6.414H16V0z"/>
-   </svg> to open the **Activities** overview. Then, type `wifi`.
+   </svg> key on your keyboard to open the **Activities** overview. Then, type `wifi`.
 1. Click **Wi-Fi** to open the **Wi-Fi** panel in **GNOME Settings**.
 
 {{% alert title="Tip" color="success" %}}
@@ -75,10 +75,10 @@ configure a static IP address.
 
 To manually configure an IP address:
 
-1. Press
+1. Press the
    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-windows" viewBox="0 0 16 16">
      <path d="M6.555 1.375 0 2.237v5.45h6.555V1.375zM0 13.795l6.555.933V8.313H0v5.482zm7.278-5.4.026 6.378L16 16V8.395H7.278zM16 0 7.33 1.244v6.414H16V0z"/>
-   </svg> to open the **Activities** overview. Then, type `network`.
+   </svg> key on your keyboard to open the **Activities** overview. Then, type `network`.
 1. Click **Network** to open the **Network** panel in **GNOME Settings**.
 1. If you're connected to your network using Ethernet, click the
    <img src="settings-symbolic.svg" alt=""> next to your wired connection.
