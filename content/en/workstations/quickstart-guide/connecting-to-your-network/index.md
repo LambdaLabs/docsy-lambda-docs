@@ -16,6 +16,7 @@ Ethernet is more reliable and provides better performance than Wi-Fi.
 
 ## Connecting using Ethernet
 
+<!-- TODO: Link to unboxing and set-up. -->
 <!-- TODO: Use correct image. -->
 If you connect to your network using Ethernet, your network settings will
 likely automatically be configured using DHCP.
