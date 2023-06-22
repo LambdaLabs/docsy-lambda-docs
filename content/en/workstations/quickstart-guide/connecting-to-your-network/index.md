@@ -73,7 +73,7 @@ As an alternative to configuring a static DHCP lease, your network
 administrator might provide you with settings that you can use to manually
 configure a static IP address.
 
-To manually configure an IP address:
+To manually configure a static IP address:
 
 1. Press the
    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-windows" viewBox="0 0 16 16">
