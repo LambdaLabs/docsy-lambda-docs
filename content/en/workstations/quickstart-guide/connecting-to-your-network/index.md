@@ -42,3 +42,9 @@ you successfully connect to your Wi-Fi network.
 
 You should see <img src="nm-signal-100-symbolic.svg" alt=""> at the top-right
 of your screen once you're connected to your Wi-Fi network.
+
+{{% alert title="Note" color="info" %}}
+Some networks require you to log in before you can access the network. If
+you're asked to log into your network, you need to contact your network
+administrator for the required credentials.
+{{% /alert %}}
