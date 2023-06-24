@@ -20,5 +20,5 @@ for your system.
 
 {{% alert title="Warning" color="warning" %}}
 Changing your system's hardware without first contacting the Lambda Support
-team might void your system's warranty or void your support contract.
+team **will void your system's warranty and your support contract**.
 {{% /alert %}}
