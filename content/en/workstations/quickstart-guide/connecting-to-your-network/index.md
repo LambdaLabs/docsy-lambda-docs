@@ -21,7 +21,7 @@ Ethernet is more reliable and provides better performance than Wi-Fi.
 If you connect to your network using Ethernet, your network settings will
 likely automatically be configured using DHCP.
 
-You should see <img src="nm-device-wired-symbolic.svg" alt=""> at the
+You should see <img src="/lib/images/nm-device-wired-symbolic.svg" alt=""> at the
 top-right of your screen, which indicates you're connected to your network.
 
 ## Connecting using Wi-Fi
@@ -51,7 +51,7 @@ To open the **Wi-Fi** panel in **GNOME Settings**:
 Your network settings will likely automatically be configured using DHCP once
 you successfully connect to your Wi-Fi network.
 
-You should see <img src="nm-signal-100-symbolic.svg" alt=""> at the top-right
+You should see <img src="/lib/images/nm-signal-100-symbolic.svg" alt=""> at the top-right
 of your screen once you're connected to your Wi-Fi network.
 
 {{% alert title="Note" color="info" %}}
@@ -84,10 +84,10 @@ To manually configure a static IP address:
 1. Click **Network** to open the **Network** panel in **GNOME Settings**.
 
 1. If you're connected to your network using Ethernet, click the
-   <img src="settings-symbolic.svg" alt=""> next to your wired connection.
+   <img src="/lib/images/settings-symbolic.svg" alt=""> next to your wired connection.
 
    If you're connected to your network using Wi-Fi, click the
-   <img src="settings-symbolic.svg" alt=""> next to your Wi-Fi connection.
+   <img src="/lib/images/settings-symbolic.svg" alt=""> next to your Wi-Fi connection.
 
 1. Click **IPv4**. For **IPv4 Method**, choose **Manual**.
 
