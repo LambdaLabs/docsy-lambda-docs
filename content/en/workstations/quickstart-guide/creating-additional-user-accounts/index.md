@@ -58,6 +58,8 @@ You can add user accounts from the **Users** panel in **GNOME Settings**:
    next login**, or **Set a password now**.
 
    If you choose to set a password now, in the **Password** field, enter a
-   custom password, or click the icon to automatically generate a password.
+   custom password, or click the
+   <img src="/lib/images/settings-symbolic.svg" alt=""> to automatically
+   generate a password.
 
 1. Click **Add** at the top of the dialog to add the user.
