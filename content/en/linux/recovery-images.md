@@ -12,12 +12,10 @@ Recovery ISO images for
 using the following links:
 
 <!-- TODO: Change to these links when they're ready.
-- [Lambda Recovery (Bionic)](https://files.lambdalabs.com/recovery/current/lambda-recovery-bionic.iso) (based on Ubuntu 18.04 LTS _bionic_)
 - [Lambda Recovery (Focal)](https://files.lambdalabs.com/recovery/current/lambda-recovery-focal.iso) (based on Ubuntu 20.04 LTS _focal_)
 - [Lambda Recovery (Jammy)](https://files.lambdalabs.com/recovery/current/lambda-recovery-jammy.iso) (based on Ubuntu 22.04 LTS _jammy_)
 -->
 
-- [Lambda Recovery (Bionic)](https://files.lambdalabs.com/recovery/lambda-recovery-bionic-20221018.iso) (based on Ubuntu 18.04 LTS _bionic_)
 - [Lambda Recovery (Focal)](https://files.lambdalabs.com/recovery/lambda-recovery-focal-20221018.iso) (based on Ubuntu 20.04 LTS _focal_)
 - [Lambda Recovery (Jammy)](https://files.lambdalabs.com/recovery/lambda-recovery-jammy-20221018.iso) (based on Ubuntu 22.04 LTS _jammy_)
 
