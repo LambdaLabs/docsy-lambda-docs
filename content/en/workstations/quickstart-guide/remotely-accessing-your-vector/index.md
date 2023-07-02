@@ -1,5 +1,5 @@
 ---
-title: "Remotely accessing your Vector"
+title: "Remotely accessing your Vector using SSH"
 type: docs
 tags:
 - network
