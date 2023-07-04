@@ -59,7 +59,8 @@ For example, to SSH into your Vector from another computer running Ubuntu:
    press **Enter**.
 
    {{% alert title="Note" color="info" %}}
-   Characters such as `*` or `•` will not show as you enter your password.
+   You won't see masking characters such as `*` or `•` as you type in your
+   password.
    {{% /alert %}}
 
    You're now remotely logged into your Vector.
