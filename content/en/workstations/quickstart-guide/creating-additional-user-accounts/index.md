@@ -3,6 +3,7 @@ title: "Creating additional user accounts"
 type: docs
 tags:
 - Ubuntu
+weight: 40
 ---
 
 By having their own accounts, users can manage their own files, data sets,

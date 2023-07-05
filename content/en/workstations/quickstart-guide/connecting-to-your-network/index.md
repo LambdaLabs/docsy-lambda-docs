@@ -4,6 +4,7 @@ type: docs
 tags:
 - hardware
 - network
+weight: 30
 ---
 
 You can connect to your network using either Ethernet or Wi-Fi (if you
