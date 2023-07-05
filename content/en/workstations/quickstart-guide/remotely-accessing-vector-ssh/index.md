@@ -5,6 +5,7 @@ tags:
 - network
 - SSH
 - Ubuntu
+weight: 50
 ---
 
 You can install OpenSSH Server on your Vector to allow secure remote access
