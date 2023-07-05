@@ -2,9 +2,7 @@
 title: "Booting Ubuntu for the first time"
 type: docs
 tags:
-- network
 - Ubuntu
-- upgrade
 weight: 20
 ---
 
