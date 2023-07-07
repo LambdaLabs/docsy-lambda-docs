@@ -27,8 +27,8 @@ Vector during shipment.
   DisplayPort-to-HDMI adapter and an HDMI cable to connect your monitor to the
   GPU.
 
-- If your GPU has HDMI ports and your monitor has only DisplayPorts, use a
-  DisplayPort-to-HDMI adapter and a DisplayPort cable to connect your monitor
+- If your GPU has HDMI ports and your monitor has only DisplayPorts, use an
+  HDMI-to-DisplayPort adapter and a DisplayPort cable to connect your monitor
   to the GPU.
 
 {{% alert title="Note" color="info" %}}
