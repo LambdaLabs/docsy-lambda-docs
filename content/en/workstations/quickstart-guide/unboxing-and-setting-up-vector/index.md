@@ -17,6 +17,11 @@ Vector during shipment.
 
 ## Connecting your monitor
 
+{{% alert title="Note" color="info" %}}
+You **must** connect your monitor to a port on your Vector's topmost GPU.
+Otherwise, your Vector won't boot.
+{{% /alert %}}
+
 - If your GPU and monitor both have HDMI ports, use an HDMI cable to connect
   your monitor to the GPU.
 
