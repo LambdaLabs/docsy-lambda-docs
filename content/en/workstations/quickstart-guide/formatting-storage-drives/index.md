@@ -60,6 +60,8 @@ To format your storage drives:
 1. Click **Next** in the dialog title bar. You'll be warned that all data on
    the drive will be erased.
 
+   {{< imgproc warning-all-data-will-be-lost Resize "600x">}}{{< /imgproc >}}
+
    Click **Format** in the title bar. When prompted, enter your user password,
    then click **Authenticate**.
 
