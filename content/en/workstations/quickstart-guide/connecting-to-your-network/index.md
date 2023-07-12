@@ -27,9 +27,9 @@ top-right of your screen, which indicates you're connected to your network.
 ## Connecting using Wi-Fi
 
 If you purchased your Vector with a Wi-Fi adapter, you can use the **Wi-Fi**
-panel in **GNOME Settings** to connect to your Wi-Fi network.
+panel in GNOME Settings to connect to your Wi-Fi network.
 
-To open the **Wi-Fi** panel in **GNOME Settings**:
+To open the **Wi-Fi** panel in GNOME Settings:
 
 <!-- TODO: Replace svg element, below, with something less ugly. -->
 1. Press the
@@ -46,7 +46,7 @@ To open the **Wi-Fi** panel in **GNOME Settings**:
    <img src="/lib/images/super-key.svg" width="203" height="108" alt="">
    {{% /alert %}}
 
-1. Click **Wi-Fi** to open the **Wi-Fi** panel in **GNOME Settings**.
+1. Click **Wi-Fi** to open the **Wi-Fi** panel in GNOME Settings.
 
 Your network settings will likely automatically be configured using DHCP once
 you successfully connect to your Wi-Fi network.
@@ -81,7 +81,7 @@ To manually configure a static IP address:
      <path d="M6.555 1.375 0 2.237v5.45h6.555V1.375zM0 13.795l6.555.933V8.313H0v5.482zm7.278-5.4.026 6.378L16 16V8.395H7.278zM16 0 7.33 1.244v6.414H16V0z"/>
    </svg> key on your keyboard to open the **Activities** overview. Then, type `network`.
 
-1. Click **Network** to open the **Network** panel in **GNOME Settings**.
+1. Click **Network** to open the **Network** panel in GNOME Settings.
 
 1. If you're connected to your network using Ethernet, click the
    <img src="/lib/images/settings-symbolic.svg" alt=""> next to your wired connection.
