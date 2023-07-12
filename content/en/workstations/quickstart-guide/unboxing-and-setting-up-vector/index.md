@@ -50,7 +50,7 @@ Lambda doesn't support or recommend any particular adapters.
 Connect your keyboard and mouse to any available USB port on your Vector,
 including the front USB ports.
 
-## Connecting your wired nework
+## Connecting your wired network
 
 Connect to your wired network by plugging one end of an Ethernet cable into
 your router, switch, or jack designated by your network administrator. Plug
