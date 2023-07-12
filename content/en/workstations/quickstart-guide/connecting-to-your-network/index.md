@@ -52,8 +52,8 @@ To open the **Wi-Fi** panel in **GNOME Settings**:
 Your network settings will likely automatically be configured using DHCP once
 you successfully connect to your Wi-Fi network.
 
-You should see <img src="/lib/images/nm-signal-100-symbolic.svg" alt=""> at the top-right
-of your screen once you're connected to your Wi-Fi network.
+You'll see <img src="/lib/images/nm-signal-100-symbolic.svg" alt=""> at the
+top-right of your screen once you're connected to your Wi-Fi network.
 
 {{% alert title="Note" color="info" %}}
 Some networks require you to log in before you can access the network. If
