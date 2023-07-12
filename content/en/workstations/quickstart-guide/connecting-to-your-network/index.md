@@ -17,10 +17,10 @@ Ethernet is more reliable and provides better performance than Wi-Fi.
 
 ## Connecting using Ethernet
 
-<!-- TODO: Link to unboxing and set-up. -->
 <!-- TODO: Use correct image. -->
-If you connect to your network using Ethernet, your network settings will
-likely automatically be configured using DHCP.
+If you
+[connect to your network using Ethernet]({{< relref "unboxing-and-setting-up-vector#connecting-your-wired-network" >}}),
+your network settings will likely automatically be configured using DHCP.
 
 You should see <img src="/lib/images/nm-device-wired-symbolic.svg" alt=""> at the
 top-right of your screen, which indicates you're connected to your network.
