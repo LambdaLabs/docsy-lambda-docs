@@ -7,8 +7,10 @@ tags:
 weight: 30
 ---
 
-You can connect to your network using either Ethernet or Wi-Fi (if you
-purchased your Vector with a Wi-Fi adapter).
+You can connect to your network using either
+[Ethernet]({{< relref "#connecting-using-ethernet" >}}) or
+[Wi-Fi]({{< relref "#connecting-using-wi-fi" >}}) (if you purchased your
+Vector with a Wi-Fi adapter).
 
 {{% alert title="Tip" color="success" %}}
 It's recommended to connect to your network using Ethernet rather than Wi-Fi.
@@ -26,8 +28,10 @@ top-right of your screen, which indicates you're connected to your network.
 
 ## Connecting using Wi-Fi
 
-If you purchased your Vector with a Wi-Fi adapter, you can use the **Wi-Fi**
-panel in GNOME Settings to connect to your Wi-Fi network.
+If you purchased your Vector with a
+[Wi-Fi adapter]({{< relref "unboxing-and-setting-up-vector#connecting-your-wi-fi-antenna-if-included" >}}),
+you can use the **Wi-Fi** panel in GNOME Settings to connect to your Wi-Fi
+network.
 
 To open the **Wi-Fi** panel in GNOME Settings:
 
