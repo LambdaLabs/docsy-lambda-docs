@@ -15,6 +15,14 @@ Vector during shipment.
 
 ## Removing the glass film and Instapak foam
 
+Peel the protective film from _both sides_ of your Vector's glass panel.
+
+{{% alert title="Warning" color="warning" %}}
+**Use care when handling the glass panel!**
+{{% /alert %}}
+
+{{< imgproc glass-film Resize "600x" >}}{{< /imgproc >}}
+
 ## Connecting your monitor
 
 {{% alert title="Note" color="info" %}}
