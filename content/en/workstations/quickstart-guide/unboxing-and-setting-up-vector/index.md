@@ -23,6 +23,11 @@ wired network, Wi-Fi antenna (if included), and power cable.
 You also need to remove the glass film and Instapak foam used to protect your
 Vector during shipment.
 
+{{% alert title="Note" color="info" %}}
+The ports on your Vector might be arranged differently than in the above
+picture, depending on your Vector's configuration.
+{{% /alert %}}
+
 ## Removing the glass film and Instapak foam
 
 Peel the protective film from _both sides_ of your Vector's glass panel.
