@@ -7,7 +7,7 @@ tags:
 weight: 10
 ---
 
-To set up your Vector, you need to connect your monitor, keyboard, mouse,
+To set up your Vector, you need to connect your monitor, keyboard & mouse,
 wired network, Wi-Fi antenna (if included), and power cable.
 
 {{< imgproc rear-io-and-gpus Resize "600x" >}}{{< /imgproc >}}
