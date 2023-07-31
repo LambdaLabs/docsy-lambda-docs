@@ -10,6 +10,9 @@ weight: 10
 To set up your Vector, you need to connect your monitor, keyboard & mouse,
 wired network, Wi-Fi antenna (if included), and power cable.
 
+You also need to remove the glass panel film and Instapak foam used to protect
+your Vector during shipment.
+
 {{< imgproc rear-io-and-gpus Resize "600x" >}}{{< /imgproc >}}
 
 <table>
@@ -19,9 +22,6 @@ wired network, Wi-Fi antenna (if included), and power cable.
   <tr><td><span style="color:yellow"><b>Yellow</b></span></td><td>Wi-Fi antenna connectors</td></tr>
   <tr><td><span style="color:fuchsia"><b>Fuchsia</b></span></td><td>Power connector</td></tr>
 </table>
-
-You also need to remove the glass film and Instapak foam used to protect your
-Vector during shipment.
 
 {{% alert title="Note" color="info" %}}
 The ports on your Vector might be arranged differently than in the above
