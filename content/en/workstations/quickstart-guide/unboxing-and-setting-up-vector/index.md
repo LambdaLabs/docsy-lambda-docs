@@ -30,13 +30,34 @@ picture, depending on your Vector's configuration.
 
 ## Removing the Instapak foam and glass panel film
 
-Peel the protective film from _both sides_ of your Vector's glass panel.
+To remove the Instapak foam from inside your Vector and the film that protects
+your Vector's glass panel, you need to first remove the glass panel.
+
+To remove your Vector's glass panel:
+
+1. Unscrew the 2 thumbscrews at the rear, top center of your Vector.
+
+1. Slide down the latch at the rear, top right of your Vector. At the same
+   time, pull the top panel back and lift the panel off.
+
+1. Lift your Vector's glass panel up and out.
 
 {{% alert title="Warning" color="warning" %}}
 **Use care when handling the glass panel!**
 {{% /alert %}}
 
+With your Vector's glass panel removed, remove the Instapak foam from inside
+your Vector.
+
+{{< imgproc instapak Resize "600x" >}}{{< /imgproc >}}
+
+Peel the protective film from _both sides_ of your Vector's glass panel.
+
 {{< imgproc glass-film Resize "600x" >}}{{< /imgproc >}}
+
+Once you've removed the Instapak foam from inside your Vector and have peeled
+the protective film from your Vector's glass panel, replace the glass panel by
+following the above instructions in reverse.
 
 ## Connecting your monitor
 
