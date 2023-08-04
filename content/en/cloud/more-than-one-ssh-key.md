@@ -9,6 +9,10 @@ It's possible to allow more than one SSH key to access your instance. To do
 so, you need to add public keys to `~/.ssh/authorized_keys`. You can do
 this with the `echo` command.
 
+{{% alert title="Tip" color="success" %}}
+You can also [import SSH keys from GitHub]({{< relref "ssh-key-from-github" >}}).
+{{% /alert %}}
+
 {{% alert title="Note" color="info" %}}
 This FAQ assumes that you've already generated another SSH key pair, that is,
 a private key and a public key.
