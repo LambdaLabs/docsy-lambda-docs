@@ -10,6 +10,9 @@ To import an SSH key from a GitHub account and add it to your instance:
 
 1. Using your existing SSH key, SSH into your instance.
 
+   Alternatively, open a terminal in
+   [Jupyter Notebook]({{< relref "open-jupyter-notebook" >}}).
+
 1. Import the SSH key from the GitHub account by running:
 
    ```bash
