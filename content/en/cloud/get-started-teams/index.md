@@ -42,7 +42,7 @@ tags:
    {{< imgproc cannot-invite-user Resize "400x">}}{{< /imgproc >}}
 
    The person you're inviting to your team must first close their existing
-   Lambda Cloud before they can be invited to your team.
+   Lambda Cloud account before they can be invited to your team.
    {{% /alert %}}
 
 1. The person you invited to your team will receive an email letting them know

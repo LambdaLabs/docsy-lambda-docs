@@ -6,10 +6,12 @@ tags:
 - SSH
 ---
 
-You can use the [Cloud API](https://cloud.lambdalabs.com/api/v1/docs) to
-[add an existing SSH key to your account]({{< relref "#add-an-existing-ssh-key-to-your-account" >}})
-or
-[generate a new SSH key pair]({{< relref "#generate-a-new-ssh-key-pair" >}}).
+You can use the [Cloud API](https://cloud.lambdalabs.com/api/v1/docs) to:
+
+- [Add an existing SSH key to your account]({{< relref "#add-an-existing-ssh-key-to-your-account" >}}).
+- [Generate a new SSH key pair]({{< relref "#generate-a-new-ssh-key-pair" >}}).
+- [List the SSH keys saved in your account]({{< relref "#list-the-ssh-keys-saved-in-your-account" >}}).
+- [Delete an SSH key from your account]({{< relref "#delete-an-ssh-key-from-your-account" >}}).
 
 {{% alert title="Note" color="info" %}}
 Following these instructions won't add the SSH key to existing instances.
@@ -66,3 +68,35 @@ To generate a new SSH key pair:
 
    Run `chmod 400 my-generated-private-key.pem` to set the correct file
    permissions for your private key.
+
+# List the SSH keys saved in your account
+
+To list the SSH keys saved in your account,
+[generate an API key](https://cloud.lambdalabs.com/api-keys) if you don't
+already have one. Then, run the following command:
+
+```bash
+curl -u API-KEY: https://cloud.lambdalabs.com/api/v1/ssh-keys | jq .
+```
+
+Replace **API-KEY** with your actual API key. **Don't remove the trailing
+colon (:).**
+
+# Delete an SSH key from your account
+
+To delete an SSH key from your account,
+[generate an API key](https://cloud.lambdalabs.com/api-keys) if you don't
+already have one. Then, run the following command:
+
+```bash
+curl -u API-KEY: -X DELETE https://cloud.lambdalabs.com/api/v1/ssh-keys/SSH-KEY-ID
+```
+
+Replace **API-KEY** with your actual API key. **Don't remove the trailing
+colon (:).**
+
+Replace **SSH-KEY-ID** with the ID of the SSH key you want to delete.
+
+{{% alert title="Note" color="info" %}}
+[Use the API to obtain the IDs of the SSH keys saved in your account]({{< relref "#list-the-ssh-keys-saved-in-your-account" >}}).
+{{% /alert %}}

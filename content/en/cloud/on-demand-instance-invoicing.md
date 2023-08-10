@@ -17,9 +17,9 @@ instance isn't actively being used.**
 {{% /alert %}}
 
 The GPU Cloud dashboard allows you to
-[view your resource usage](https://lambdalabs.com/cloud/usage).
+[view your resource usage](https://cloud.lambdalabs.com/usage).
 
-Invoices are usually sent within 10 business days of the end of the month.
+Invoices are sent weekly for the previous week's usage.
 
 {{% alert title="Note" color="info" %}}
 On-demand instances require us to maintain excess capacity at all times so we

@@ -1,0 +1,48 @@
+---
+title: "How do I set the fan speeds for my workstation?"
+type: docs
+tags:
+- hardware
+- fans
+---
+
+You can set baseline fan speeds for your workstation using `ipmitool`. Once
+baseline fan speeds are set, you can fine-tune the fan speeds in the web-based
+IPMI interface.
+
+{{% alert title="Note" color="info" %}}
+These instructions are only for workstations using an
+[ASUS Pro WS WRX80E-SAGE SE WIFI](https://www.asus.com/motherboards-components/motherboards/workstation/pro-ws-wrx80e-sage-se-wifi/)
+motherboard.
+
+Before proceeding with these instructions, run `sudo dmidecode -t 2 | grep Name` to confirm your
+workstation uses the above motherboard. You should see: `Product Name: Pro WS WRX80E-SAGE SE`.
+{{% /alert %}}
+
+First, install `ipmitool` by running:
+
+```bash
+sudo apt -y update && sudo apt -y install ipmitool
+```
+
+Then, set the baseline fan speeds by running:
+
+```bash
+sudo ipmitool raw 0x30 0x0E 0x04 0x00 0x32 0x23 0x49 0x46 0x5a 0x64 0x61 0x64 0x61 0x64 && \
+sudo ipmitool raw 0x30 0x0E 0x04 0x01 0x32 0x23 0x49 0x46 0x5a 0x64 0x61 0x64 0x61 0x64 && \
+sudo ipmitool raw 0x30 0x0E 0x04 0x02 0x32 0x23 0x49 0x46 0x5a 0x64 0x61 0x64 0x61 0x64 && \
+sudo ipmitool raw 0x30 0x0E 0x04 0x03 0x32 0x23 0x49 0x46 0x5a 0x64 0x61 0x64 0x61 0x64 && \
+sudo ipmitool raw 0x30 0x0E 0x04 0x04 0x32 0x23 0x49 0x46 0x5a 0x64 0x61 0x64 0x61 0x64 && \
+sudo ipmitool raw 0x30 0x0E 0x04 0x05 0x32 0x23 0x49 0x46 0x5a 0x64 0x61 0x64 0x61 0x64 && \
+sudo ipmitool raw 0x30 0x0E 0x04 0x06 0x32 0x23 0x49 0x46 0x5a 0x64 0x61 0x64 0x61 0x64
+```
+
+{{% alert title="Tip" color="success" %}}
+See the
+[ASUS ASMB9-iKVM Fan Customized Mode User Guide [PDF]](ASMB9-iKVM_Fan_Customized_Mode_User_Guide_v0.71_20191112.pdf)
+to learn how to customize fan speeds in the web-based IPMI interface.
+
+Note that Lambda workstations are high-performance systems and generate plenty
+of heat. For this reason, it's not recommended to use the guide's power
+efficiency fan policy.
+{{% /alert %}}

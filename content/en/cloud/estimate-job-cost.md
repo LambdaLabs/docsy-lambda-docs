@@ -23,5 +23,5 @@ real-world performance doesn't always match the performance provided by
 benchmarks.
 
 For help benchmarking or optimizing your ML jobs,
-[contact our Machine Learning team](https://lambdalabs.typeform.com/consulting).
+[contact our Machine Learning team](https://lambdalabs.com/professional-services).
 {{% /alert %}}
