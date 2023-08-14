@@ -10,10 +10,10 @@ aliases:
 {{% alert title="Note" color="info" %}}
 Some sites limit transfer speeds. This is known as _bandwidth throttling_.
 
-**Lambda GPU Cloud doesn't limit your transfer speeds but can't control other
-sites' use of bandwidth throttling.**
+**Lambda GPU Cloud doesn't limit your transfer speeds** but can't control
+other sites' use of bandwidth throttling.
 
-Further, real-world network bandwidth depends on a variety of factors,
+Further, **real-world network bandwidth depends on a variety of factors**,
 including the total number of connections opened by your applications and
 overall network utilization.
 {{% /alert %}}
