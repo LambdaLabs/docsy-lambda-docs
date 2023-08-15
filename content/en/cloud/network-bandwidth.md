@@ -32,28 +32,6 @@ up to 200 Gbps.
 
 Bandwidth to the Internet can be up to 20 Gbps.
 
-## Arizona, USA region (us-west-2)
-
-The bandwidth between instances in our Arizona, USA region (us-west-2) can be
-up to 3.7 Gbps when using the instances' _private IP addresses_.
-
-When using the instances' _public IP addresses_, the bandwidth can be up to
-3.5 Gbps.
-
-Bandwidth to the Internet can be up to 10 Gbps.
-
-## Virginia, USA region (us-east-1)
-
-The bandwidth between instances in our Virginia, USA region (us-east-1) can be
-up to 7.2 Gbps when using the instances' _private IP addresses_.
-
-Bandwidth to the Internet can be up to 10 Gbps.
-
-## Arizona, USA (us-west-2) ↔ Virginia, USA (us-east-1)
-
-The bandwidth between instances in our Arizona, USA (us-west-2) and Virginia,
-USA (us-east-1) regions can be up to 100 Mbps.
-
 {{% alert title="Note" color="info" %}}
 The bandwidth tests for connections between instances were performed using
 [iPerf3](https://iperf.fr/).
