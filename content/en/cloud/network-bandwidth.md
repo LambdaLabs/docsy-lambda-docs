@@ -33,13 +33,5 @@ up to 200 Gbps.
 Bandwidth to the Internet can be up to 20 Gbps.
 
 {{% alert title="Note" color="info" %}}
-The bandwidth tests for connections between instances were performed using
-[iPerf3](https://iperf.fr/).
-
-The bandwidth tests for connections to the Internet were performed using
-[Speedtest CLI](https://www.speedtest.net/apps/cli).
-{{% /alert %}}
-
-{{% alert title="Note" color="info" %}}
 We're in the process of testing the network bandwidth in our other regions.
 {{% /alert %}}
