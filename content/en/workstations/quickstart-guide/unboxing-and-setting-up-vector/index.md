@@ -115,3 +115,7 @@ If you purchased your Vector with on-board Wi-Fi, connect the included antenna
 to the 2 marked ports on the rear of your Vector.
 
 ## Connecting your power cable
+
+Connect your Vector's power supply unit (PSU) _directly_ to a power outlet
+using the included cord. Ideally, the power outlet will be on a dedicated
+circuit.
