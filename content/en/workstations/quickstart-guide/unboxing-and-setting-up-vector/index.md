@@ -120,4 +120,4 @@ Connect your Vector's power supply unit (PSU) _directly_ to a power outlet
 using the included cord. Ideally, the power outlet will be on a dedicated
 circuit.
 
-Also, make sure your PSU is switched to **|** (on) position.
+Also, make sure your PSU is switched to the **|** (on) position.
