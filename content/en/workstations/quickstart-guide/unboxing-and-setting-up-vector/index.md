@@ -59,13 +59,13 @@ your Vector.
 
 {{< imgproc instapak Resize "600x" >}}{{< /imgproc >}}
 
-Peel the protective film from _both sides_ of your Vector's glass panel.
+Peel the protective films from _both sides_ of your Vector's glass panels.
 
 {{< imgproc glass-film Resize "600x" >}}{{< /imgproc >}}
 
 Once you've removed the Instapak foam from inside your Vector and have peeled
-the protective film from your Vector's glass panel, replace the glass panel by
-following the above instructions in reverse.
+the protective films from your Vector's glass panels, replace the glass panels
+by following the above instructions in reverse.
 
 ## Connecting your monitor
 
