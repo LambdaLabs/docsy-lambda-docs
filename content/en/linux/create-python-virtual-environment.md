@@ -23,7 +23,7 @@ type: docs
 1. Activate the virtual environment by running:
 
    ```bash
-   ./NAME/bin/activate
+   . NAME/bin/activate
    ```
 
    Replace **NAME** with the name you gave your virtual environment in the
