@@ -30,7 +30,7 @@ The ports on your Vector might be arranged differently than in the above
 picture, depending on your Vector's configuration.
 {{% /alert %}}
 
-## Removing the Instapak foam and glass panel film
+## Removing the Instapak foam and glass panel films
 
 To remove the Instapak foam from inside your Vector and the films that protect
 your Vector's glass panels, you need to first remove the glass panels.
