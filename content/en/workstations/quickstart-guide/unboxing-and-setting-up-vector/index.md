@@ -48,7 +48,7 @@ To remove your Vector's glass panels:
 
    At the same time, pull the top panel back and lift the panel off.
 
-1. Lift your Vector's glass panels up and out.
+1. Lift your Vector's glass side and front panels up and out.
 
 {{% alert title="Warning" color="warning" %}}
 **Use care when handling the glass panels!**
