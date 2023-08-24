@@ -7,6 +7,8 @@ tags:
 weight: 10
 ---
 
+<!-- TODO: Add instructions specific to the Chenbro chassis. -->
+
 To set up your Vector, you need to connect your monitor, keyboard & mouse,
 wired network, Wi-Fi antenna (if included), and power cable.
 
