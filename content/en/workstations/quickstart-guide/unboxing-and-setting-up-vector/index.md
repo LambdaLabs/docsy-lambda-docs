@@ -12,8 +12,8 @@ weight: 10
 To set up your Vector, you need to connect your monitor, keyboard & mouse,
 wired network, Wi-Fi antenna (if included), and power cable.
 
-You also need to remove the glass panel film and Instapak foam used to protect
-your Vector during shipment.
+You also need to remove the glass panel films and Instapak foam used to
+protect your Vector during shipment.
 
 {{< imgproc rear-io-and-gpus Resize "600x" >}}{{< /imgproc >}}
 
@@ -32,10 +32,10 @@ picture, depending on your Vector's configuration.
 
 ## Removing the Instapak foam and glass panel film
 
-To remove the Instapak foam from inside your Vector and the film that protects
-your Vector's glass panel, you need to first remove the glass panel.
+To remove the Instapak foam from inside your Vector and the films that protect
+your Vector's glass panels, you need to first remove the glass panels.
 
-To remove your Vector's glass panel:
+To remove your Vector's glass panels:
 
 {{< imgproc rear-thumbscrews-latch Resize "600x" >}}{{< /imgproc >}}
 
@@ -48,13 +48,13 @@ To remove your Vector's glass panel:
 
    At the same time, pull the top panel back and lift the panel off.
 
-1. Lift your Vector's glass panel up and out.
+1. Lift your Vector's glass panels up and out.
 
 {{% alert title="Warning" color="warning" %}}
-**Use care when handling the glass panel!**
+**Use care when handling the glass panels!**
 {{% /alert %}}
 
-With your Vector's glass panel removed, remove the Instapak foam from inside
+With your Vector's glass panels removed, remove the Instapak foam from inside
 your Vector.
 
 {{< imgproc instapak Resize "600x" >}}{{< /imgproc >}}
