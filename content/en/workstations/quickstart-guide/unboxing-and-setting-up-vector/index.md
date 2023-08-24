@@ -37,6 +37,8 @@ your Vector's glass panel, you need to first remove the glass panel.
 
 To remove your Vector's glass panel:
 
+{{< imgproc rear-thumbscrews-latch Resize "600x" >}}{{< /imgproc >}}
+
 1. Unscrew the 2 thumbscrews at the rear, top center of your Vector (boxed in
    <span style="color:red"><b>red</b></span> in the above picture).
 
