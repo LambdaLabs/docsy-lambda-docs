@@ -120,4 +120,7 @@ Connect your Vector's power supply unit (PSU) _directly_ to a power outlet
 using the included cord. Ideally, the power outlet will be on a dedicated
 circuit.
 
+**Do not use a power strip, surge suppressor, or uninterruptible power supply
+(UPS or battery backup).**
+
 Also, make sure your PSU is switched to the **|** (on) position.
