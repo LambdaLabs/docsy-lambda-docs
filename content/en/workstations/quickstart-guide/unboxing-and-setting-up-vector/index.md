@@ -39,8 +39,9 @@ To remove your Vector's glass panel:
 
 1. Unscrew the 2 thumbscrews at the rear, top center of your Vector.
 
-1. Slide down the latch at the rear, top right of your Vector. At the same
-   time, pull the top panel back and lift the panel off.
+1. Slide down the black latch at the top rear of your Vector, on the side
+   closest to the glass side panel. At the same time, pull the top panel back
+   and lift the panel off.
 
 1. Lift your Vector's glass panel up and out.
 
