@@ -14,6 +14,10 @@ feature to save:
 - The [state of your system]({{< relref "#preserving-the-state-of-your-system" >}}),
   including software packages and configurations
 
+{{% alert title="Note" color="info" %}}
+You can have up to 256 persistent storage file systems.
+{{% /alert %}}
+
 ## Preserving the state of your system
 
 For saving the state of your system, including:
