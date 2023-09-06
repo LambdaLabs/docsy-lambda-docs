@@ -15,7 +15,7 @@ feature to save:
   including software packages and configurations
 
 {{% alert title="Note" color="info" %}}
-You can have up to 256 persistent storage file systems.
+You can have up to 24 persistent storage file systems.
 {{% /alert %}}
 
 ## Preserving the state of your system
