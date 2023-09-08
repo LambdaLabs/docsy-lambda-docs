@@ -20,6 +20,10 @@ To add SSH keys to existing instances, read our FAQ on
 [using more than one SSH key]({{< relref "more-than-one-ssh-key" >}})
 {{% /alert %}}
 
+{{% alert title="Note" color="info" %}}
+You can add up to 1,024 SSH keys to your account.
+{{% /alert %}}
+
 # Add an existing SSH key to your account
 
 To add an existing SSH key to your account:
