@@ -4,6 +4,7 @@ type: docs
 ---
 Lambda GPU Cloud currently doesn't offer block or object storage.
 
-[using the dashboard]({{< relref "cloud-dashboard/#create-and-manage-persistent-storage-file-systems" >}})                                                                                                                                                    
-and attached when you                                                                                                                                                                                                                                         
-[create an instance]({{< relref "cloud-dashboard/#launch-restart-and-terminate-instances" >}}).  
+Persistent storage needs to be created
+[using the dashboard]({{< relref "cloud-dashboard/#create-and-manage-persistent-storage-file-systems" >}})
+and attached when you
+[create an instance]({{< relref "cloud-dashboard/#launch-restart-and-terminate-instances" >}}).
