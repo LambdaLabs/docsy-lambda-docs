@@ -1,8 +1,6 @@
 ---
 title: "Does Lambda GPU Cloud offer block or object storage?"
 type: docs
-aliases:
-- guides/use-persistent-storage
 ---
 Lambda GPU Cloud currently doesn't offer block or object storage.
 
