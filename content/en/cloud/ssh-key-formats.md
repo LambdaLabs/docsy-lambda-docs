@@ -11,6 +11,6 @@ or the
 [Cloud API]({{< relref "api-add-ssh-key#add-an-existing-ssh-key-to-your-account" >}}):
 
 - OpenSSH (the format `ssh-keygen` uses by default when generating keys)
-- RFC4716 (the format `ssh-keygen` uses by default when exporting keys)
+- RFC4716 (the format PuTTYgen uses when you save a public key)
 - PKCS8
 - PEM
