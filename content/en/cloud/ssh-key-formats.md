@@ -19,7 +19,7 @@ or the
 - OpenSSH keys look like:
 
   ```
-  ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK5HIO+OQSyFjz0clkvg+48YAihYMo5J7AGKiq+9Alg8 cody@lambdal.com
+  ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK5HIO+OQSyFjz0clkvg+48YAihYMo5J7AGKiq+9Alg8 foo@bar
   ```
 
 - RFC4716 keys begin with:
