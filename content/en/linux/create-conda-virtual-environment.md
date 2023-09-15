@@ -54,6 +54,11 @@ To create a conda virtual environment:
    Replace **PACKAGES** with the list of packages you want to install in your
    virtual environment.
 
+   {{% alert title="Note" color="info" %}}
+   conda doesn't use packages installed locally, including packages part of
+   [Lambda Stack](https://lambdalabs.com/lambda-stack-deep-learning-software).
+   {{% /alert %}}
+
    (Optional) Replace **OPTIONS** with options for the `conda create` command.
    [See the `conda create` documentation](https://docs.conda.io/projects/conda/en/latest/commands/create.html)
    to learn more about available options.
