@@ -102,6 +102,10 @@ To create a conda virtual environment:
    Number of GPUs:  1
    ```
 
+{{% alert title="Tip" color="success" %}}
+To deactivate the conda environment, run `conda deactivate`.
+{{% /alert %}}
+
 {{% alert title="Note" color="info" %}}
 Locally installed packages can conflict with packages installed in virtual
 environments. For this reason, it's recommended to uninstall locally installed
