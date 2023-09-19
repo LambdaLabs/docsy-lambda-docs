@@ -41,10 +41,10 @@ Run the script each time you start an instance.
 
 If you only need to preserve Python packages and not packages installed
 system-wide, you can
-[create a Python virtual environment](https://docs.python.org/3/library/venv.html).
+[create a Python virtual environment]({{< relref "../linux/create-python-virtual-environment" >}}).
 
 You can also create a
-[conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
+[conda environment]({{< relref "../linux/create-conda-virtual-environment" >}}).
 
 {{% alert title="Tip" color="success" %}}
 For the highest performance when training, we recommend copying your dataset,
