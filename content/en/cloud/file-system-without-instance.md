@@ -25,7 +25,7 @@ Lambda GPU Cloud currently doesn't offer block or object storage.
 {{% /alert %}}
 
 {{% alert title="Note" color="info" %}}
-You're
+**You're
 [billed for persistent storage usage]({{< relref "persistent-storage-billing" >}})
-whether or not your file systems are attached to an instance.
+whether or not your file systems are attached to an instance.**
 {{% /alert %}}
