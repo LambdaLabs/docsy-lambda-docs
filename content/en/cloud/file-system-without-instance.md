@@ -8,8 +8,8 @@ tags:
 You can't access your persistent storage file systems without attaching them
 to an instance _at the time the instance is launched_.
 
-It's recommended that you keep a local copy of the files you have saved in
-your persistent storage file systems.
+For this reason, _it's recommended that you keep a local copy of the files you
+have saved in your persistent storage file systems_.
 
 {{% alert title="Note" color="info" %}}
 You're
