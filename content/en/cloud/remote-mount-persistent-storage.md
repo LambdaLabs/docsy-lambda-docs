@@ -7,4 +7,5 @@ tags:
 
 Lambda GPU Cloud currently doesn't support remote mounting of persistent storage.
 
-You can find more information on creating and managing persistent storage in Lambda GPU cloud [here]({{< relref "cloud-dashboard/#create-and-manage-persistent-storage-file-systems" >}})
+Persistent storage file systems
+[can't be accessed without being attached to an instance]({{< relref "file-system-without-instance" >}}).
