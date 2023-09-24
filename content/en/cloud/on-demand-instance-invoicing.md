@@ -16,6 +16,11 @@ The
 will also show the instance's status is `active`.
 {{% /alert %}}
 
+Billing stops when an instance is
+[terminated from the dashboard]({{< relref "cloud-dashboard#terminate-instances" >}})
+or using the
+[Cloud API's `/terminate` endpoint]({{< relref "terminate-instance-api" >}}).
+
 {{% alert title="Warning" color="warning" %}}
 Be sure to terminate any instances that you're not using!
 
