@@ -10,6 +10,12 @@ is in one-minute increments. Billing starts when an instance is launched and
 the [dashboard]({{< relref "cloud-dashboard" >}}) shows the instance's status
 is **Running**.
 
+{{% alert title="Tip" color="success" %}}
+The
+[Cloud API's `/instances` endpoint]({{< relref "list-running-instances" >}})
+will also show the instance's status is `active`.
+{{% /alert %}}
+
 {{% alert title="Warning" color="warning" %}}
 Be sure to terminate any instances that you're not using!
 
