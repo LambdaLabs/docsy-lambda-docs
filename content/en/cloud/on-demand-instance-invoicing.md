@@ -21,6 +21,12 @@ Billing stops when an instance is
 or using the
 [Cloud API's `/terminate` endpoint]({{< relref "terminate-instance-api" >}}).
 
+{{% alert title="Note" color="info" %}}
+You're not billed for the time an instance's status in the dashboard is
+**Booting**. Similarly, you're not billed for the time an instance's status in
+the dashboard is **Terminating**.
+{{% /alert %}}
+
 {{% alert title="Warning" color="warning" %}}
 Be sure to terminate any instances that you're not using!
 
