@@ -5,9 +5,10 @@ tags:
 - billing
 ---
 
-[On-demand instances](https://lambdalabs.com/service/gpu-cloud) are billed in
-one-minute increments from the moment you spin up (start) the instance up to
-the moment you terminate (stop) the instance.
+Billing for [on-demand instances](https://lambdalabs.com/service/gpu-cloud)
+is in one-minute increments. Billing starts when an instance is launched and
+the [dashboard]({{< relref "cloud-dashboard" >}}) shows the instance's status
+is **Running**.
 
 {{% alert title="Warning" color="warning" %}}
 Be sure to terminate any instances that you're not using!
