@@ -101,7 +101,7 @@ to terminate. Then, click **Terminate** at the top-right of the dashboard.
 When prompted to do so, type in **erase data on instance**, then click
 **Terminate instances**.
 
-{{< imgproc restart-terminate Resize "300x" >}}{{< /imgproc >}}
+{{< imgproc terminate-instances Resize "400x" >}}{{< /imgproc >}}
 
 {{% alert title="Tip" color="success" %}}
 You can also
