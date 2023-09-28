@@ -34,3 +34,9 @@ In the example output, above:
 - The available capacity of the file system is `8589934592G`.
 - The used percentage of the file system is `0%`.
 - The file system is mounted on `/home/ubuntu/persistent-storage`.
+
+{{% alert title="Tip" color="success" %}}
+You can also use the
+[Cloud API's `/file-systems` endpoint]({{< relref "list-file-systems-api" >}})
+to find out your file system usage.
+{{% /alert %}}
