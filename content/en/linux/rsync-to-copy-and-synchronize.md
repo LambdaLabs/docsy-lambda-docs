@@ -14,7 +14,7 @@ tags:
 bypassing your computer entirely.
 
 {{% alert title="Tip" color="success" %}}
-`rsync` is useful for copying and synchronizing files between
+`rsync` is useful for copying files between
 [Cloud persistent storage file systems in different regions]({{< relref "../cloud/file-system-without-instance" >}}).
 {{% /alert %}}
 
