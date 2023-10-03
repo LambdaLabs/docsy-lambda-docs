@@ -30,8 +30,6 @@ SSH agent.
 
 ## Copy files between your computer and a remote server
 
-## From your computer to a remote server
-
 To copy files from your computer to a remote server using `rsync`, run:
 
 ```bash
