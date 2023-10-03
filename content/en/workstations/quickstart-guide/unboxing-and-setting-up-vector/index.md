@@ -1,0 +1,134 @@
+---
+title: "Unboxing and setting up your Vector"
+type: docs
+tags:
+- hardware
+- network
+weight: 10
+---
+
+<!-- TODO: Add instructions specific to the Chenbro chassis. -->
+
+To set up your Vector, you need to connect your monitor, keyboard & mouse,
+wired network, Wi-Fi antenna (if included), and power cable.
+
+You also need to remove the glass panel films and Instapak foam used to
+protect your Vector during shipment.
+
+{{< imgproc rear-io-and-gpus Resize "600x" >}}{{< /imgproc >}}
+
+<table>
+  <tr><td><span style="color:red"><b>Red</b></span></td><td>Topmost GPU</td></tr>
+  <tr><td><span style="color:lime"><b>Lime</b></span></td><td>USB ports</td></tr>
+  <tr><td><span style="color:blue"><b>Blue</b></span></td><td>Ethernet ports</td></tr>
+  <tr><td><span style="color:yellow"><b>Yellow</b></span></td><td>Wi-Fi antenna connectors</td></tr>
+  <tr><td><span style="color:fuchsia"><b>Fuchsia</b></span></td><td>Power connector</td></tr>
+</table>
+
+{{% alert title="Note" color="info" %}}
+The ports on your Vector might be arranged differently than in the above
+picture, depending on your Vector's configuration.
+{{% /alert %}}
+
+## Removing the Instapak foam and glass panel films
+
+To remove the Instapak foam from inside your Vector and the films that protect
+your Vector's glass panels, you need to first remove the glass panels.
+
+To remove your Vector's glass panels:
+
+{{< imgproc rear-thumbscrews-latch Resize "600x" >}}{{< /imgproc >}}
+
+1. Unscrew the 2 thumbscrews at the rear, top center of your Vector (boxed in
+   <span style="color:red"><b>red</b></span> in the above picture).
+
+1. Slide down the black latch at the top rear of your Vector, on the side
+   closest to the glass side panel (boxed in
+   <span style="color:blue"><b>blue</b></span> in the above picture).
+
+   At the same time, pull the top panel back and lift the panel off.
+
+1. Lift your Vector's glass side and front panels up and out.
+
+{{% alert title="Warning" color="warning" %}}
+**Use care when handling the glass panels!**
+{{% /alert %}}
+
+With your Vector's glass panels removed, remove the Instapak foam from inside
+your Vector.
+
+{{< imgproc instapak Resize "600x" >}}{{< /imgproc >}}
+
+Peel the protective films from _both sides_ of your Vector's glass panels.
+
+{{< imgproc glass-film Resize "600x" >}}{{< /imgproc >}}
+
+Once you've removed the Instapak foam from inside your Vector and have peeled
+the protective films from your Vector's glass panels, replace the glass panels
+by following the above instructions in reverse.
+
+## Connecting your monitor
+
+{{% alert title="Note" color="info" %}}
+You **must** connect your monitor to a port on your Vector's topmost GPU.
+Otherwise, your Vector won't boot.
+{{% /alert %}}
+
+- If your GPU and monitor both have HDMI ports, use an HDMI cable to connect
+  your monitor to the GPU.
+
+- If your GPU and monitor both have DisplayPorts, use a DisplayPort cable to
+  connect your monitor to the GPU.
+
+- If your GPU has DisplayPorts and your monitor has only HDMI ports, use a
+  DisplayPort-to-HDMI adapter and an HDMI cable to connect your monitor to the
+  GPU.
+
+- If your GPU has HDMI ports and your monitor has only DisplayPorts, use an
+  HDMI-to-DisplayPort adapter and a DisplayPort cable to connect your monitor
+  to the GPU.
+
+{{% alert title="Note" color="info" %}}
+DisplayPort-to-HDMI and HDMI-to-DisplayPort adapters are unidirectional. This
+means a DisplayPort-to-HDMI adapter can only be used with the DisplayPorts on
+GPUs. Similarly, HDMI-to-DisplayPort adapters can only be used with the HDMI
+ports on GPUs.
+
+Lambda doesn't support or recommend any particular adapters.
+{{% /alert %}}
+
+## Connecting your keyboard & mouse
+
+Connect your keyboard and mouse to any available USB port on your Vector,
+including the front USB ports.
+
+## Connecting your wired network
+
+Connect to your wired network by plugging one end of an Ethernet cable into
+your router, switch, or jack designated by your network administrator. Plug
+the other end of the Ethernet cable into an Ethernet port on the back of your
+Vector.
+
+{{% alert title="Note" color="info" %}}
+Each Ethernet port on your Vector has its own settings. This means, for
+example, if your network administrator
+[assigns a static IP address to your Vector]({{< relref "connecting-to-your-network#configuring-a-static-ip-address" >}})
+using a DHCP static lease, you need to make sure you always connect to your
+wired network using the same Ethernet port.
+{{% /alert %}}
+
+## Connecting your Wi-Fi antenna (if included)
+
+If you purchased your Vector with on-board Wi-Fi, connect the included antenna
+to the 2 marked ports on the rear of your Vector.
+
+## Connecting your power cable
+
+Connect your Vector's power supply unit (PSU) _directly_ to a power outlet
+using the included cord. Ideally, the power outlet will be on a dedicated
+circuit.
+
+**Do not use a power strip, surge suppressor, or uninterruptible power supply
+(UPS or battery backup).**
+
+Also, make sure your PSU is switched to the **|** (on) position.
