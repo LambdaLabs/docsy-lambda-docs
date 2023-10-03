@@ -23,8 +23,9 @@ bypassing your computer entirely.
 computer and a remote server, you need to be able to SSH into the remote
 servers.
 
-Similarly, to use `rsync` to copy files between remote servers directly, you
-need to be able to SSH into the remote servers.
+To use `rsync` to copy files between remote servers directly, you need to be
+able to SSH into the remote servers using public key authentication with an
+SSH agent.
 {{% /alert %}}
 
 ## Copy files between your computer and a remote server
