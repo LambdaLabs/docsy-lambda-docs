@@ -59,3 +59,61 @@ rsync_example_dir/EXAMPLE_FILE
 ```
 
 ## Copy files directly between remote servers
+
+{{% alert title="Note" color="info" %}}
+To copy files directly between remote servers using `rsync`, you must use
+public key (rather than password) authentication for SSH with an SSH agent.
+
+If you already have an SSH key pair, you can add your private key to the SSH
+agent by running:
+
+```bash
+ssh-add SSH-PRIVATE-KEY
+```
+
+Replace **SSH-PRIVATE-KEY** with the path to your SSH private key, for
+example, `~/.ssh/id_ed25519`.
+
+You can confirm your key was added to the SSH agent by running:
+
+```bash
+ssh-add -L
+```
+
+Your public key will be listed in the output.
+{{% /alert %}}
+
+To copy files directly between remote servers using `rsync`, first SSH into
+the server you want to copy files _from_ by running:
+
+```bash
+ssh -A USERNAME-1@SERVER-IP-1
+```
+
+Replace **SERVER-IP-1** with the IP address of the server you want to copy
+files from, referred to below as _Server 1_.
+
+Replace **USERNAME-1** with your username on _Server 1_.
+
+{{% alert title="Tip" color="success" %}}
+It's recommended to run the `rsync` command, below, in a `tmux` or `screen`
+session. This way, you can log out of _Server 1_ and the `rsync` command will
+continue to run.
+{{% /alert %}}
+
+Then, on _Server 1_, run:
+
+```bash
+rsync -av --info=progress2 FILES USERNAME-2@SERVER-IP-2:REMOTE-PATH
+```
+
+Replace **SERVER-IP-2** with the IP address of the server you want to copy
+files _to_, referred to below as _Server 2_.
+
+Replace **FILES** with the files (or directory) you want to copy to _Server 2_.
+
+Replace **USERNAME-2** with your username on _Server 2_.
+
+Replace **SERVER-IP-2** with the IP address of _Server 2_.
+
+Replace **REMOTE-PATH** with the directory into which you want to copy files.
