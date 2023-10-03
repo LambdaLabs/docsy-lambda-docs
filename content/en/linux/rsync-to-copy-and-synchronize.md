@@ -64,8 +64,7 @@ rsync_example_dir/EXAMPLE_FILE
 To copy files directly between remote servers using `rsync`, you must use
 public key (rather than password) authentication for SSH with an SSH agent.
 
-If you already have an SSH key pair, you can add your private key to the SSH
-agent by running:
+You can add your private key to the SSH agent by running:
 
 ```bash
 ssh-add SSH-PRIVATE-KEY
