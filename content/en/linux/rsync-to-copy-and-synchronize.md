@@ -95,7 +95,7 @@ files from, referred to below as _Server 1_.
 Replace **USERNAME-1** with your username on _Server 1_.
 
 {{% alert title="Tip" color="success" %}}
-It's recommended to run the `rsync` command, below, in a `tmux` or `screen`
+It's recommended to run the `rsync` command, below, in a [`tmux`](https://using-tmux.lambda-docs.pages.dev/linux/using-tmux/) or `screen`
 session. This way, you can log out of _Server 1_ and the `rsync` command will
 continue to run.
 {{% /alert %}}
