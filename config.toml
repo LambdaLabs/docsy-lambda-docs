@@ -162,8 +162,8 @@ sidebar_menu_foldable = true
 [params.ui.feedback]
 enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Glad to hear that! <a href="mailto:support@lambdalabs.com?subject=Docs%20site%20improvements">Email us with any suggestions on how we can improve our docs</a>.'
-no = 'Sorry to hear that. <a href="mailto:support@lambdalabs.com">Please email Support for help</a>.'
+yes = 'Glad to hear that! <a href="https://support.lambdalabs.com/hc/en-us/requests/new">Contact us with any suggestions on how we can improve our docs</a>.'
+no = 'Sorry to hear that. <a href="https://support.lambdalabs.com/hc/en-us/requests/new">Please contact Support for help</a>.'
 
 # Adds a reading time to the top of each doc.
 # If you want this feature, but occasionally need to remove the Reading time from a single page, 
