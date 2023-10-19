@@ -51,5 +51,5 @@ incorrectly. Also, card purchases will be denied if the ZIP Code doesn't match
 with the card billing address.
 
 If none of these are applicable to you,
-[contact the Lambda Support team](mailto:cloud@lambdalabs.com?subject=Card%20declined)
+[contact the Lambda Support team](https://support.lambdalabs.com/hc/en-us/requests/new)
 for help.
