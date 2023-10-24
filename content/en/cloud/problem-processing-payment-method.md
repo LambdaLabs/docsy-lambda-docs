@@ -5,11 +5,12 @@ tags:
 - billing
 ---
 
-Common reasons why credit and debit card transactions are declined include:
+Common reasons why card transactions are declined include:
 
-## The card is a prepaid card
+## The card is a debit card or a prepaid card
 
-We don't accept prepaid cards. We only accept major credit and debit cards.
+We don't accept debit cards or prepaid cards. We only accept major credit
+cards.
 
 ## The purchase is being made from a country we don't support
 
@@ -50,5 +51,5 @@ incorrectly. Also, card purchases will be denied if the ZIP Code doesn't match
 with the card billing address.
 
 If none of these are applicable to you,
-[contact the Lambda Support team](mailto:cloud@lambdalabs.com?subject=Card%20declined)
+[contact the Lambda Support team](https://support.lambdalabs.com/hc/en-us/requests/new)
 for help.
