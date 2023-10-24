@@ -1,5 +1,5 @@
 ---
-title: "Why is my credit or debit card being declined?"
+title: "Why is my card being declined?"
 type: docs
 tags:
 - billing
