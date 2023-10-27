@@ -47,8 +47,8 @@ the pre-authorization charge, then we can't accept the card for payment.
 ## Wrong CVV or ZIP Code is being entered
 
 Card purchases won't go through if the CVV (security code) is entered
-incorrectly. Also, card purchases will be denied if the ZIP Code doesn't match
-with the card billing address.
+incorrectly. Also, card purchases will be denied if the
+[ZIP Code doesn't match with the card billing address]({{< relref "change-billing-address" >}}).
 
 If none of these are applicable to you,
 [contact the Lambda Support team](https://support.lambdalabs.com/hc/en-us/requests/new)
