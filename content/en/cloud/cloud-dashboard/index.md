@@ -217,7 +217,7 @@ Learn how to manage a Team by reading our FAQ on
 ## Modify account settings
 
 Click [**Settings**](https://cloud.lambdalabs.com/settings) at the bottom of
-the left sidebar to modify your account settings, including your password and
-payment method.
+the left sidebar to modify your account settings, including your password,
+payment method, and billing address.
 
 {{< imgproc sidebar-team-settings Resize "100x" >}}{{< /imgproc >}}
