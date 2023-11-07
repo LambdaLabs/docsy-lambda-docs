@@ -12,8 +12,6 @@ We do business directly in:
 - Switzerland
 - United Kingdom
 - Iceland
-- United Arab Emirates
-- Saudi Arabia
 - South Africa
 - Israel
 - Taiwan
