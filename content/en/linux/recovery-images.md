@@ -5,6 +5,11 @@ aliases:
 - faq/recovery-images
 ---
 
+You can use a recovery ISO image to restore your Lambda system to its
+original, out-of-box configuration. Recovery ISO images install
+[Lambda Stack](https://lambdalabs.com/lambda-stack-deep-learning-software),
+including the drivers needed for your system.
+
 ## Workstations
 
 Recovery ISO images for
