@@ -10,6 +10,13 @@ original, out-of-box configuration. Recovery ISO images install
 [Lambda Stack](https://lambdalabs.com/lambda-stack-deep-learning-software),
 including the drivers needed for your system.
 
+{{% alert title="Note" color="info" %}}
+Recovery images aren't available for Lambda servers.
+
+To restore your Lambda Server to its original configuration,
+[reinstall Ubuntu and Lambda Stack]({{< relref "reinstall-servers" >}}).
+{{% /alert %}}
+
 ## Workstations
 
 Recovery ISO images for
