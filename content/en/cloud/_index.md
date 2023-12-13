@@ -25,3 +25,15 @@ With Lambda GPU Cloud, you have:
   other popular ML software pre-installed
 - [persistent storage]({{< relref "use-persistent-storage" >}}) to save your datasets and other files
 - root access to your instances via SSH
+
+{{% alert title="Note" color="info" %}}
+Beginning December 13, 2023, new Lambda GPU Cloud instances will launch with
+Ubuntu 22.04 instead of Ubuntu 20.04. Currently running instances won't be
+affected by this change.
+
+Significantly, Ubuntu 22.04 includes Python 3.10, while Ubuntu 20.04 includes
+Python 3.8.
+
+[See the release notes](https://discourse.ubuntu.com/t/jammy-jellyfish-release-notes/24668#heading--new-features-in-22-04-lts)
+to learn more about the changes introduced in Ubuntu 22.04.
+{{% /alert %}}
