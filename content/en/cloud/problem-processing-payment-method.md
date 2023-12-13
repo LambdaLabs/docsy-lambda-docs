@@ -32,7 +32,7 @@ We currently only support customers in the following regions:
 - New Zealand
 - United Kingdom
 - Switzerland
-- European Union
+- European Union (except for Romania)
 
 ## The purchase is being made while you're connected to a VPN
 
