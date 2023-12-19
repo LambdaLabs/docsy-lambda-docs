@@ -12,6 +12,15 @@ provides instant access to high-performance cloud GPUs at the best prices on
 the market.
 
 {{% alert title="Note" color="info" %}}
+On January 1, 2024, the
+[prices of certain instance types](https://lambdalabs.com/service/gpu-cloud#pricing)
+will be increasing. These increases will apply to both newly launched
+instances and _instances already running_. These price increases will help us
+add more GPUs throughout 2024 to address availability concerns from the
+community.
+{{% /alert %}}
+
+{{% alert title="Note" color="info" %}}
 Beginning December 13, 2023, new Lambda GPU Cloud instances will launch with
 Ubuntu 22.04 instead of Ubuntu 20.04. Currently running instances won't be
 affected by this change.
