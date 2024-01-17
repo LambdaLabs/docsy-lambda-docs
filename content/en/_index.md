@@ -34,7 +34,6 @@ type: docs
 - [Where can I download recovery images for my workstation?]({{< relref "workstations/workstation-recovery-images" >}})
 - [How do I upgrade Ubuntu and Lambda Stack?]({{< relref "linux/upgrade-ubuntu-and-lambda-stack" >}})
 - [How do I remove and reinstall Lambda Stack?]({{< relref "linux/remove-reinstall-lambda-stack" >}})
-- [How do I upgrade my system's GPUs, storage, or other hardware?]({{< relref "workstations/upgrade-hardware" >}})
 - [How do I upgrade software in Ubuntu?]({{< relref "linux/upgrade-software-ubuntu" >}})
 
 ### Tensorbook
