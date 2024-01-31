@@ -1,4 +1,4 @@
-baseURL = "https://docs.lambdalabs.com/"
+baseURL = "https://old.docs.lambdalabs.com/"
 title = "Lambda Docs"
 
 # Language settings
@@ -112,7 +112,7 @@ version = "0.0"
 
 # A link to latest version of the docs. Used in the "version-banner" partial to
 # point people to the main doc site.
-url_latest_version = "https://docs.lambdalabs.com"
+url_latest_version = "https://old.docs.lambdalabs.com"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/LambdaLabs/lambda-docs"
